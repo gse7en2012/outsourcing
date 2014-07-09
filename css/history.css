@@ -1,0 +1,6 @@
+.c-tab-btn{width:100%;height: 40px;margin-bottom: 20px}
+.c-tab-btn li{float:left;width:50%;}
+.c-tab-btn li a{display: block;width: 100%;height: 100%;background: #f8f8f8;border: 1px solid #e5e5e5;color: #999;font-size: 12px;line-height: 40px;text-align: center}
+.c-tab-btn li a:hover,.c-tab-btn .current a{text-decoration: none;background: #fff;border-bottom: 0;border-top: 1px solid #05b1d9;}
+.c-tab-cont{display: none}
+.current{display: block}
