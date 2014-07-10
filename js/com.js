@@ -49,11 +49,12 @@ var com = {
             conCurrent,
             cons,
             fn = chk("fn", null),
-            status,
+            overStatus,
             timer,
-            time = chk("time", "180"),
+            time = chk("time", "100"),
             index = chk("index", 0),
             currentIndex,
+            event = chk("event","hover"),//增加选择类型
             activeClass = chk("activeClass", "current");
         if (typeof conObj != "string") {
             cons = [], conCurrent = [];
@@ -68,24 +69,46 @@ var com = {
             conCurrent = {};
         }
         $.each(btns, function (i) {
-            $(this).bind("mouseenter", {"i": i, "o": btns[i]},function (e) {
-                overStatus = true;
-                (function () {
-                    var btn = e.data.o,
-                        index = e.data.i;
-                    timer = setTimeout(function (o) {
-                        if (overStatus && currentIndex != index) {
-                            currentIndex = index;
-                            activeBtn(btn);
-                            activeCons(index);
-                            activeFun(index);
-                        }
-                    }, time);
-                })();
-            }).bind("mouseleave", {"i": i}, function (e) {
+            if(event == 'hover'){
+                $(this).bind("mouseenter", {"i": i, "o": btns[i]},function (e) {
+                    overStatus = true;
+                    (function () {
+                        var btn = e.data.o,
+                            index = e.data.i;
+                        timer = setTimeout(function (o) {
+                            if (overStatus && currentIndex != index) {
+                                currentIndex = index;
+                                activeBtn(btn);
+                                activeCons(index);
+                                activeFun(index);
+                            }
+                        }, time);
+                    })();
+                }).bind("mouseleave", {"i": i}, function (e) {
                     clearTimeout(timer);
                     overStatus = false;
                 });
+            }else if(event = "click"){
+                $(this).bind("click", {"i": i, "o": btns[i]},function (e) {
+                    overStatus = true;
+                    (function () {
+                        var btn = e.data.o,
+                            index = e.data.i;
+                        timer = setTimeout(function (o) {
+                            if (overStatus && currentIndex != index) {
+                                currentIndex = index;
+                                activeBtn(btn);
+                                activeCons(index);
+                                activeFun(index);
+                            }
+                        }, time);
+                    })();
+                }).bind("mouseleave", {"i": i}, function (e) {
+                    clearTimeout(timer);
+                    overStatus = false;
+                });
+            }
+
         });
         activeBtn(btns[index]);
         activeCons(index);
@@ -98,5 +121,5 @@ var com = {
 $(function () {
     com.init();
     //上网记录
-    com.tab('.c-tab-btn li', '.c-tab-cont');
+    com.tab('.c-tab-btn li', '.c-tab-cont',{event:'click'});
 });
