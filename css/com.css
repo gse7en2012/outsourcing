@@ -18,12 +18,13 @@ header,section,footer,nav{display: block;}
 /* end */
 /*= global start */
 html,body{height:100%;}
-body{font:12px/1.5 arial,simsun;word-break:break-all;word-wrap:break-word;}
+body{font:12px/1.5 arial,simsun;color:#999;word-break:break-all;word-wrap:break-word;}
 a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 .clr{*zoom:1;}
 .clr:after,.clr:before{content:"";display:block;height:0;visibility:hidden;clear:both;}
 .inner{width:960px;margin:0 auto;}
+.c-blue{color:#05b1d9;}
 /* end */
 
 /*= header start*/
@@ -108,7 +109,7 @@ a:hover{text-decoration: underline;}
 .c-nav .c-nav-8:hover,.c-nav .c-nav-8.now{background-position:-170px -420px;}
 .c-nav .c-nav-9:hover,.c-nav .c-nav-9.now{background-position:-170px -480px;}
 .c-nav .c-nav-10:hover,.c-nav .c-nav-10.now{background-position:-170px -540px;}
-.c-main{padding:30px;min-height: 660px}
+.c-main{padding:30px;}
 /* end */
 /*= aside start*/
 .aside{position:fixed;left:50%;margin-left:500px;top:400px;z-index:3;}
