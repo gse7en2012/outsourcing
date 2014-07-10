@@ -197,18 +197,6 @@ var com = {
         };
     }
     },
-    tablehov:function(table,className){
-        /**可公用组件：表格悬浮样式
-         * @constructor tablehov
-         * @param {jquery Object} table 表格
-         * @param {string} className 增加行的class为className
-         **/
-        $(table).find('tr').hover(function(){
-            $(this).addClass(className);
-        },function(){
-            $(this).removeClass(className);
-        })
-    },
     init: function () {
         this.signEdit();
     }
