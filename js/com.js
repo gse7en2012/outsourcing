@@ -114,6 +114,89 @@ var com = {
         activeCons(index);
         activeFun(index);
     },
+    scrolltab:function(opt){
+        /**可公用组件：图片切换
+         * @constructor scrolltab
+         *
+         * @param {jquery Object} wrap 切换的外包裹
+         * @param {jquery Object} prebtn 上一条
+         * @param {jquery Object} nextbtn 下一条
+         * @param {jquery Object} tab 切换的当前项
+         * @param {boolean} autoplay 是否自动切换
+         * @param {int} time 自动切换时间
+         * @param {int} speed 切换速度
+         * @param {int} minNum 切换个数
+         **/
+    var settings = {
+            wrap:'',
+            prebtn:'',
+            nextbtn:'',
+            autoplay : true,
+            minNum: 1,
+            time: 5000,
+            tab: '',
+            speed:400
+        },
+        opt = opt || {};
+    settings = $.extend(settings, opt);
+
+    var $wrap = $(settings.wrap),
+        ul = $wrap.find("ul"),
+        li_len = ul.find("li").length,
+        li_w = ul.find("li").width(),
+        left = $(settings.prebtn),
+        right = $(settings.nextbtn),
+        tab = $(settings.tab),
+        timer = null,
+        currentIndex = 0;
+    tab.eq(currentIndex).addClass('current');
+        ul.css('width',li_len*li_w+'px');
+
+    if(li_len > settings.minNum){
+        right.click(function() {
+            currentIndex++;
+            if(currentIndex == li_len){
+                currentIndex = 0;
+            }
+            tab.removeClass('current').eq(currentIndex).addClass('current');
+            ul.stop().animate({
+                "left": -(li_w*currentIndex)
+            }, settings.speed)
+        });
+        left.click(function() {
+            currentIndex--;
+            if(currentIndex < 0){
+                currentIndex = li_len - 1;
+            }
+            tab.removeClass('current').eq(currentIndex).addClass('current');
+
+            ul.stop().animate({
+                "left": -(li_w*currentIndex)
+            }, settings.speed)
+        });
+        tab.click(function(){
+            currentIndex = $(this).index(settings.tab);
+            tab.removeClass('current').eq(currentIndex).addClass('current');
+            ul.stop().animate({
+                "left": -(li_w*currentIndex)
+            }, settings.speed)
+        });
+        if (settings.autoplay) {
+            timer = setInterval(function() {
+                right.trigger("click");
+            }, settings.time);
+            $wrap.mouseenter(function() {
+                clearInterval(timer);
+            })
+            $wrap.mouseleave(function() {
+                clearInterval(timer);
+                timer = setInterval(function() {
+                    right.trigger("click");
+                }, settings.time);
+            })
+        };
+    }
+    },
     init: function () {
         this.signEdit();
     }
@@ -121,5 +204,14 @@ var com = {
 $(function () {
     com.init();
     //上网记录
-    com.tab('.c-tab-btn li', '.c-tab-cont',{event:'click'});
+    com.tab('.c-tab-btn li', '.c-tab-cont');
+    com.tab('.c-tab-day-nav-item li','.c-tab-day-cont')
+    com.scrolltab({
+        wrap:'.c-tab-day-nav-item-wrap',
+        prebtn:'#prev',
+        nextbtn:'#next',
+        tab:'',
+        minNum: 7,
+        autoplay:false
+    })
 });

@@ -108,7 +108,7 @@ a:hover{text-decoration: underline;}
 .c-nav .c-nav-8:hover,.c-nav .c-nav-8.now{background-position:-170px -420px;}
 .c-nav .c-nav-9:hover,.c-nav .c-nav-9.now{background-position:-170px -480px;}
 .c-nav .c-nav-10:hover,.c-nav .c-nav-10.now{background-position:-170px -540px;}
-.c-main{padding:30px;}
+.c-main{padding:30px;min-height: 660px}
 /* end */
 /*= aside start*/
 .aside{position:fixed;left:50%;margin-left:500px;top:400px;z-index:3;}
