@@ -1,0 +1,5 @@
+.c-main-config{width: 100%}
+.c-main-config td,.c-main-config th{border-bottom: 1px solid #dfdfdf;color:#808080;height: 40px;line-height: 40px}
+.c-main-config input{float:left;line-height: 40px;margin-top: 14px}
+.c-main-config span{float:left;color: #05b1d9;margin-right: 16px}
+.c-config-info{color: #999;font-size: 12px;margin-top: 28px}
