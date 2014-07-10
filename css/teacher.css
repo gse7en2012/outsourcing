@@ -1,0 +1,11 @@
+.c-main{overflow: hidden;}
+.c-main-title{color: #999;font-size: 14px;line-height: 30px;border-bottom: 1px solid #d8d8d8;font-weight: bold;margin:10px 0 20px;clear:left;}
+.c-teacher-cont{margin-right: -200px}
+.c-teacher-info{width: 216px;height: 62px;padding: 10px 8px;border: 1px solid #fff;float:left;margin:0 10px 10px 0}
+.c-teacher-info:hover{background: #ffffcc;border-color:#ffcc00}
+.c-teacher-photo{display: block;width: 58px;height: 58px;border: 3px solid #dfdfdf;float:left}
+.c-teacher-intro{float:left;margin-left: 10px}
+.c-teacher-title{color: #727272;font-size: 14px;font-weight: bold;clear: right;margin-bottom: 10px}
+.c-teacher-title span{color: #999;font-size: 12px;padding-left: 15px}
+.c-teacher-intro a{display: block;width: 62px;height: 26px;line-height: 26px;text-align: center;color: #fff;font-size: 12px;background: #05b1d9;float:left}
+.c-teacher-btn1{margin-right: 5px}
