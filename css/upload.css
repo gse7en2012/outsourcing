@@ -1,4 +1,5 @@
 article{position: relative;*zoom:1}
+a{cursor: pointer}
 .c-tab-btn{width:100%;height: 40px;margin-bottom: 20px}
 .c-tab-btn li{float:left;width:50%;}
 .c-tab-btn li a{display: block;width: 100%;height: 100%;background: #f8f8f8;border: 1px solid #e5e5e5;color: #999;font-size: 12px;line-height: 40px;text-align: center}
@@ -22,10 +23,11 @@ article{position: relative;*zoom:1}
 .c-upload-personal span{float:left;margin-right: 5px}
 .c-upload-personal blockquote{background: #f3f3f3;border:1px solid #d7d7d7;padding: 15px;color: #808080;line-height: 22px}
 .c-upload-personal blockquote strong{font-weight: bold;}
-.pop-box{width: 496px;border: 4px solid #bdbdbd;padding: 28px;position: absolute;top: 50%;left: 50%;margin-left: -269px;background: #fff}
-.pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0}
+.pop-box{width: 496px;border: 4px solid #bdbdbd;padding: 28px;position: absolute;background: #fff;display: none}
+.pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0;cursor:pointer}
 .pop-box th{color: #808080;font-weight: bold;height: 30px;line-height: 30px}
-.chose-cont{width: 130px;height: 215px;border: 1px solid #ccc;padding-bottom: 10px}
-.chose-cont li{height: 28px;line-height: 28px;padding-left: 10px;color: #808080}
+.chose-cont{width: 130px;min-height: 215px;*height:215px;border: 1px solid #ccc;padding-bottom: 10px;}
+.chose-cont li{height: 28px;line-height: 28px;padding-left: 10px;color: #808080;cursor: default}
+.chose-cont li.hov{background: #d0eff6}
 .txt-c{text-align: center}
 .submit{display: block;width: 112px;height: 38px;line-height: 38px;text-align: center;color: #fff;background: #05b1d9;cursor: pointer;border: 0;float: right;margin: 10px 0}

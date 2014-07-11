@@ -197,6 +197,31 @@ var com = {
         };
     }
     },
+    openD:function(opt){
+    var settings = {
+            id: '',
+            close:'.close'
+        },
+        opt = opt || {};
+    settings = $.extend(settings, opt);
+
+    var popid = $(settings.id),
+        dh = $(document).height(),
+        wh = $(window).height(),
+        ww = $(window).width(),
+        st = $(window).scrollTop(),
+        sl = $(window).scrollLeft();
+// 弹层弹出
+    function posPop(idname){
+        idname.height()>wh?idname.fadeIn().css({'top':st,'left':(ww-idname.width())/2+sl}):idname.fadeIn().css({'top':(wh-idname.outerHeight())/2+st,'left':(ww-idname.outerWidth())/2+sl});
+    }
+//  弹层关闭
+        $(settings.close).click(function(){
+        $(this).parent().fadeOut();
+    });
+        posPop(popid);
+
+},
     init: function () {
         this.signEdit();
     }
@@ -213,5 +238,12 @@ $(function () {
         tab:'',
         minNum: 7,
         autoplay:false
+    })
+    //上传资源弹层
+    $('#pop').click(function(){
+        com.openD({
+            id: '#pop1',//弹出的弹层id
+            close : '#close'//1为普通弹层，2为flash弹层，3为视频弹层
+        })
     })
 });
