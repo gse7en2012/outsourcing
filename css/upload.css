@@ -8,4 +8,8 @@
 .c-tab-cont{display: none}
 .current{display: block}
 .c-upload-btn-area td{border: 0;height: 60px;line-height: 60px;}
-.c-config-info{color: #999;font-size: 12px;margin-top: 28px}
+.c-config-info{color: #999;font-size: 12px;float:left}
+.page-btn{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;float:left;margin: 12px 0}
+#page-prev{background-position: 0 0;margin-left: 10px}
+#page-next{background-position:-40px 0 }
+.c-upload-btn a{display: block;float: left;margin: 0 5px;background: #05b1d9;color: #fff;height: 30px;line-height: 30px;padding: 0 10px;text-align: center;white-space: nowrap}
