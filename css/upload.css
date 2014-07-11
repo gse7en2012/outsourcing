@@ -13,3 +13,7 @@
 #page-prev{background-position: 0 0;margin-left: 10px}
 #page-next{background-position:-40px 0 }
 .c-upload-btn a{display: block;float: left;margin: 0 5px;background: #05b1d9;color: #fff;height: 30px;line-height: 30px;padding: 0 10px;text-align: center;white-space: nowrap}
+.c-upload-personal{color: #808080;font-size: 12px;}
+.c-upload-personal td{height: 40px;line-height: 40px}
+#pop{color: #05b1d9;text-decoration: underline}
+.text{width: 408px;height: 28px;line-height: 28px;padding-left: 10px;border: 1px solid #e5e5e5;border-top:2px solid #cfcfcf }
