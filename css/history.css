@@ -23,3 +23,20 @@
 .c-tab-day-info{width: 100%;height:100%;background: #eef6f9;text-indent: 10px;color: #999}
 .c-tab-day-info-percent{width:0;height:100%;background: #05b1d9;color: #fff;text-indent: 10px}
 .current{display: block}
+
+.g-calendar{width:245px;height:284px;;border:1px solid #e8641b; *zoom:1;position:relative;}
+.g-calendar-hd,.g-calendar-tit,.g-calendar-on{background-color:#e8641b;color:#fff;}
+.g-calendar-hd{text-align:center;height:35px;line-height:35px;border-bottom:1px solid #c14906;letter-spacing:2px;}
+.g-calendar-tit{overflow:hidden;*zoom:1;border-top:1px solid #f19561;}
+.g-calendar-bd span,.g-calendar-tit span{float:left;display:inline;width:35px;height:35px;line-height:35px;text-align:center;}
+.g-calendar-grey{color:#ccc;}
+.g-calendar-prev,.g-calendar-next{position:absolute;top:0;width:20px;text-align:center;height:30px;line-height:30px;cursor:pointer;font-weight:bold;overflow:hidden;}
+.g-calendar-prev:hover,.g-calendar-next:hover{color:#fff;}
+.g-calendar-prev{left:0;}
+.g-calendar-next{right:0;}
+.g-calendar-bd span{position:relative;zoom:1;}
+.g-calendar-bd span em{display:block;position:absolute;top:-500px;left:0;width:200px;background:#fff;z-index:99;border:1px solid #000;}
+.g-calendar-bd span em a{display:block;margin:4px 0;color:#000}
+.g-calendar-bd span em a:hover{color:#04729e}
+.g-calendar-bd span:hover{background-color:#00A8EC;color:#fff}
+.g-calendar-bd span:hover em{top:0;left:34px}
