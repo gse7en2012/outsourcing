@@ -7,7 +7,7 @@
 .c-m-l-li{position:relative;overflow:hidden;*zoom:1;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;margin-bottom:-1px;}
 .c-m-l-li:hover{border-color:#ffcc00;background-color:#ffffcc;z-index:2}
 .c-m-l-head,.c-m-l-head:hover{border:none;background:none;}
-.c-m-l-li div{float:left;padding:12px 0;line-height:20px;color:#999;}
+.c-m-l-li div{float:left;padding:12px 0;line-height:20px;color:#999;*vertical-align:top;}
 .c-m-l-li .w60{width:60px;text-align:center;}
 .c-m-l-li .w490{width:470px;padding-right:20px;}
 .c-m-l-li .w104{width:104px;}
