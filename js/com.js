@@ -230,7 +230,7 @@ $(function () {
     com.init();
     //上网记录
     com.tab('.c-tab-btn li', '.c-tab-cont');
-    com.tab('.c-tab-day-nav-item li','.c-tab-day-cont')
+    com.tab('.c-tab-day-nav-item li','.c-tab-day-cont',{'fn':function(){new LGY_calendar({'wrapId':'g-calendar-1'})}})
     com.scrolltab({
         wrap:'.c-tab-day-nav-item-wrap',
         prebtn:'#prev',
