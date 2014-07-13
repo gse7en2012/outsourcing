@@ -38,16 +38,16 @@ a:hover{text-decoration: underline;}
 .h-btn .h-b-apps:after{content:"";position:absolute;left:55px;top:28px;width:0;height:0;line-height:0;font-size:0;border:5px solid transparent;border-top-color:#f5931c;}
 .h-btn .h-b-apps:hover{color:#fff;background-color:#454545;}
 .h-btn .h-b-apps:hover:after{border:5px solid transparent;border-bottom-color:#fff;top:24px;}
-.h-btn .h-b-apps ul{display:none;position:absolute;left:0;width:100%;top:100%;}
+.h-btn .h-b-apps ul{display:none;position:absolute;left:-420px;width:765px;padding:0 9px 0 16px;height:122px;top:100%;background:url(../images/apps.png) 0 0 no-repeat;}
 .h-btn .h-b-apps li{*float:left;*clear:both;}
 .h-btn .h-b-apps:hover ul{display:block;}
-.h-btn .h-b-apps ul a,.h-btn .h-b-apps ul a:hover{height:30px;line-height:30px;text-align:center;width:80px;color:#fff;background-color:#454545;padding:0;border:none;font-size:12px;font-family:simsun;}
+.h-btn .h-b-apps ul a,.h-btn .h-b-apps ul a:hover{d:btext-align:center;width:85px;height:122px;text-indent:-999em;overflow:hidden;border:none;}
 .h-inform{float:right;height:60px;}
-.h-inform div{position:relative;float:left;width:50px;height:60px;color:#fff;background-image:url(../images/spr.png);background-repeat:no-repeat;text-align:center;}
+.h-i-phone,.h-i-mail,.h-i-user{position:relative;float:left;width:50px;height:60px;color:#fff;background-image:url(../images/spr.png);background-repeat:no-repeat;text-align:center;}
 .h-i-phone{background-position:14px 0;}
 .h-i-mail{background-position:-28px 0;line-height:102px;}
 .h-i-user{background-position:-76px 0;}
-.h-i-mail:hover{height:70px;background-color:#d80616;text-decoration:none;}
+.h-i-mail:hover{height:70px;background-color:#d80616;text-decoration:none;background-position: -197px -48px;}
 
 .h-i-phone:hover,.h-i-user:hover{background-color:#454545;}
 .h-i-phone:hover span,.h-i-user:hover span{display:block;}
@@ -83,6 +83,10 @@ a:hover{text-decoration: underline;}
 .c-h-name{padding:30px 0 7px;border-bottom:1px solid #8180a0;font-size:24px;font-family:"Microsoft Yahei";color:#fff;}
 .c-h-name strong{color:#fdd327;}
 .c-h-info{padding:12px 0 20px;color:#fff;}
+.c-h-info div{float:left;*display:inline;padding: 0 20px;line-height:16px;}
+.c-h-i-names{position:relative;border-right:1px solid #85819c;}
+.c-h-i-names em i{display:inline-block;*display:inline;*zoom:1;width:0;height:0;line-height:0;font-size:0;border:4px solid transparent;border-top-color:#fff;vertical-align:middle;margin-left:5px;}
+.c-h-i-names ul{position:absolute;top:100%;left:56px;background-color:#000;color:#fff;display:none;}
 .c-h-sign{height:28px;}
 .c-h-s-text,.c-h-s-btn{float:left;*display:inline;height:27px;line-height:27px;margin-right:5px;background:url(../images/spr.png) no-repeat;border:none;}
 .c-h-s-text{width:242px;padding:0 15px;background-position:0 -192px;color:#fff;}
