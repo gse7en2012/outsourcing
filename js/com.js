@@ -228,22 +228,4 @@ var com = {
 }
 $(function () {
     com.init();
-    //上网记录
-    com.tab('.c-tab-btn li', '.c-tab-cont');
-    com.tab('.c-tab-day-nav-item li','.c-tab-day-cont',{'fn':function(){new LGY_calendar({'wrapId':'g-calendar-1'})}})
-    com.scrolltab({
-        wrap:'.c-tab-day-nav-item-wrap',
-        prebtn:'#prev',
-        nextbtn:'#next',
-        tab:'',
-        minNum: 7,
-        autoplay:false
-    })
-    //上传资源弹层
-    $('#pop').click(function(){
-        com.openD({
-            id: '#pop1',//弹出的弹层id
-            close : '#close'//1为普通弹层，2为flash弹层，3为视频弹层
-        })
-    })
 });

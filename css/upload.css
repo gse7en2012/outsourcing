@@ -7,6 +7,7 @@ a{cursor: pointer}
 .c-upload-table{width: 100%}
 .c-upload-table td,.c-upload-table th{border-bottom: 1px solid #dfdfdf;color:#808080;height: 40px;line-height: 40px;}
 .c-upload-table p{color: #05b1d9;}
+.c-upload-table tr:hover{background: #ffffcc}
 .c-tab-cont{display: none}
 .current{display: block}
 .c-upload-btn-area td{border: 0;height: 60px;line-height: 60px;}
@@ -32,3 +33,5 @@ a{cursor: pointer}
 .chose-cont li.hov{background: #d0eff6}
 .txt-c{text-align: center}
 .submit{display: block;width: 112px;height: 38px;line-height: 38px;text-align: center;color: #fff;background: #05b1d9;cursor: pointer;border: 0;float: right;margin: 10px 0}
+textarea{height: 230px}
+.cke_top{float:none!important}
