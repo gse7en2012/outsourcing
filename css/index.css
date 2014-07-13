@@ -11,7 +11,7 @@
 .c-m-subject-others .c-m-subject-d .c-m-s-title{background-position:-85px -435px;}
 .c-m-s-more{position:absolute;width:141px;height:35px;bottom:-35px;right:0;background:url(../images/spr.png) 0 -465px no-repeat;color:#999;line-height:35px;text-indent:50px;}
 .c-m-s-more-on{background-position:-141px -465px;}
-.c-m-subject-others{display:none;*padding-bottom:30px;}
+.c-m-subject-others{display:none;clear:both;}
 .c-m-subject-others-on{display:block;}
 .c-m-s-scores{overflow:hidden;}
 .c-m-s-scores li{margin-top:-1px;border-top:1px dotted #dfdfdf;line-height:29px;}
@@ -26,7 +26,7 @@
 .c-m-title em{float:left;line-height:28px;font-size:16px;font-family:"Microsoft Yahei";color:#666;}
 .c-m-t-tags{text-align:right;height:28px;overflow:hidden;font-size:0;}
 .c-m-t-tags a{display:inline-block;*display:inline;*zoom:1;line-height:14px;padding:0 15px;border-right:1px solid #dfdfdf;background:none;color:#999;font-size:12px;margin-top:7px;vertical-align:top;margin-right:-1px;}
-.c-m-t-tags .c-m-t-tags-a:hover{height:26px;line-height:26px;margin-top:0;border:1px solid #dfdfdf;background-color:#f1f1f1;}
+.c-m-t-tags .c-m-t-tags-a:hover,.c-m-t-tags .c-m-t-tags-a.on{height:26px;line-height:26px;margin-top:0;border:1px solid #dfdfdf;background-color:#f1f1f1;}
 .c-m-t-tags .c-m-t-tags-more,.c-m-t-tags .c-m-t-tags-more:hover{border:none;padding-right:0;background:none;}
 .c-m-t-tags a:hover{background-color:#f1f1f1;border-color:#dfdfdf;color:#666;text-decoration:none;}
 .c-m-teachers{float:left;width:254px;height:279px;padding-top:35px;border-bottom:1px solid #dfdfdf;padding-left:25px;}
@@ -40,11 +40,11 @@
 .c-m-charts{float:left;width:460px;height:244px;padding:35px 25px 0;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;}
 .c-m-charts .c-m-t-tags a{border:none;padding:0 16px;margin-right:0;}
 .c-m-charts .c-m-t-tags  .c-m-t-tags-middle{padding:0 15px;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
-.c-m-charts .c-m-t-tags .c-m-t-tags-a:hover{padding: 0 15px;}
+.c-m-charts .c-m-t-tags .c-m-t-tags-a:hover,.c-m-charts .c-m-t-tags .c-m-t-tags-a.on{padding: 0 15px;}
 .c-m-charts-area{width:460px;height:180px;}
 .c-m-record{float:left;width:215px;padding-right:39px;height:244px;padding-top:35px;border-bottom:1px solid #dfdfdf;padding-left:25px;}
 .c-m-record-hd{height:25px;margin-bottom:12px;}
-.c-m-record-left,.c-m-record-right{height:25px;width:25px;background:url(../images/spr.png) no-repeat;}
+.c-m-record-left,.c-m-record-right{height:25px;width:25px;background:url(../images/spr.png) no-repeat;cursor:pointer;}
 .c-m-record-left{float:left;background-position:0 -279px;}
 .c-m-record-right{float:right;background-position:0 -304px;}
 .c-m-record-title{overflow:hidden;*zoom:1;text-align:center;line-height:25px;}
@@ -58,7 +58,7 @@
 .c-m-parents a{color:#05b1d9;}
 .c-m-parents .c-m-t-tags a{border:none;padding:0 16px;margin-right:0;color:#999;}
 .c-m-parents .c-m-t-tags  .c-m-t-tags-middle{padding:0 15px;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
-.c-m-parents .c-m-t-tags .c-m-t-tags-a:hover{padding: 0 15px;}
+.c-m-parents .c-m-t-tags .c-m-t-tags-a:hover,.c-m-parents .c-m-t-tags .c-m-t-tags-a.on{padding: 0 15px;}
 .c-m-parents-topics{height:34px;line-height:34px;margin-bottom:12px;background-color:#f7f7f7;border:1px solid #dcdcdc;padding-left:20px;}
 .c-m-parents-topics span{color:#666;}
 .c-m-parents-topics a{padding:0 5px;}
@@ -68,7 +68,7 @@
 
 .c-m-banner{float:left;width:215px;padding-right:39px;height:244px;padding-top:35px;border-bottom:1px solid #dfdfdf;padding-left:25px;}
 .c-m-banner-btns{text-align:right;margin-bottom:8px;}
-.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:12px;background-color:#bfbfbf;background:url(../images/spr.png) -132px -293px no-repeat;}
+.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:11px;background-color:#bfbfbf;background:url(../images/spr.png) -132px -293px no-repeat;}
 .c-m-banner-btns .current{background-color:#fff0b1;width:50px;background-position:-75px -293px;}
 .c-m-banner-pic img{display:block;width:238px;height:205px;}
 .c-m-banner-pic a{display:none;}

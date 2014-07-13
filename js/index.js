@@ -23,7 +23,7 @@ $(function(){
 	/*subjects*/
 	$(".c-m-s-more").click(function(){
 		$(this).toggleClass("c-m-s-more-on");
-		$(".c-m-subject-others").toggleClass("c-m-subject-others-on");
+		$(".c-m-subject-others").slideToggle();
 		return false;
 	});
 });
