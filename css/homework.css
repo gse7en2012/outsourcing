@@ -1,0 +1,29 @@
+.c-main{position: relative;*zoom:1}
+.c-tab-btn{width:100%;height: 40px;margin-bottom: 20px}
+.c-tab-btn li{float:left;width:50%;}
+.c-tab-btn li a{display: block;width: 100%;height: 100%;background: #f8f8f8;border: 1px solid #e5e5e5;color: #999;font-size: 12px;line-height: 40px;text-align: center}
+.c-tab-btn li a:hover,.c-tab-btn .current a{text-decoration: none;background: #fff;border-bottom: 0;border-top: 1px solid #05b1d9;}
+.c-upload-table{width: 100%;display: none}
+.current{display: block}
+.c-upload-table td,.c-upload-table th{border-bottom: 1px solid #dfdfdf;color:#808080;height: 40px;line-height: 40px;}
+.c-upload-table p{color: #05b1d9;}
+.c-upload-table tr:hover{background: #ffffcc}
+.c-upload-btn-area td{border: 0;height: 60px;line-height: 60px;}
+.c-config-info{color: #999;font-size: 12px;float:left}
+.page-btn{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;float:left;margin: 12px 0}
+.page-prev{background-position: 0 0;margin-left: 10px}
+.page-next{background-position:-40px 0 }
+.c-tab-day-nav-item li{float:left;background: url(../images/li.jpg) no-repeat right 14px;cursor: default}
+.c-tab-day-nav-item li a{display: block;width: 96px;height: 45px;line-height: 40px;text-align: center;font-size: 12px;color: #999;}
+.c-tab-day-nav-item li a:hover,.c-tab-day-nav-item li.current a{text-decoration: none;background: url(../images/dayhov.jpg) no-repeat center 38px}
+.c-teacher-nav-wrap{width:730px;background: #f8f8f8 url(../images/navbgtop.jpg) no-repeat top left;height: 95px;border: 1px solid #d8d8d8;border-top: 0;position: absolute;top: 71px;left: 30px;display: none}
+.c-teacher-nav-wrap i{display: block;width: 41px;height: 41px;background: url(../images/icon.png) no-repeat;background-position-y:0;}
+.c-teacher-nav-wrap li{float: left;margin: 20px 10px 0;text-align: center;}
+.c-teacher-nav-wrap li p{color: #999;margin-top: 6px}
+.c-teacher-nav-wrap li:hover p,.c-teacher-nav-wrap li.current p{color: #359acc}
+.c-teacher-nav-wrap li:hover i,.c-teacher-nav-wrap li.current i{background-position-y:-41px}
+.c-teacher-nav-wrap .c-teacher-nav1{background-position-x:0}
+.c-teacher-nav-wrap .c-teacher-nav2{background-position-x:-41px}
+.c-teacher-nav-wrap .c-teacher-nav3{background-position-x:-81px}
+.c-teacher-nav-wrap .c-teacher-nav4{background-position-x:-122px}
+.c-teacher-nav-wrap .c-teacher-nav5{background-position-x:-163px}
