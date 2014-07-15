@@ -1,0 +1,113 @@
+/* @use : test results
+// @editor : mss.huang
+// @last modified time : 2014.7.15
+// @verson : 1.0
+*/
+
+/* comm */
+.c-main .link {color: #05b1d9;}
+.f-hide {display: none;}
+.f-cut {display: block; width: 100%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+
+/* subject */
+.c-subject {padding-bottom: 23px;}
+.c-subject .title {font-size: 14px; line-height: 35px; font-weight: bolder;}
+
+/* container tab btn */
+.c-tab-btn {padding-left: 170px; border-bottom-width: 2px; border-bottom-style: solid; margin-top: -35px; margin-bottom: 21px;}
+.c-tab-btn li {float: left;}
+.c-tab-btn a {display: block; color: #999; line-height: 35px;width: 90px;text-align: center;white-space: nowrap;}
+.c-tab-btn .current a,
+.c-tab-btn a:hover {color: #fff; font-weight: bolder;}
+
+/* chinese */
+.c-subject-chinese .title {color: #ff6a66;}
+.c-subject-chinese .c-tab-btn {border-bottom-color: #ff6a66;}
+.c-subject-chinese .c-tab-btn .current a,
+.c-subject-chinese .c-tab-btn a:hover {background-color: #ff6a66;}
+
+/* math */
+.c-subject-math .title {color: #8e77d2;}
+.c-subject-math .c-tab-btn {border-bottom-color: #8e77d2;}
+.c-subject-math .c-tab-btn .current a,
+.c-subject-math .c-tab-btn a:hover {background-color: #8e77d2;}
+
+/* english */
+.c-subject-english .title {color: #a9c63a;}
+.c-subject-english .c-tab-btn {border-bottom-color: #a9c63a;}
+.c-subject-english .c-tab-btn .current a,
+.c-subject-english .c-tab-btn a:hover {background-color: #a9c63a;}
+
+/* note */
+.c-test-note {padding: 10px 20px; background-color: #fffae2; border: 1px solid #f5e190; color: #999; line-height: 22px; clear: both;}
+.c-test-note dd {padding-left: 18px;}
+.c-test-note .num {display: inline-block; width: 18px; margin-left: -18px;}
+
+/* container tab cont*/
+.c-tab-cont {display: none;}
+.c-tab-cont.current {display: block;}
+
+/* tab 1 */
+/* student mark info */
+.c-mark-info {float: left; width: 134px; height: 130px; padding-top: 14px; margin-right: 32px; border: 1px solid #d7d7d7; background-color: #f3f3f3; text-indent: 20px; line-height: 24px; color: #999;}
+.c-mark-info dd {font-weight: bolder; color: #666; line-height: 20px;}
+.c-mark-info .link {display: block; padding-top: 8px; font-weight: normal;}
+
+/* paper table */
+.c-paper-table {float: left; width: 562px; table-layout: fixed; word-wrap: normal;}
+.c-paper-table th {height: 23px; vertical-align: top; text-align: center;}
+.c-paper-table th:first-child,
+.c-paper-table td:first-child {text-align: left;}
+.c-paper-table td {height: 40px; border-top: 1px solid #dfdfdf; text-align: center;}
+.c-paper-table .c-all-paper-btn td {text-align: right;}
+
+/* tab 2*/
+/* arrow tab nav */
+.c-arrow-tab-nav {padding-bottom: 10px;}
+.c-arrow-tab-nav li{float: left; background: url(../images/li.jpg) no-repeat right 14px; cursor: default}
+.c-arrow-tab-nav li:last-child {background: none;}
+.c-arrow-tab-nav li a{display: block; width: 96px; height: 45px; line-height: 40px; text-align: center; font-size: 12px; color: #999;}
+.c-arrow-tab-nav li a:hover,
+.c-arrow-tab-nav li.current a {text-decoration: none;background: url(../images/dayhov.jpg) no-repeat center 38px; color: #05b1d9;}
+
+/* record tab cont*/
+.c-test-record-cont {display: none; padding-bottom: 5px;}
+.c-test-record-cont.current {display: block;}
+
+/* record table */
+.c-test-record-table {width: 730px; table-layout: fixed; word-wrap: normal;}
+.c-test-record-table th,
+.c-test-record-table td {height: 40px;}
+.c-test-record-table td {border-top: 1px solid #dfdfdf;}
+.c-test-record-table .highlight {color: #05b1d9;}
+.c-test-record-table .f-cut {width: 200px;}
+.c-test-record-btn-area {height: 50px;}
+.c-config-info {vertical-align: middle;}
+.page-btn {display: inline-block; width: 40px; height: 30px; background: url(../images/page.jpg) no-repeat; vertical-align: middle;}
+.page-prev {background-position: 0 0; margin-left: 10px;}
+.page-next {background-position:-40px 0;}
+
+/* mark chart */
+.c-mark-chart-box {float: left; width: 50%; color: #666; padding-bottom: 30px;}
+.c-mark-chart-box .type {font: 16px/45px 'miscrosoft yahei';}
+.c-mark-chart-box .note {line-height: 45px; margin-top: -45px; text-align: right;padding-right: 50px;}
+.c-mark-chart-box i {display: inline-block; font-size: 0; width: 15px; height: 9px; margin-right: 5px;}
+.c-mark-chart-box .new {background-color: #05b1d9;}
+.c-mark-chart-box .first {background-color: #efc257; margin-left: 30px;}
+.c-mark-chart-box > div {width: 365px; height: 200px;}
+
+/* mark rank */
+.c-screening-rank {padding: 6px 0; line-height: 32px; color: #999; border-bottom: 1px solid #d8d8d8; margin-bottom: 20px; box-shadow: 0 1px #ebebeb;}
+.c-screening-rank input{vertical-align: middle; height: 14px; margin-left: 10px; margin-right: 3px;}
+
+/* review concer */
+.c-review-nav li {width: 16.6%;}
+.c-review-nav li a{margin: 0 auto;}
+.c-review-cont {display: none;}
+.c-review-cont.current {display: block;}
+.c-review-group-list {color: #999; border-bottom: 1px solid #dfdfdf;}
+.c-review-group-list li {float: left; width: 33.33%; border-bottom: 1px solid #dfdfdf; line-height: 40px; text-indent: 39px; margin-bottom: -1px;}
+.c-review-group-list input{vertical-align: middle; height: 14px; margin-left: 10px; margin-right: 3px;} 
+
+.c-review-btn-wrap {padding: 20px 0; text-align: center;}
+.c-review-btn-wrap .btn {display: inline-block; padding: 0 21px; color: #fff; background-color: #05b1d9; line-height: 31px;}
