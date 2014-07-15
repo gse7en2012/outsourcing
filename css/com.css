@@ -62,7 +62,7 @@ a:hover{text-decoration: underline;}
 /* end */
 
 /*= content start*/
-.wrap{min-width:960px;background: fixed url(../images/bg.jpg) center top no-repeat;}
+.wrap{min-width:960px;background:url(../images/bg.jpg) center top no-repeat;}
 .content{margin-bottom:90px;}
 .c-header{position:relative;height:180px;color:#fff;}
 .c-nav{float:left;width:170px;margin-top:30px;}
