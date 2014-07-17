@@ -36,5 +36,5 @@ a{cursor: pointer}
 .submit{display: block;width: 112px;height: 38px;line-height: 38px;text-align: center;color: #fff;background: #05b1d9;cursor: pointer;border: 0;float: right;margin: 10px 0}
 textarea{height: 230px}
 .cke_top{float:none!important}
-#pop1{width: 496px;}
-#pop2{width: 800px;}
+#pop1{width: 496px;z-index: 10000}
+#pop2{width: 800px;z-index: 9999}
