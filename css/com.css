@@ -47,9 +47,10 @@ a:hover{text-decoration: underline;}
 .h-i-phone{background-position:14px 0;}
 .h-i-mail{background-position:-28px 0;line-height:102px;}
 .h-i-user{background-position:-76px 0;}
-.h-i-mail:hover{height:70px;background-color:#d80616;text-decoration:none;background-position: -197px -48px;}
+.h-i-mail:hover{height:70px;background-color:#d80616;text-decoration:none;background-position: -238px -48px;}
 
-.h-i-phone:hover,.h-i-user:hover{background-color:#454545;}
+.h-i-user:hover{background-color:#454545;background-position: -287px -48px;}
+.h-i-phone:hover{background-color:#454545;background-position: -196px -48px;}
 .h-i-phone:hover span,.h-i-user:hover span{display:block;}
 .h-i-phone span{display:none;position:absolute;right:0;top:60px;width:240px;height:150px;background-color:#454545;}
 .h-i-phone span em{display:block;padding:10px 0 8px;text-align:center;font-style:normal;color:#fff;}
