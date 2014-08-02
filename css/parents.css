@@ -4,6 +4,7 @@
 .c-parents-info{width: 216px;height: 62px;padding: 10px 8px;border: 1px solid #fff;float:left;margin:0 10px 10px 0}
 .c-parents-info:hover{background: #ffffcc;border-color:#ffcc00}
 .c-parents-photo{display: block;width: 58px;height: 58px;border: 3px solid #dfdfdf;float:left}
-.c-parents-intro{float:left;margin:10px 0 0 20px}
+.c-parents-intro{float:left;margin:2px 0 0 20px}
 .c-parents-title{color: #05b1d9;font-size: 14px;clear: right;font-weight: bold}
-.c-parents-location{color: #727272;font-size: 14px;line-height: 24px;}
+.c-parents-location{color: #727272;font-size: 14px;line-height: 20px;}
+.c-parents-btn{display: block;width: 58px;height: 18px;line-height: 18px;color: #fff;background: #05b1d9;text-align: center;cursor: pointer }

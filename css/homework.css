@@ -27,3 +27,9 @@
 .c-teacher-nav-wrap .c-teacher-nav3{background-position-x:-81px}
 .c-teacher-nav-wrap .c-teacher-nav4{background-position-x:-122px}
 .c-teacher-nav-wrap .c-teacher-nav5{background-position-x:-163px}
+.c-tab-day-nav-item-wrap{width: 670px;overflow: hidden;float:left;position: relative;*zoom:1}
+.c-tab-day-nav-bar{height: 40px;width: 100%;border: 1px solid #ebebeb;border-bottom: 2px solid #ebebeb;margin-bottom: 30px}
+.c-tab-day-nav-item{border-bottom: 1px solid #e5e5e5;margin-right: -2px;height: 40px;width: 9999px!important;position: relative;}
+.c-tab-nav-btn{display: block;width: 28px;height: 39px;border: 1px solid #e5e5e5;float:left;background: url('../images/daynav.jpg') no-repeat}
+#prev,#prev2{background-position: 0 0}
+#next,#next2{background-position: -28px 0}
