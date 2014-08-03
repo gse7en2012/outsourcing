@@ -104,16 +104,26 @@ a:hover{text-decoration: underline;}
 .c-nav{background:url(../images/nav.png) 0 0 no-repeat;}
 .c-nav a{display:block;height:60px;text-indent:-999em;overflow:hidden;}
 .c-nav a:hover,.c-nav .now{background-image:url(../images/nav.png);background-repeat:no-repeat;}
-.c-nav .c-nav-1:hover,.c-nav .c-nav-1.now{background-position:-170px 0;}
-.c-nav .c-nav-2:hover,.c-nav .c-nav-2.now{background-position:-170px -60px;}
-.c-nav .c-nav-3:hover,.c-nav .c-nav-3.now{background-position:-170px -120px;}
-.c-nav .c-nav-4:hover,.c-nav .c-nav-4.now{background-position:-170px -180px;}
-.c-nav .c-nav-5:hover,.c-nav .c-nav-5.now{background-position:-170px -240px;}
-.c-nav .c-nav-6:hover,.c-nav .c-nav-6.now{background-position:-170px -300px;}
-.c-nav .c-nav-7:hover,.c-nav .c-nav-7.now{background-position:-170px -360px;}
-.c-nav .c-nav-8:hover,.c-nav .c-nav-8.now{background-position:-170px -420px;}
-.c-nav .c-nav-9:hover,.c-nav .c-nav-9.now{background-position:-170px -480px;}
-.c-nav .c-nav-10:hover,.c-nav .c-nav-10.now{background-position:-170px -540px;}
+.c-nav .c-nav-1:hover{background-position:-340px 0;}
+.c-nav .c-nav-2:hover{background-position:-340px -60px;}
+.c-nav .c-nav-3:hover{background-position:-340px -120px;}
+.c-nav .c-nav-4:hover{background-position:-340px -180px;}
+.c-nav .c-nav-5:hover{background-position:-340px -240px;}
+.c-nav .c-nav-6:hover{background-position:-340px -300px;}
+.c-nav .c-nav-7:hover{background-position:-340px -360px;}
+.c-nav .c-nav-8:hover{background-position:-340px -420px;}
+.c-nav .c-nav-9:hover{background-position:-340px -480px;}
+.c-nav .c-nav-10:hover{background-position:-340px -540px;}
+.c-nav .c-nav-1.now{background-position:-170px 0;}
+.c-nav .c-nav-2.now{background-position:-170px -60px;}
+.c-nav .c-nav-3.now{background-position:-170px -120px;}
+.c-nav .c-nav-4.now{background-position:-170px -180px;}
+.c-nav .c-nav-5.now{background-position:-170px -240px;}
+.c-nav .c-nav-6.now{background-position:-170px -300px;}
+.c-nav .c-nav-7.now{background-position:-170px -360px;}
+.c-nav .c-nav-8.now{background-position:-170px -420px;}
+.c-nav .c-nav-9.now{background-position:-170px -480px;}
+.c-nav .c-nav-10.now{background-position:-170px -540px;}
 .c-main{padding:30px;min-height: 660px}
 /* end */
 /*= aside start*/
