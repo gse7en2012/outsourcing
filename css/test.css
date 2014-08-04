@@ -101,7 +101,13 @@
 .c-screening-rank input{vertical-align: middle; height: 14px; margin-left: 10px; margin-right: 3px;}
 
 /* review concer */
-.c-review-nav li {width: 16.6%;}
+.c-review-nav-wrap {position: relative;}
+.c-review-nav-wrap .btn {position: absolute; top: 0; width: 19px; height: 37px; background-image: url(../images/review-nav.png);}
+.c-review-nav-wrap .prev {left: 0;}
+.c-review-nav-wrap .next {right: 0; background-position: -19px 0;}
+.c-review-nav-box {position: relative; margin-left: auto; margin-right: auto; width: 670px; height: 45px; overflow: hidden;}
+.c-review-nav {position: absolute; left: 0; top: 0;}
+.c-review-nav li {width: 111px;}
 .c-review-nav li a{margin: 0 auto;}
 .c-review-cont {display: none;}
 .c-review-cont.current {display: block;}
