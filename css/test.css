@@ -115,5 +115,12 @@
 .c-review-group-list li {float: left; width: 33.33%; border-bottom: 1px solid #dfdfdf; line-height: 40px; text-indent: 39px; margin-bottom: -1px;}
 .c-review-group-list input{vertical-align: middle; height: 14px; margin-left: 10px; margin-right: 3px;} 
 
-.c-review-btn-wrap {padding: 20px 0; text-align: center;}
-.c-review-btn-wrap .btn {display: inline-block; padding: 0 21px; color: #fff; background-color: #05b1d9; line-height: 31px;}
+.c-review-btn-wrap {padding: 20px 0; text-align: center;clear:left}
+.c-review-btn-wrap .btn {display: inline-block; padding: 0 21px; color: #fff; background-color: #05b1d9; line-height: 31px}
+
+.c-review-check-wrap{margin: 20px;height: 26px;line-height: 26px;}
+.c-review-check-wrap a{display: block;float:left;padding: 0 6px;background: #f3f3f3;border: 1px solid #dfdfdf;height: 26px;line-height: 26px;text-align: center;color: #999;margin-right: 20px;margin-bottom: 10px}
+.c-review-wrap2{display: none}
+.c-review-wrap2 .warn,.c-review-wrap2 .edit{padding-left: 26px;background-position:0 12px;background-repeat: no-repeat}
+.c-review-wrap2 .warn{background-image:url(../images/warn.png); }
+.c-review-wrap2 .edit{background-image:url(../images/edit.png); }
