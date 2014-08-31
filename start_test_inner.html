@@ -137,17 +137,23 @@
 <!-- end -->
 <script>
     $(function(){
-        var initTime=11*60-1;
+        var initTime=3;
         var timerBox=$('.timer i');
-        function setTime(){
+        function setTime(stId){
             var minute=~~(initTime/60),second=initTime-60*minute;
             minute<10?minute='0'+minute:'';
             second<10?second='0'+second:'';
-            initTime--;
             timerBox.text(minute+':'+second);
+            if(initTime==0){
+                clearInterval(stId);
+                return;
+            }
+            initTime--;
 
         }
-        setInterval(setTime,1000);
+        var stId=setInterval(function(){
+            setTime(stId);
+        },1000);
     })
 </script>
 </body>
