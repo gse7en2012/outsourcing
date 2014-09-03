@@ -1,0 +1,83 @@
+/* =information */
+.c-main{padding-bottom:170px;}
+.c-m-tab{}
+.c-m-t-btn{float:left;*display:inline;width:144px;height:38px;line-height:38px;text-align:center;background-color:#f8f8f8;border:1px solid #e5e5e5;color:#999;cursor:pointer;margin-left: -1px;}
+.c-m-t-btn.current,.c-m-t-btn:hover{border-top:2px solid #05b1d9;border-bottom:1px solid #fff;background:none;text-decoration:none;height: 37px;}
+.c-m-t-btn em{background:#05b1d9;color:#fff;display:inline-block;*display:inline;*zoom:1;width:14px;height:15px;line-height:15px;text-align:center;margin-left:5px;}
+.c-m-list{margin-bottom:20px;margin-top: -1px;border-top: 1px solid #e5e5e5;}
+.c-m-l-li{position:relative;overflow:hidden;*zoom:1;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;margin-bottom:-1px;}
+.c-m-l-li:hover,.c-m-l-li-on{border-color:#ffcc00;background-color:#ffffcc;z-index:2}
+.c-m-l-li-off,.c-m-l-li-off:hover{background-color:#f3f3f3;}
+.c-m-l-head,.c-m-l-head:hover{border:none;background:none;}
+.c-m-l-li div{float:left;padding:12px 0;line-height:20px;color:#999;*vertical-align:top;}
+.c-m-l-li .w60{width:60px;text-align:center;}
+.c-m-l-li .w490{width:470px;padding-right:20px;}
+.c-m-l-li .w104{width:104px;}
+.c-m-l-li .w75{width:75px;}
+.c-m-l-li .w60 input{vertical-align:-2px;}
+.c-m-l-li .blue,.c-m-l-li .blue a{color:#05b1d9;}
+.c-m-pages,.c-m-p-txt,.c-m-p-turn,.c-m-p-turn a{float:left;*display:inline;line-height:30px;}
+.c-m-p-txt{height:30px;margin-right:10px;}
+.c-m-p-turn a{width:30px;height:28px;font-weight:bold;background-color:#f1f1f1;border:1px solid #ddd;text-align:center;font-size:18px;cursor:pointer;}
+.c-m-p-turn a:hover{text-decoration:none;}
+.c-m-operate{text-align:right;}
+.c-m-operate a{display:inline-block;*display:inline;*zoom:1;height:30px;line-height:30px;padding:0 20px;background-color:#05b1d9;color:#fff;}
+
+
+.c-m-list-switch{text-align: center;margin-top: 22px;}
+.c-m-list-switch a{display: inline-block;width: 126px;height: 32px;line-height: 34px;color: #05b1d9;font-size: 12px;line-height: 34px;background: #f8f8f8;border: 1px solid #e5e5e5;text-decoration: none;position: relative;}
+.c-m-list-switch a em{display: none;background: url(../images/jian_t.png) no-repeat 0 0;position: absolute;width: 11px;height: 6px;bottom: -6px;left: -6px;margin-left: 50%}
+.c-m-list-switch a:hover,.c-m-list-switch a.cur{background: #05b1d9;border-color: #05b1d9;color: #fff;}
+.c-m-list-switch a:hover em,.c-m-list-switch a.cur em{display: block;}
+
+.c-m-list-cont{margin-top: 30px;}
+.c-m-list-item{border: 1px solid #e5e5e5;margin-bottom: 40px;}
+.c-m-list-cont h3{border-top:1px solid #d7d7d7;border-bottom: 1px solid #e5e5e5;height: 30px;line-height: 30px;color: #999;text-indent: 18px;background: #f8f8f8;}
+.c-m-list-cont table{margin: 18px;color: #999;width: 695px;}
+.c-m-list-cont table a{color: #05b1d9;}
+.c-m-list-cont table th{border-bottom: 2px solid #d8d8d8;height: 34px;line-height: 34px;}
+.c-m-list-cont table td{border-top:1px solid #e5e5e5;height: 34px;line-height: 34px;}
+.c-m-pages{margin-top: -20px;}
+.c-m-pages-box{margin-top: -20px;text-align: right;}
+.c-m-pages-box a{display: inline-block;color: #999;*display:inline;*zoom:1;height: 28px;line-height: 29px;background: #f1f1f1;border: 1px solid #ddd;width: 24px;text-align: center;text-decoration: none;}
+.c-m-pages-box a:hover{background: #fff;}
+.c-m-pages-box .next,.c-m-pages-box .prev{font-weight: bold;font-size: 14px;width: 36px;}
+
+.c-m-list{display: none;}
+.c-m-list-cont {display: none;}
+.c-main .current,.c-m-list-cont.cur{display: block;}
+
+.pop-box{width: 668px;border: 4px solid #bdbdbd;padding: 28px;position: absolute;background: #fff;display: none}
+.pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0;cursor:pointer}
+.pop-box th{color: #808080;height: 30px;line-height: 30px}
+
+.pop-table td,.pop-table th{min-width: 30px;padding:8px; }
+.pop-table .selected{background-color: #ffffcc;border-bottom: 1px solid #ffcc00;border-top: 1px solid #ffcc00;}
+.pop-box .close-bottom-btn{position: static;display: block;margin: 10px auto;background: #f1f1f1;border: 1px solid #ccc;color: #808080;font-size: 16px;font-family: "microsoft yahei";text-align: center;height: 36px;width: 90px;line-height: 36px;text-decoration: none;}
+.pop-box .close-bottom-btn:hover{border-color: #05b1d9;background: #05b1d9;color: #fff;}
+
+
+.pop-table-send th{width: 54px;font-weight: bold;height: 36px;vertical-align: top;line-height: 36px;}
+.pop-table-send td{padding-left: 10px;height: 36px;line-height: 36px;}
+.pop-table-send label{margin-right: 13px;}
+.pop-table-send a{color: #05b1d9;}
+.pop-table-send input{position: relative;margin: 3px;top: 2px;}
+
+.select-desc{margin-bottom: 15px;}
+.select-left,.select-right{float: left;width: 260px;min-height: 116px;border:1px solid #ccc;max-height: 116px;overflow: auto;}
+.select-left li{height: 28px;line-height: 28px;text-indent: 10px;color: #cccccc;cursor: pointer}
+.select-right li{height: 28px;line-height: 28px;text-indent: 10px;color: #808080;cursor: pointer}
+.select-left li:hover,.select-right li:hover,.select-left li.sel,.select-right li.sel{background: #d0eff6;}
+.select-btn{float: left;margin: 28px 18px;}
+.select-btn a{display: block;width: 30px;height: 22px;border: 1px solid #ccc;color: #999;background: #f1f1f1;text-decoration: none;margin-bottom: 8px;text-align: center;line-height: 22px;font-size: 14px;}
+
+.pop-table-send textarea{width: 582px;resize: none;min-height: 50px;line-height: 24px;color: #808080;border: #ccc 1px solid;padding: 5px;}
+
+.pop-table-send .tips{float: left;}
+.pop-table-send .tips-box{float: right;position: relative;width: 420px;background: #fffae2;border: 1px solid #f5e190;color: #bda440;padding: 5px 10px;line-height: 24px;margin-top: 10px}
+.pop-table-send .tips-box em{position: absolute;width: 12px;height: 22px;left: -11px;top: 50%;margin-top: -11px;background: url(../images/left_t.png)}
+.pop-box .float-btn{float: left;margin-right: 10px;}
+.pop-box .send-btn-bot{margin-left: 65px;border-color: #05b1d9;background: #05b1d9;color: #fff;cursor: pointer;}
+
+#pop1{z-index: 1000}
+#pop2{z-index: 999}
