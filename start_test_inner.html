@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/com.css"/>
+    <link rel="stylesheet" href="css/start.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+    <div class="inner">
+        <h1 class="h-logo"><a href="#"><img src="images/logo.png" alt="同步课堂"/></a></h1>
+        <nav class="h-btn">
+            <a class="h-btn-now" href="">我的首页</a>
+            <a href="">空间</a>
+            <a href="">习题</a>
+            <a href="">广播</a>
+            <a href="">投票</a>
+            <a href="">收藏</a>
+
+            <div class="h-b-apps">应用
+                <ul>
+                    <li><a href="">同步资源</a></li>
+                    <li><a href="">同步习题</a></li>
+                    <li><a href="">英语园地</a></li>
+                    <li><a href="">作文园地</a></li>
+                    <li><a href="">学习园地</a></li>
+                    <li><a href="">广播广场</a></li>
+                    <li><a href="">空间投票</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="h-inform">
+            <div class="h-i-phone">
+				<span>
+					<em>点击或扫描下载</em>
+					<a href=""><img src="images/android.png" alt=""/>安卓版</a>
+					<a href=""><img src="images/iphone.png" alt=""/>苹果版</a>
+				</span>
+            </div>
+            <div class="h-i-mail">10</div>
+            <div class="h-i-user">
+				<span>
+					<a class="quick" href="">桌面快捷键</a>
+					<a class="logout" href="">退出</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end -->
+<!-- content start -->
+<div class="wrap">
+    <div class="inner content clr">
+        <div class="box">
+            <h2>期末检测卷: 人教版语文六年级下册 - 期末复习</h2>
+            <article class="test-main">
+                <p class="question">1.　(单选) 给下列词语选择正确的读音。</p>
+                <div class="question-sub">
+                    a、他会说地道（dì　dào　,　dì　dao）的扬州话。   <br>
+                    b、要搬家了，家里的东西（dōng　xī　,　dōng　xi）真多，妈妈忙得都快辨不清东西(dōng　xī　,　dōng　xi　）南北了。
+                </div>
+                <div class="answer">
+                    <a href="javascript:;">dì dào、 dōng xi、dōng xī</a>
+                    <a href="javascript:;">dì dào、 dōng xi、dōng xī</a>
+                    <a href="javascript:;">dì dào、 dōng xi、dōng xī</a>
+                    <a href="javascript:;">dì dào、 dōng xi、dōng xī</a>
+                </div>
+            </article>
+            <div class="progress">
+                <span class="timer">剩余时间: <i>10:50</i></span>
+                <ul class="index-box">
+                    <li class="done">
+                        <span>1</span>
+                        <span class="split"></span>
+                    </li>
+                    <li class="done">
+                        <span>2</span>
+                        <span class="split"></span>
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <span class="split"></span>
+                    </li>
+                    <li>
+                        <span>4</span>
+                        <span class="split"></span>
+                    </li>
+                    <li>
+                        <span>5</span>
+                        <span class="split"></span>
+                    </li>
+                    <li>
+                        <span>6</span>
+                        <span class="split"></span>
+                    </li>
+                    <li >
+                        <span>7</span>
+                        <span class="split"></span>
+                    </li>
+                    <li class="last">
+                        <span>8</span>
+                        <span class="split"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer start -->
+    <div id="footer">
+        <div id="footer_content">
+            <div id="footer_lnk">
+                <ul>
+                    <li><a href="http://www.ldcchina.com/about.html" target="_blank">关于我们</a></li>
+                    <!-- <li><a href='http://www.ldcchina.com/products.html' target='_blank'>产品服务</a></li>  -->
+                    <li><a href="http://www.ldcchina.com/employ.html" target="_blank">招贤纳士</a></li>
+                    <li><a href="http://www.ldcchina.com/partner.html" target="_blank">合作伙伴</a></li>
+                    <li><a href="http://www.ldcchina.com/contact.html" target="_blank">联系我们</a></li>
+                    <li><a href="http://www.ldcchina.com/contact.html" target="_blank">帮助中心</a></li>
+                </ul>
+            </div>
+            <div id="footer_copy">Copyright ? 2009-2014 HuaTeng Inc. All Rights Reserved ICP:粤B2-20090043 <a
+                    href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13056377号</a>　
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+</div>
+<!-- end -->
+<script>
+    $(function(){
+        var initTime=3;
+        var timerBox=$('.timer i');
+        function setTime(stId){
+            var minute=~~(initTime/60),second=initTime-60*minute;
+            minute<10?minute='0'+minute:'';
+            second<10?second='0'+second:'';
+            timerBox.text(minute+':'+second);
+            if(initTime==0){
+                clearInterval(stId);
+                return;
+            }
+            initTime--;
+
+        }
+        var stId=setInterval(function(){
+            setTime(stId);
+        },1000);
+    })
+</script>
+</body>
+</html>

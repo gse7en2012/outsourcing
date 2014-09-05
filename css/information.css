@@ -6,7 +6,8 @@
 .c-m-t-btn em{background:#05b1d9;color:#fff;display:inline-block;*display:inline;*zoom:1;width:14px;height:15px;line-height:15px;text-align:center;margin-left:5px;}
 .c-m-list{margin-bottom:20px;}
 .c-m-l-li{position:relative;overflow:hidden;*zoom:1;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;margin-bottom:-1px;}
-.c-m-l-li:hover{border-color:#ffcc00;background-color:#ffffcc;z-index:2}
+.c-m-l-li:hover,.c-m-l-li-on{border-color:#ffcc00;background-color:#ffffcc;z-index:2}
+.c-m-l-li-off,.c-m-l-li-off:hover{background-color:#f3f3f3;}
 .c-m-l-head,.c-m-l-head:hover{border:none;background:none;}
 .c-m-l-li div{float:left;padding:12px 0;line-height:20px;color:#999;*vertical-align:top;}
 .c-m-l-li .w60{width:60px;text-align:center;}

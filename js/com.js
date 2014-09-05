@@ -217,7 +217,7 @@ var com = {
     }
 //  弹层关闭
         $(settings.close).click(function(){
-        $(this).parent().fadeOut();
+        $(this).closest('.pop-box').fadeOut();
     });
         posPop(popid);
 

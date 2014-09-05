@@ -3,7 +3,7 @@
 .c-tab-btn li{float:left;width:50%;}
 .c-tab-btn li a{display: block;width: 100%;height: 100%;background: #f8f8f8;border: 1px solid #e5e5e5;color: #999;font-size: 12px;line-height: 40px;text-align: center}
 .c-tab-btn li a:hover,.c-tab-btn .current a{text-decoration: none;background: #fff;border-bottom: 0;border-top: 1px solid #05b1d9;}
-.c-upload-table{width: 100%;display: none}
+.c-upload-table,.c-tab-cont{width: 100%;display: none}
 .current{display: block}
 .c-upload-table td,.c-upload-table th{border-bottom: 1px solid #dfdfdf;color:#808080;height: 40px;line-height: 40px;}
 .c-upload-table p{color: #05b1d9;}
@@ -27,3 +27,9 @@
 .c-teacher-nav-wrap .c-teacher-nav3{background-position-x:-81px}
 .c-teacher-nav-wrap .c-teacher-nav4{background-position-x:-122px}
 .c-teacher-nav-wrap .c-teacher-nav5{background-position-x:-163px}
+.c-tab-day-nav-item-wrap{width: 670px;overflow: hidden;float:left;position: relative;*zoom:1}
+.c-tab-day-nav-bar{height: 40px;width: 100%;border: 1px solid #ebebeb;border-bottom: 2px solid #ebebeb;margin-bottom: 30px}
+.c-tab-day-nav-item{border-bottom: 1px solid #e5e5e5;margin-right: -2px;height: 40px;width: 9999px!important;position: relative;}
+.c-tab-nav-btn{display: block;width: 28px;height: 39px;border: 1px solid #e5e5e5;float:left;background: url('../images/daynav.jpg') no-repeat}
+#prev,#prev2{background-position: 0 0}
+#next,#next2{background-position: -28px 0}

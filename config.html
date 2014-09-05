@@ -90,18 +90,18 @@
 		</header>
 		<!-- end -->
 		<!-- content start -->
-		<nav class="c-nav">
-			<a class="c-nav-1" href="">消息中心</a>
-			<a class="c-nav-2" href="">辅导资源</a>
-			<a class="c-nav-3" href="">作业情况</a>
-			<a class="c-nav-4" href="">检测成绩</a>
-			<a class="c-nav-5" href="">上网记录</a>
-			<a class="c-nav-6" href="">孩子老师</a>
-			<a class="c-nav-7" href="">同学家长</a>
-			<a class="c-nav-8" href="">手机拍图</a>
-			<a class="c-nav-9" href="">上传资源</a>
-			<a class="c-nav-10 now" href="">个人设置</a>
-		</nav>
+        <nav class="c-nav">
+            <a class="c-nav-1" href="information.html">消息中心</a>
+            <a class="c-nav-2" href="resource.html">辅导资源</a>
+            <a class="c-nav-3" href="homework.html">作业情况</a>
+            <a class="c-nav-4" href="test.html">检测成绩</a>
+            <a class="c-nav-5" href="history.html">上网记录</a>
+            <a class="c-nav-6" href="teacher.html">孩子老师</a>
+            <a class="c-nav-7" href="parents.html">同学家长</a>
+            <a class="c-nav-8" href="mobile.html">手机拍图</a>
+            <a class="c-nav-9" href="upload.html">上传资源</a>
+            <a class="c-nav-10 now" href="config.html">个人设置</a>
+        </nav>
 		<!-- end -->
 		<!-- content start -->
 		<article class="c-main">
@@ -116,10 +116,10 @@
                 <tr>
                     <td>1</td>
                     <td>同步课堂 辅导短信</td>
-                    <td>
+                    <td id="inputarea1">
                         <form action="" method="get" class="clr">
-                            <input type="radio" class="accept"/><span>接收</span>
-                            <input type="radio" class="accept"/><span>拒收</span>
+                            <input type="radio" name="btn" class="accept"/><span>接收</span>
+                            <input type="radio" name="btn" class="noaccept"/><span>拒收</span>
                         </form>
                     </td>
                     <td>各学期同步辅导短信、寒暑假辅导短信</td>
@@ -127,10 +127,10 @@
                 <tr>
                     <td>2</td>
                     <td>同步课堂 辅导短信</td>
-                    <td>
+                    <td id="inputarea2">
                         <form action="" method="get" class="clr">
-                            <input type="radio" class="accept"/><span>接收</span>
-                            <input type="radio" class="accept"/><span>拒收</span>
+                            <input type="radio" name="btn"  class="accept"/><span>接收</span>
+                            <input type="radio" name="btn"  class="noaccept"/><span>拒收</span>
                         </form>
                     </td>
                     <td>有奖活动举办等重要通知短信</td>
@@ -138,10 +138,10 @@
                 <tr>
                     <td>3</td>
                     <td>任课教师 辅导短信</td>
-                    <td>
+                    <td id="inputarea3">
                         <form action="" method="get" class="clr">
-                            <input type="radio" class="accept"/><span>接收</span>
-                            <input type="radio" class="accept"/><span>拒收</span>
+                            <input type="radio" name="btn"  class="accept"/><span>接收</span>
+                            <input type="radio" name="btn"  class="noaccept"/><span>拒收</span>
                         </form>
                     </td>
                     <td>任课教师发送的各学科学习辅导短信</td>
@@ -149,10 +149,10 @@
                 <tr>
                     <td>4</td>
                     <td>任课教师 辅导短信</td>
-                    <td>
+                    <td id="inputarea4">
                         <form action="" method="get" class="clr">
-                            <input type="radio" class="accept"/><span>接收</span>
-                            <input type="radio" class="accept"/><span>拒收</span>
+                            <input type="radio" name="btn"  class="accept"/><span>接收</span>
+                            <input type="radio" name="btn"  class="noaccept"/><span>拒收</span>
                         </form>
                     </td>
                     <td>任课教师发送的教学通知短信</td>
@@ -190,5 +190,27 @@
 	<!-- end -->
 </div>
 <!-- end -->
+<div class="pop-box">
+    <a class="close" id="close"></a>
+    <div class="pop-cont">
+        <p>是否设置为“接收”状态?</p>
+        <a id="yes" href="javascript:;" class="pop-btn">确 认</a>
+        <a id="no"  href="javascript:;"  class="pop-btn">取 消</a>
+    </div>
+</div>
+<script>
+    $('td[id^=inputarea]').find('input').bind('change',function(){
+        var idname = $(this).closest('td').attr('id');
+        $('.pop-box').attr('id',idname+'pop')
+        com.openD({
+            id: '.pop-box',//弹出的弹层id
+            close: '.pop-btn,#close'
+        })
+    })
+    $('.pop-box').find('a').bind('click',function(){
+        var id = $(this).closest('.pop-box').attr('id').substring(0,10);
+        $(this).attr('id') == 'yes'?$('#'+id).find('input:eq(0)').attr("checked",'checked'):$('#'+id).find('input:eq(1)').attr("checked",'checked');
+    })
+</script>
 </body>
 </html>
