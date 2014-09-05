@@ -41,7 +41,7 @@ a:hover{text-decoration: underline;}
 .h-btn .h-b-apps ul{display:none;position:absolute;left:-420px;width:765px;padding:0 9px 0 16px;height:122px;top:100%;background:url(../images/apps.png) 0 0 no-repeat;}
 .h-btn .h-b-apps li{*float:left;*clear:both;}
 .h-btn .h-b-apps:hover ul{display:block;}
-.h-btn .h-b-apps ul a,.h-btn .h-b-apps ul a:hover{d:btext-align:center;width:85px;height:122px;text-indent:-999em;overflow:hidden;border:none;}
+.h-btn .h-b-apps ul a,.h-btn .h-b-apps ul a:hover{text-align:center;width:85px;height:122px;text-indent:-999em;overflow:hidden;border:none;}
 .h-inform{float:right;height:60px;}
 .h-i-phone,.h-i-mail,.h-i-user{position:relative;float:left;width:50px;height:60px;color:#fff;background-image:url(../images/spr.png);background-repeat:no-repeat;text-align:center;}
 .h-i-phone{background-position:14px 0;}
