@@ -77,16 +77,17 @@ a:hover{text-decoration: underline;}
 .c-header{position:relative;height:153px;color:#fff;}
 .c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/resources_index/spr_resources.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
 .c-nav{float:left;width:170px;margin-top:30px;}
-.c-main{overflow:hidden;*zoom:1;}
 
 .c-h-left{float:left;width:170px;}
 .c-h-search{position: absolute;right: 0;height: 44px;width: 446px;top: 40px;}
-.c-h-s-tag{width: 76px;height: 44px;float: left;background: #f6f6f6;}
+.c-h-s-tag{width: 76px;height: 44px;float: left;background: #f6f6f6;color: #6c6c6c;font-size: 12px;text-align: center;line-height: 44px;}
+.c-h-s-tag em{display: inline-block;width: 7px;height: 5px;background: url(../images/resources_index/spr_resources.png) 0 -58px no-repeat;margin-left: 8px;}
 .c-h-s-tagbox{display: none;}
 .c-h-s-text{float: left;height: 100%;width: 290px;border: 0;background: #fff;}
-.c-h-s-btn{float: left;background: #f5931c;width: 79px;height: 100%;}
-.c-h-search-bot{position: absolute;right: 0;top:100px; }
-.c-h-search-bot li{float: left;}
+.c-h-s-btn{float: left;background: #f5931c url(../images/resources_index/spr_resources.png) 0 -76px;width: 79px;height: 100%;}
+.c-h-search-bot{position: absolute;right: 18px;top:100px; }
+.c-h-search-bot li{float: left;margin: 0 10px;color: #6c6c6c}
+.c-h-search-bot a{color: #6c6c6c;}
 
 
 .c-h-pic{position:relative;display:block;width:86px;height:86px;margin:24px auto 8px;}
@@ -117,9 +118,8 @@ a:hover{text-decoration: underline;}
 .c-h-sign-edit button{width:70px;padding:0;text-align:center;color:#454545;margin-right:10px;background:#bab2b3;}
 .c-h-sign-edit a{color:#fff;}
 
-.c-main{min-height: 660px;padding:30px;}
-
-
+.c-main{position: relative;}
+.c-m-nav{position: absolute;top: -34px;}
 /* end */
 /*= aside start*/
 .aside{position:fixed;left:50%;margin-left:500px;top:400px;z-index:3;}
@@ -136,6 +136,6 @@ a:hover{text-decoration: underline;}
 #footer_content{margin-left:170px;padding-bottom:20px;overflow:hidden;}
 #footer_lnk{overflow:hidden;margin-bottom:10px;margin-left:-16px;}
 #footer_lnk li{float:left;*display:inline;border-left:1px solid #fff;padding:0 15px;line-height:14px;}
-#footer_lnk a{color:#fff;}
-#footer_copy,#footer_copy a{color:#fff;}
+#footer_lnk a{color:#999;}
+#footer_copy,#footer_copy a{color:#999;}
 /* end */
