@@ -1,0 +1,59 @@
+
+.c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/resources_index/zwyd_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
+
+.c-m-nav{top: -64px;}
+.c-m-nav a{float: left;height: 34px;line-height: 34px;color: #fff;padding: 0 15px;margin-right: 5px;background: #05b1d9;text-decoration: none;}
+.c-m-nav .cur,.c-m-nav a:hover{background: #f9f9f9;color: #666;}
+
+
+.c-m-content{margin-top: 30px;}
+.c-m-left{float: left;width: 710px;border-top: 2px solid #05b1d9;}
+.c-m-l-search{padding: 12px 25px;font-family: simsun;border: 1px solid #d8d8d8;border-top: 0;box-shadow: 0 1px 2px #ccc;}
+.c-m-l-search a{color: #666;}
+.c-m-l-s-list{color: #999;margin-left: -12px;font-family: simsun;margin-bottom: 15px;}
+.c-m-l-s-list a{padding: 12px;}
+
+.c-m-l-s-box{position: relative;border: 2px solid #b7b7b7;height: 40px;}
+.c-m-l-s-tag{float: left;height: 40px;width: 105px;background: #f6f6f6;border-right:1px solid #e5e5e5;text-align: center;line-height: 40px;}
+.c-m-l-s-tag em {display: inline-block;width: 7px;height: 5px;background: url(../images/resources_index/spr_resources.png) 0 -58px no-repeat; margin-left: 8px;}
+.c-m-l-s-tagbox{display: none;}
+.c-m-l-s-text{width: 420px;border: none;background: #fff;height: 40px;padding-left: 10px;}
+.c-m-l-search .c-m-l-s-btn{position: absolute;background: #f5931c;color: #fff;font-family: "microsoft yahei";font-size: 18px;font-weight: bold;text-align: center;width: 120px;line-height: 44px;height: 44px;top: -2px;right: -2px;}
+.c-m-l-s-bot{margin-top: 8px;color: #999;margin-bottom: 5px;}
+.c-m-l-s-bot a{color: #999;padding: 6px;}
+
+.c-m-mid{margin-top: 35px;}
+.c-m-m-box{float: left;border-bottom: 2px solid #ddd;width: 330px;margin-right: 20px;background: #fff;}
+.c-m-m-b-title{font-size: 14px;color: #666;border: 1px solid #edeeee;border-bottom: 0;padding: 20px;padding-bottom:10px;}
+.c-m-m-b-cont{border: 1px solid #edeeee;border-top: 0;padding: 20px;padding-top: 0;color: #dfdfdf;height: 110px;overflow: hidden;}
+.c-m-m-b-cont li{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.c-m-m-b-cont a{display: inline-block;color: #999;word-break: break-word;padding:0 10px;line-height: 24px;}
+.c-m-m-b-c-blue a{color: #05b1d9;}
+
+.c-m-bot{margin-top: 10px;border-bottom: 2px solid #ddd;width: 680px;}
+.c-m-b-cont{border: 1px solid #edeeee;padding: 20px 25px;background: #fff;}
+.c-m-b-cont h2{font-size: 14px;color: #666;text-indent: 8px;}
+.c-m-b-c-item{width: 192px; float: left;margin-top: 15px;margin-right: 10px;margin-left:7px;border-top: 1px solid #d7d7d7;}
+.c-m-b-c-item h3{background: #f8f8f8;color: #999;height: 30px;line-height: 30px;padding: 0 15px;border: 1px solid #e5e5e5;}
+.c-m-b-c-item ul{margin-top: 10px;margin-left: 15px;}
+.c-m-b-c-item li{line-height: 24px;height: 24px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis; }
+.c-m-b-c-item li a{color: #05b1d9;padding-left: 5px;}
+
+
+.c-m-right{padding: 20px;}
+.c-m-right h2{font-size: 16px;font-family: "microsoft yahei";color: #666;margin-bottom: 10px;font-weight: bold;}
+.c-m-right h2 em{display: inline-block;width: 18px;height: 18px;background: url(../images/zwyd_index/icon.png) no-repeat -218px 0;margin-left: 4px;position: relative;top: 3px;}
+
+.c-m-r-p1-icon{width: 92px;height: 92px;float: left;background: url(../images/zwyd_index/icon.png) no-repeat 0 0;text-indent: -9999em;margin-right: 18px;margin-bottom: 10px;}
+.c-m-r-p1-icon.icon2{background-position: -110px 0;margin-right: 0;}
+.c-m-r-p1-alist{clear: both;color: #05b1d9;padding-bottom: 15px;border-bottom: 1px solid #dcdcdc}
+.c-m-r-p1-alist a{color: #05b1d9;padding:9px;}
+
+.c-m-r-part2{margin-top: 10px;padding-bottom: 15px;border-bottom:1px solid #dcdcdc;}
+.c-m-r-part2 li{line-height: 20px;color: #05b1d9;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.c-m-r-part2 a{color:#05b1d9;}
+.c-m-r-part2.part2{border-bottom: none;}
+
+.c-m-right{float: left;width:208px;border: 1px solid #dcdcdc;}
+
+
