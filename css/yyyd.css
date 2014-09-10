@@ -1,4 +1,4 @@
-
+/** 改写公共资源的独有样式 **/
 .c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/yyyd_index/yyyd_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
 .c-h-sentence{position:absolute; background:#fbe898; top:40px; right:0;}
 .c-h-sentence-text{float:left; font:12px "SimSum"; color:#666;}
@@ -7,15 +7,25 @@
 .c-h-s-t-content p{padding:2px 0;}
 .c-h-sentence-btn{float:left; width:53px; height:48px; background:#ff8c00 url(../images/yyyd_index/icon.png) no-repeat -207px -57px;}
 
-
 .c-m-nav{top:-64px;}
 .c-m-nav a{float:left; height:34px; line-height:34px; color:#fff; padding:0 15px; margin-right:5px; background:#05b1d9; text-decoration:none;}
 .c-m-nav .cur,.c-m-nav a:hover{background:#f9f9f9; color:#666;}
 
 
-.c-m-content{margin-top: 30px;}
-.c-m-left{float: left;width: 710px;border-top: 2px solid #05b1d9;}
+/** 页面主要内容布局部分 **/
+.c-m-content{margin-top:30px;}
 
+/** 页面左侧布局 **/
+.c-m-left{float:left; width:710px; border-top:2px solid #05b1d9;}
+
+/** 页面左侧布局-公共样式 **/
+.c-m-l-top{padding:15px 25px; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+.c-m-l-middle{padding:10px 25px;}
+.c-m-l-bottom{padding:10px 25px; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+
+
+/** 同步单词栏目-左侧布局部分 **/
+/* 同步单词栏目-左侧布局部分-上 */
 .c-m-l-material{padding:0 25px; font-family:"SimSun"; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
 .c-m-l-material .bt{border-bottom:1px solid #edeeee;}
 .c-m-l-m-box{padding:15px 0 10px 0;}
@@ -23,7 +33,7 @@
 .c-m-l-m-b-list{display:inline-block; width:620px; margin-left:-10px; margin-top:-5px; margin-top:-6px\9; font-family:simsun;}
 .c-m-l-m-b-list a{display:inline-block; height:25px; line-height:25px; padding:0 10px 0 5px; color:#999; text-decoration:none;}
 .c-m-l-m-b-list .cur, .c-m-l-m-b-list a:hover{color:#05b1d9;}
-
+/* 同步单词栏目-左侧布局部分-下 */
 .c-m-l-content{padding:25px; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
 .c-m-l-c-title{font:18px "Microsoft Yahei"; color:#666;}
 .c-m-l-c-box{margin-top:20px;}
@@ -31,7 +41,6 @@
 .c-m-l-c-b-Alphabet{margin-top:10px;}
 .c-m-l-c-b-Alphabet a{float:left; width:39px; height:44px; margin:10px 0 0 10px; background:url(../images/yyyd_index/icon.png) no-repeat -260px 0; font:bold 28px/44px "Arial"; color:#ccc; text-align:center; text-decoration:none;}
 .c-m-l-c-b-Alphabet .cur, .c-m-l-c-b-Alphabet a:hover{background-position:-300px 0; color:#fff;}
-
 .c-m-l-c-b-chapterList{margin-top:10px;}
 .c-m-l-c-b-c-box{float:left; margin:10px 0 0 17px;}
 .c-m-l-c-b-c-box a{position:relative; display:block; width:140px; height:105px; background:url(../images/yyyd_index/icon.png) no-repeat -340px 0; text-decoration:none;}
@@ -41,15 +50,51 @@
 .c-m-l-c-b-c-b-number{position:relative; width:140px; height:20px; font:12px/20px "SimSun"; text-align:center;}
 
 
+/** 情景对话栏目-左侧布局部分 **/
+/* 情景对话栏目-左侧布局部分-上 */
+.c-m-l-t-box{float:left; width:120px; padding:0 15px 0 30px; border-right:1px solid #edeeee; font-family:"SimSun";}
+.c-m-l-t-box1{padding-left:0;}
+.c-m-l-t-box3{width:300px; border-right:none;}
+.c-m-l-t-b-title{font:bold 14px "SimSun"; color:#666;}
+.c-m-l-t-typeList{margin:8px 0 0 -2px; color:#dfdfdf;}
+.c-m-l-t-typeList a{display:inline-block; *vertical-align:middle; padding:6px 4px; *padding:6px 3px; margin-left:-2px; font:12px "SimSun"; color:#666; text-decoration:none; word-break:break-work;}
+.c-m-l-t-typeList .cur, .c-m-l-t-typeList a:hover{color:#05b1d9;}
+/* 情景对话栏目-左侧布局部分-下 */
+.c-m-l-b-box{padding:10px 0; border-bottom:1px solid #edeeee; font-family:"SimSun"; overflow:hidden;}
+.c-m-l-b-boxNoBorderBottom{border-bottom:none;}
+.c-m-l-b-b-title{margin:10px 0; *margin-top:20px; font:bold 16px "SimSun"; color:#333;}
+.c-m-l-b-b-guide{margin-bottom:15px;}
+.c-m-l-b-b-g-pronunciation{float:left; width:53px; height:26px; background:url(../images/yyyd_index/icon.png) no-repeat -260px -79px; text-indent:-9999em;}
+.c-m-l-b-b-g-operation{float:left; margin-left:10px; height:23px; line-height:23px; border:1px solid #cccdcd; border-bottom:2px solid #cccdcd;}
+.c-m-l-b-b-g-operation a{height:23px; padding:0 8px; line-height:23px; color:#05b1d9;}
+.c-m-l-b-b-conversation{overflow:hidden;}
+.c-m-l-b-b-c-box{margin-bottom:10px; overflow:hidden;}
+.c-m-l-b-b-c-b-speaker{float:left; margin:10px 10px 0 0; font:bold 14px "SimSun"; color:#666;}
+.c-m-l-b-b-c-b-content{float:left;}
+.c-m-l-b-b-c-b-c-left{float:left; width:15px; height:56px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -30px 0;}
+.c-m-l-b-b-c-b-c-right{float:left; width:5px; height:56px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -50px 0;}
+.c-m-l-b-b-c-b-c-main{float:left; padding-left:10px; height:56px; background:url(../images/yyyd_index/conversation_bg1.png) repeat-x;}
+.c-m-l-b-b-c-b-c-m-english{float:left; margin-top:4px; height:24px; font:14px/24px "SimSun"; color:#f5931c;}
+.c-m-l-b-b-c-b-c-m-pronunciation{float:left; margin:7px 15px 0 5px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px;}
+.c-m-l-b-b-c-b-c-m-chinese{height:24px; font:12px/20px "SimSun"; color:#666;}
+.c-m-l-b-b-c-b-cs-left{float:left; width:15px; height:58px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat 0 0;}
+.c-m-l-b-b-c-b-cs-right{float:left; width:5px; height:58px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -20px 0;}
+.c-m-l-b-b-c-b-cs-main{float:left; padding-left:10px; height:58px; background:url(../images/yyyd_index/conversation_bg2.png) repeat-x;}
+.c-m-l-b-b-c-b-cs-m-english{float:left; margin-top:4px; height:24px; font:14px/24px "SimSun"; color:#df4928;}
+
+
+
+
+/** 页面右侧布局-英语园地公共资源部分 **/
 .c-m-right{float:left; padding:20px; width:208px; border:1px solid #dcdcdc;}
 .c-m-right h2{font-size:16px; font-family:"microsoft yahei"; color:#666; margin-bottom:5px; font-weight:bold;}
 .c-m-right h2 em{display:inline-block; width:18px; height:18px; background:url(../images/zwyd_index/icon.png) no-repeat -218px 0; margin-left:4px; position:relative; top:3px;}
-
+/* 页面右侧布局-英语园地公共资源部分-第一部分 */
 .c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
 .c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
 .c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
 .c-m-r-p1-alist a{color:#05b1d9; padding:9px;}
-
+/* 页面右侧布局-英语园地公共资源部分-第二部分 */
 .c-m-r-part2{margin-top:10px; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
 .c-m-r-p2-soundmark{margin-bottom:5px; height:26px;}
 .c-m-r-p2-s-letter{padding-right:8px; font:bold 24px/26px "Arial"; color:#05b1d9;}
@@ -58,15 +103,14 @@
 .c-m-r-p2-explanation{margin-bottom:8px; font:12px/16px "SimSun"; color:#999;}
 .c-m-r-p2-detail{margin-bottom:3px;}
 .c-m-r-p2-detail a{padding-right:5px; font:12px/12px "SimSun"; color:#05b1d9;}
-
+/* 页面右侧布局-英语园地公共资源部分-第三部分 */
 .c-m-r-part3{margin-top:10px; padding-bottom:5px; border-bottom:1px solid #dcdcdc;}
 .c-m-r-p3-listeningList li{height:26px; margin-bottom:8px;}
 .c-m-r-p3-l-pronunciation{display:inline-block; margin:0 5px; line-height:26px; vertical-align:top; width:69px; height:26px; background:url(../images/yyyd_index/icon.png) no-repeat -260px -50px; text-indent:-9999em;}
 .c-m-r-p3-l-answer{display:inline-block; font:12px/26px "SimSun"; color:#05b1d9;}
-
+/* 页面右侧布局-英语园地公共资源部分-第四部分 */
 .c-m-r-part4{margin-top:10px; border-bottom:none;}
 .c-m-r-p3-translationList li{margin-bottom:10px;}
 .c-m-r-p3-translationList span{display:inline-block; vertical-align:top;}
 .c-m-r-p3-t-sentence{width:190px; line-height:16px;}
 .c-m-r-p4-t-answer{margin-left:13px; height:16px; font:12px/16px "SimSun"; color:#05b1d9;}
-
