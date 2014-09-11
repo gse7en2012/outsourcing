@@ -83,6 +83,38 @@
 .c-m-l-b-b-c-b-cs-m-english{float:left; margin-top:4px; height:24px; font:14px/24px "SimSun"; color:#df4928;}
 
 
+/** 每日英语栏目-左侧布局部分 **/
+/* 每日英语栏目-左侧布局部分-上 */
+.c-m-left4{border:none;}
+.c-m-l-top4{border:none; box-shadow:none;}
+/* 每日英语栏目-左侧布局部分-上-选择日期 */
+.c-m-l-t-dateWrap{height:31px; line-height:31px; vertical-align:top; color:#82d8ec;}
+.c-m-l-t-dateWrap a{display:inline-block; vertical-align:top; *display:inline; *zoom:1; color:#82d8ec;}
+.c-m-l-t-d-date{display:inline-block; vertical-align:top; *margin-top:-5px; *display:inline; *zoom:1; padding-right:10px; font:bold 30px/31px "Microsoft Yahei"; *line-height:40px; color:#666;}
+.c-m-l-t-d-prev{margin:0 5px; width:31px; height:31px; background:url(../images/yyyd_index/icon.png) no-repeat 0 -110px; text-indent:-9999em;}
+.c-m-l-t-d-next{margin-right:5px; width:31px; height:31px; background:url(../images/yyyd_index/icon.png) no-repeat -35px -110px; text-indent:-9999em;}
+.c-m-l-t-d-prev:hover{background-position:-70px -110px;}
+.c-m-l-t-d-next:hover{background-position:-105px -110px;}
+.c-m-l-t-d-today, .c-m-l-t-d-choose{padding:0 10px;}
+.c-m-l-t-d-separator{display:inline-block; vertical-align:top;}
+/* 每日英语栏目-左侧布局部分-上-展示 */
+.c-m-l-t-studyList{margin-top:15px;}
+.c-m-l-t-s-box{float:left; padding:15px; margin:0 10px 10px 0; width:285px; height:135px; background-color:#fff; border:1px solid #edeeee; border-bottom-width:2px;}
+.c-m-l-t-s-b-title{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
+.c-m-l-t-s-box .c-m-r-p3-t-sentence4{width:265px;}
+/* 每日英语栏目-左侧布局部分-下 */
+.c-m-l-bottom4{border:none; box-shadow:none;}
+.c-m-l-b-box4{padding:20px 25px; width:593px; background-color:#fff; border:1px solid #edeeee; border-bottom-width:2px;}
+/* 每日英语栏目-左侧布局部分-下-展示 */
+.c-m-l-b-b-title4{padding:10px; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
+.c-m-l-b-b-title4 span{font:12px/20px "SimSun"; color:#05b1d9;}
+.c-m-l-b4-bread{float:right;}
+.c-m-l-b4-bread .c-m-l-b4-b-title{color:#999;}
+
+
+/*TODO*/
+
+
 
 
 /** 页面右侧布局-英语园地公共资源部分 **/
