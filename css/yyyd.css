@@ -112,9 +112,28 @@
 .c-m-l-b4-bread .c-m-l-b4-b-title{color:#999;}
 
 
+/** 课外读物栏目-左侧布局部分 **/
+.c-m-left5{border:none;}
+.c-m-l-box{padding:20px;}
+.c-m-l-b-title{padding:7px 20px; border:1px solid #d7d7d7; border-top-width:2px; font:bold 12px "SimSun"; background-color:#f8f8f8; color:#999;}
+/* 课外读物栏目-左侧布局部分-上 */
+.c-m-l-b-bookList{overflow:hidden;}
+.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 20px; width:140px; overflow:hidden;}
+.c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
+.c-m-l-b-b-b-link img{margin:1px;}
+.c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
+/* 课外读物栏目-左侧布局部分-上 */
+.c-m-l-b-bookTable{margin:20px 20px 0 20px;}
+.c-m-l-b-bookTable tr{height:35px;}
+.c-m-l-b-bookTable a{color:#05b1d9;}
+/* 课外读物栏目-左侧布局部分-分页 */
+.c-m-l-b-paging{padding:20px;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
+
+
 /*TODO*/
-
-
 
 
 /** 页面右侧布局-英语园地公共资源部分 **/
@@ -146,3 +165,12 @@
 .c-m-r-p3-translationList span{display:inline-block; vertical-align:top;}
 .c-m-r-p3-t-sentence{width:190px; line-height:16px;}
 .c-m-r-p4-t-answer{margin-left:13px; height:16px; font:12px/16px "SimSun"; color:#05b1d9;}
+
+
+/* 弹层-每日英语栏目 */
+.overlay{z-index:10;}
+.pop{display:none; width:400px; height:175px; border:3px solid #fbe78d; z-index:11;}
+.pop-tips{margin-top:50px;font:14px "SimSun";text-align:center;}
+.pop-buttonWrap{text-align:center; margin-top:25px;}
+.pop-buttonWrap a{display:inline-block; margin:0 5px; width:82px; height:34px; background-color:#05b1d9; font:14px/34px "SimSun"; text-align:center; text-decoration:none; color:#fff;}
+
