@@ -13,6 +13,7 @@
 
 
 /** 页面主要内容布局部分 **/
+.c-main{*margin-top:30px;}
 .c-m-content{margin-top:30px;}
 
 /** 页面左侧布局 **/
@@ -122,10 +123,18 @@
 .c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
 .c-m-l-b-b-b-link img{margin:1px;}
 .c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
-/* 课外读物栏目-左侧布局部分-上 */
-.c-m-l-b-bookTable{margin:20px 20px 0 20px;}
-.c-m-l-b-bookTable tr{height:35px;}
-.c-m-l-b-bookTable a{color:#05b1d9;}
+/* 课外读物栏目-左侧布局部分-下 */
+.c-m-l-b-essayList{padding-top:10px;}
+.c-m-l-b-essayList span{float:left; text-decoration:none;}
+.c-m-l-b-e-th{padding:0 20px; height:35px; line-height:35px;}
+.c-m-l-b-e-tr{display:block; padding:0 20px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
+.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:33px; line-height: 33px; border-top:1px solid #ddeaef; border-bottom:1px solid #ddeaef; text-decoration:none;}
+.c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
+.c-m-l-b-e-td1{width:45px;}
+.c-m-l-b-e-td2{width:415px;}
+.c-m-l-b-e-td3{width:55px;}
+.c-m-l-b-e-td4{width:55px;}
+.c-m-l-b-e-td5{width:55px;}
 /* 课外读物栏目-左侧布局部分-分页 */
 .c-m-l-b-paging{padding:20px;}
 .c-m-l-b-p-buttons{float:right;}
@@ -144,7 +153,7 @@
 .c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
 .c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
 .c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
-.c-m-r-p1-alist a{color:#05b1d9; padding:9px;}
+.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}
 /* 页面右侧布局-英语园地公共资源部分-第二部分 */
 .c-m-r-part2{margin-top:10px; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
 .c-m-r-p2-soundmark{margin-bottom:5px; height:26px;}
@@ -169,7 +178,7 @@
 
 /* 弹层-每日英语栏目 */
 .overlay{z-index:10;}
-.pop{display:none; width:400px; height:175px; border:3px solid #fbe78d; z-index:11;}
+.pop{position:absolute; display:none; width:400px; height:175px; background-color:#fff; border:3px solid #fbe78d; z-index:11;}
 .pop-tips{margin-top:50px;font:14px "SimSun";text-align:center;}
 .pop-buttonWrap{text-align:center; margin-top:25px;}
 .pop-buttonWrap a{display:inline-block; margin:0 5px; width:82px; height:34px; background-color:#05b1d9; font:14px/34px "SimSun"; text-align:center; text-decoration:none; color:#fff;}
