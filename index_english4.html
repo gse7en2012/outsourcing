@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/yyyd.css"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/com.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
     <script type="text/javascript" src="js/index_english.js"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -99,12 +100,22 @@
                 <div class="c-m-left c-m-left4">
                     <div class="c-m-l-top c-m-l-top4 clr">
                         <div class="c-m-l-t-dateWrap">
-                            <h2 class="c-m-l-t-d-date">2014.04.08</h2>
+                            <h2 class="c-m-l-t-d-date" id="calendar-time"></h2>
                             <a href="javascript:;" class="c-m-l-t-d-prev">前一天</a>
                             <a href="javascript:;" class="c-m-l-t-d-next">后一天</a>
                             <a href="javascript:;" class="c-m-l-t-d-today">今天</a>
                             <span class="c-m-l-t-d-separator">|</span>
                             <a href="javascript:;" class="c-m-l-t-d-choose">选择日期</a>
+                            <!-- 日历 Start -->
+                            <div class="g-calendar" id="g-calendar-1">
+                                <span class="g-calendar-prev"></span>
+                                <span class="g-calendar-next"></span>
+                                <div class="g-calendar-hd"></div>
+                                <div class="g-calendar-tit"></div>
+                                <div class="g-calendar-bd"></div>
+                            </div>
+
+                            <!-- 日历 End -->
                         </div>
                         <nav class="c-m-l-t-studyList clr">
                             <div class="c-m-l-t-s-box">
@@ -347,7 +358,42 @@
 <!-- pop End -->
 
 <script>
-
+    var calendar = new LGY_calendar({'wrapId':'g-calendar-1'});
+    var now = new Date();
+    // 初始化日期
+    $("#calendar-time").html(now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日");
+    // 设置今天日期
+    $(".c-m-l-t-d-today").click(function() {
+        $("#calendar-time").html(now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日");
+    });
+    // 显示/关闭日历
+    $(".c-m-l-t-d-choose").click(function() {
+        if($(this).hasClass("on")) {
+            $("#g-calendar-1").hide();
+            $(this).removeClass("on");
+        } else {
+            $("#g-calendar-1").show();
+            $(this).addClass("on");
+        }
+    });
+    // 后一天
+    $(".c-m-l-t-d-next").click(function() {
+        setDateString(1);
+    });
+    // 前一天
+    $(".c-m-l-t-d-prev").click(function() {
+        setDateString(-1);
+    });
+    // 设置日期的函数
+    function setDateString(AddDayCount) {
+        var str = $("#calendar-time").html(),
+            year = str.substr(0, str.indexOf("年")),
+            month = str.substr(0, str.indexOf("月")).split("年")[1] - 1,
+            day = str.substr(0, str.indexOf("日")).split("月")[1],
+            dd = new Date(year,month,day);
+        dd.setDate(dd.getDate()+AddDayCount);
+        $("#calendar-time").html(dd.getFullYear()+"年"+(dd.getMonth()+1)+"月"+dd.getDate()+"日");
+    }
 </script>
 </body>
 </html>
