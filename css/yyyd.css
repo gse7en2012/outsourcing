@@ -13,6 +13,7 @@
 
 
 /** 页面主要内容布局部分 **/
+.c-main{*margin-top:30px;}
 .c-m-content{margin-top:30px;}
 
 /** 页面左侧布局 **/
@@ -88,7 +89,7 @@
 .c-m-left4{border:none;}
 .c-m-l-top4{border:none; box-shadow:none;}
 /* 每日英语栏目-左侧布局部分-上-选择日期 */
-.c-m-l-t-dateWrap{height:31px; line-height:31px; vertical-align:top; color:#82d8ec;}
+.c-m-l-t-dateWrap{position:relative; height:31px; line-height:31px; vertical-align:top; color:#82d8ec;}
 .c-m-l-t-dateWrap a{display:inline-block; vertical-align:top; *display:inline; *zoom:1; color:#82d8ec;}
 .c-m-l-t-d-date{display:inline-block; vertical-align:top; *margin-top:-5px; *display:inline; *zoom:1; padding-right:10px; font:bold 30px/31px "Microsoft Yahei"; *line-height:40px; color:#666;}
 .c-m-l-t-d-prev{margin:0 5px; width:31px; height:31px; background:url(../images/yyyd_index/icon.png) no-repeat 0 -110px; text-indent:-9999em;}
@@ -110,6 +111,21 @@
 .c-m-l-b-b-title4 span{font:12px/20px "SimSun"; color:#05b1d9;}
 .c-m-l-b4-bread{float:right;}
 .c-m-l-b4-bread .c-m-l-b4-b-title{color:#999;}
+/* 日历样式 */
+.g-calendar{display:none;top:40px;left:240px;width:340px;height:275px;border:1px solid #d7d7d7; *zoom:1;position:absolute;float: left;background: #f8f8f8}
+.g-calendar-hd{text-align:center;height:28px;line-height:28px;border-bottom:1px solid #d7d7d7;letter-spacing:2px;background: #f8f8f8;}
+.g-calendar-tit{overflow:hidden;*zoom:1;}
+.g-calendar-bd span,.g-calendar-tit span{float:left;display:inline;width:35px;height:31px;line-height:35px;text-align:center;margin: 2px 6px;}
+.g-calendar-prev,.g-calendar-next{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;position:absolute}
+.g-calendar-prev{background-position: 0 0;left: -1px;top: -1px;}
+.g-calendar-next{background-position:-39px 0;right:-1px;top: -1px;}
+.g-calendar-bd span{position:relative;zoom:1;color: #4fc7e3;}
+.g-calendar-bd span.g-calendar-grey{color:#d8d8d8;}
+.g-calendar-bd span em{display:block;position:absolute;top:-500px;left:0;width:200px;background:#fff;z-index:99;border:1px solid #000;}
+.g-calendar-bd span em a{display:block;margin:4px 0;color:#000}
+.g-calendar-bd span em a:hover{color:#04729e}
+.g-calendar-bd span:hover,.g-calendar-bd .g-calendar-on{background-color:#00A8EC;color:#fff}
+.g-calendar-bd span:hover em{top:0;left:34px}
 
 
 /** 课外读物栏目-左侧布局部分 **/
@@ -122,10 +138,18 @@
 .c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
 .c-m-l-b-b-b-link img{margin:1px;}
 .c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
-/* 课外读物栏目-左侧布局部分-上 */
-.c-m-l-b-bookTable{margin:20px 20px 0 20px;}
-.c-m-l-b-bookTable tr{height:35px;}
-.c-m-l-b-bookTable a{color:#05b1d9;}
+/* 课外读物栏目-左侧布局部分-下 */
+.c-m-l-b-essayList{padding-top:10px;}
+.c-m-l-b-essayList span{float:left; text-decoration:none;}
+.c-m-l-b-e-th{padding:0 20px; height:35px; line-height:35px;}
+.c-m-l-b-e-tr{display:block; padding:0 20px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
+.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:33px; line-height: 33px; border-top:1px solid #ddeaef; border-bottom:1px solid #ddeaef; text-decoration:none;}
+.c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
+.c-m-l-b-e-td1{width:45px;}
+.c-m-l-b-e-td2{width:415px;}
+.c-m-l-b-e-td3{width:55px;}
+.c-m-l-b-e-td4{width:55px;}
+.c-m-l-b-e-td5{width:55px;}
 /* 课外读物栏目-左侧布局部分-分页 */
 .c-m-l-b-paging{padding:20px;}
 .c-m-l-b-p-buttons{float:right;}
@@ -144,7 +168,7 @@
 .c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
 .c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
 .c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
-.c-m-r-p1-alist a{color:#05b1d9; padding:9px;}
+.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}
 /* 页面右侧布局-英语园地公共资源部分-第二部分 */
 .c-m-r-part2{margin-top:10px; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
 .c-m-r-p2-soundmark{margin-bottom:5px; height:26px;}
@@ -169,7 +193,7 @@
 
 /* 弹层-每日英语栏目 */
 .overlay{z-index:10;}
-.pop{display:none; width:400px; height:175px; border:3px solid #fbe78d; z-index:11;}
+.pop{position:absolute; display:none; width:400px; height:175px; background-color:#fff; border:3px solid #fbe78d; z-index:11;}
 .pop-tips{margin-top:50px;font:14px "SimSun";text-align:center;}
 .pop-buttonWrap{text-align:center; margin-top:25px;}
 .pop-buttonWrap a{display:inline-block; margin:0 5px; width:82px; height:34px; background-color:#05b1d9; font:14px/34px "SimSun"; text-align:center; text-decoration:none; color:#fff;}
