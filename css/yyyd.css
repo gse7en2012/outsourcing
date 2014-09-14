@@ -157,7 +157,43 @@
 .c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
 
 
-/*TODO*/
+/** 英语词典栏目-左侧布局部分 **/
+.c-m-left9{border:none;}
+.c-m-l-b-top{width:670px; height:20px; background:url(../images/yyyd_index/dictionary_bgTop.png) no-repeat;}
+.c-m-l-b-bottom{width:670px; height:20px; background:url(../images/yyyd_index/dictionary_bgBottom.png) no-repeat;}
+.c-m-l-b-center{width:670px; background:url(../images/yyyd_index/dictionary_bg.png) repeat-y;}
+.c-m-l-b-c-box{padding:20px 0 10px 0; margin:0 auto; width:580px; border-bottom:1px solid #dcdcdc; overflow:hidden;}
+.c-m-l-b-c-b-noBorderBottom{border-bottom:none;}
+.c-m-l-b-c-box h2{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
+/* 英语词典栏目-左侧布局部分-Part1 */
+.c-m-l-b-c-b-search{padding-bottom:10px; overflow:hidden;}
+.c-m-l-b-c-b-search input{float:left; padding-left:10px; width:440px; height:40px; line-height:40px; border:2px solid #b7b7b7;}
+.c-m-l-b-c-b-search a{float:left; margin-left:-2px; width:120px; height:44px; font:bold 18px/44px "Microsoft Yahei"; background-color:#f5931c; color:#fff; text-align:center;}
+.c-m-l-b-c-b-question{padding-bottom:5px;}
+.c-m-l-b-c-b-question-orange{color:#f5931c;}
+/* 英语词典栏目-左侧布局部分-Part2 */
+.c-m-l-b-c-b-box{float:left; position:relative; margin-right:20px; padding:10px 0; width:255px;}
+.c-m-l-b-c-b-box2{width:300px; margin-right:0;}
+.c-m-l-b-c-b-b-s-letter{font:24px "Microsoft Yahei"; color:#05b1d9;}
+.c-m-l-b-c-b-b-s-pronunciation{display:inline-block; vertical-align:top; *display:inline; *zoom:1; margin-top:8px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px; text-indent:-9999em;}
+.c-m-l-b-c-b-b-explanation{display:block; margin-bottom:5px;}
+.c-m-l-b-c-b-b-addNote{display:inline-block; color:#05b1d9;}
+.c-m-l-b-c-b-b-picture{position:absolute; top:20px; right:25px;}
+.c-m-l-b-c-b-b-qaWrap{font-size:14px; margin-bottom:20px;}
+.c-m-l-b-c-b-b-q-question{float:left; margin-right:40px;}
+.c-m-l-b-c-b-b-q-answerWrap{float:left; width:200px;}
+.c-m-l-b-c-b-b-q-answerWrap span{display:inline-block; width:98px; vertical-align:top; *display:inline; *zoom:1;}
+.c-m-l-b-c-b-b-q-answerWrap input{float:left; margin:4px 3px 0 0; *margin:1px 3px 0 0;}
+.c-m-l-b-c-b-b-q-answerWrap label{float:left;}
+.c-m-l-b-c-b-b-status{position:relative; height:32px; line-height:32px; background-color:#a5ce00; color:#fff;}
+.c-m-l-b-c-b-b-s-icon{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:6px 5px 0 30px; width:19px; height:19px; background:url(../images/yyyd_index/icon.png) no-repeat -140px -110px;}
+.c-m-l-b-c-b-b-s-result{display:inline-block; *display:inline; *zoom:1; vertical-align:top; font-weight:bold;}
+.c-m-l-b-c-b-b-s-explanation{position:absolute; right:30px;}
+/* 英语词典栏目-左侧布局部分-Part3 */
+.c-m-l-b-c-b-conversation{margin-bottom:20px; font:14px "SimSun";}
+.c-m-l-b-c-b-c-english{float:left; margin-top:4px; height:24px; color:#f5931c;}
+.c-m-l-b-c-b-c-pronunciation{float:left; margin:3px 0 0 5px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px;}
+.c-m-l-b-c-b-c-chinese{height:24px; font:12px/20px "SimSun";}
 
 
 /** 页面右侧布局-英语园地公共资源部分 **/
@@ -197,4 +233,3 @@
 .pop-tips{margin-top:50px;font:14px "SimSun";text-align:center;}
 .pop-buttonWrap{text-align:center; margin-top:25px;}
 .pop-buttonWrap a{display:inline-block; margin:0 5px; width:82px; height:34px; background-color:#05b1d9; font:14px/34px "SimSun"; text-align:center; text-decoration:none; color:#fff;}
-
