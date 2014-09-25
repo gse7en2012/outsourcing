@@ -84,7 +84,7 @@
 
 .c-m-banner{float:left;padding-right:39px;height:244px;padding-top:15px;padding-left:20px;}
 .c-m-banner-btns{text-align:right;margin-top:5px;}
-.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:12px;background-color:#dfdfdf;border-radius: 12px;}
+.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:12px;background-color:#fff;border-radius: 12px;}
 .c-m-banner-btns .current{background-color:#fff0b1;width:50px;}
 .c-m-banner-pic img{display:block;width:238px;height:205px;}
 .c-m-banner-pic a{display:none;}
