@@ -20,14 +20,14 @@
 .c-m-left{float:left; width:710px; border-top:2px solid #05b1d9;}
 
 /** 页面左侧布局-公共样式 **/
-.c-m-l-top{padding:15px 25px; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+.c-m-l-top{padding:15px 25px; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc; overflow:hidden;}
 .c-m-l-middle{padding:10px 25px;}
-.c-m-l-bottom{padding:10px 25px; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+.c-m-l-bottom{padding:10px 25px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc; overflow:hidden;}
 
 
 /** 同步单词栏目-左侧布局部分 **/
 /* 同步单词栏目-左侧布局部分-上 */
-.c-m-l-material{padding:0 25px; font-family:"SimSun"; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
+.c-m-l-material{padding:0 25px; font-family:"SimSun"; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
 .c-m-l-material .bt{border-bottom:1px solid #edeeee;}
 .c-m-l-m-box{padding:15px 0 10px 0;}
 .c-m-l-m-b-title{display:inline-block; font:bold 12px "SimSum"; color:#999; vertical-align:top;}
@@ -35,10 +35,10 @@
 .c-m-l-m-b-list a{display:inline-block; height:25px; line-height:25px; padding:0 10px 0 5px; color:#999; text-decoration:none;}
 .c-m-l-m-b-list .cur, .c-m-l-m-b-list a:hover{color:#05b1d9;}
 /* 同步单词栏目-左侧布局部分-下 */
-.c-m-l-content{padding:25px; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
+.c-m-l-content{padding:25px; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
 .c-m-l-c-title{font:18px "Microsoft Yahei"; color:#666;}
 .c-m-l-c-box{margin-top:20px;}
-.c-m-l-c-b-title{padding:8px 20px; font:bold 12px "SimSun"; color:#999; border:1px solid #e5e5e5;}
+.c-m-l-c-b-title{padding:8px 20px; font:bold 12px "SimSun"; background-color:#f8f8f8; color:#999; border:1px solid #e5e5e5; border-top-width:2px;}
 .c-m-l-c-b-Alphabet{margin-top:10px;}
 .c-m-l-c-b-Alphabet a{float:left; width:39px; height:44px; margin:10px 0 0 10px; background:url(../images/yyyd_index/icon.png) no-repeat -260px 0; font:bold 28px/44px "Arial"; color:#ccc; text-align:center; text-decoration:none;}
 .c-m-l-c-b-Alphabet .cur, .c-m-l-c-b-Alphabet a:hover{background-position:-300px 0; color:#fff;}
@@ -87,7 +87,7 @@
 /** 每日英语栏目-左侧布局部分 **/
 /* 每日英语栏目-左侧布局部分-上 */
 .c-m-left4{border:none;}
-.c-m-l-top4{border:none; box-shadow:none;}
+.c-m-l-top4{background-color:inherit; border:none; box-shadow:none;}
 /* 每日英语栏目-左侧布局部分-上-选择日期 */
 .c-m-l-t-dateWrap{position:relative; height:31px; line-height:31px; vertical-align:top; color:#82d8ec;}
 .c-m-l-t-dateWrap a{display:inline-block; vertical-align:top; *display:inline; *zoom:1; color:#82d8ec;}
@@ -104,7 +104,7 @@
 .c-m-l-t-s-b-title{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
 .c-m-l-t-s-box .c-m-r-p3-t-sentence4{width:265px;}
 /* 每日英语栏目-左侧布局部分-下 */
-.c-m-l-bottom4{border:none; box-shadow:none;}
+.c-m-l-bottom4{background-color:inherit; border:none; box-shadow:none;}
 .c-m-l-b-box4{padding:20px 25px; width:593px; background-color:#fff; border:1px solid #edeeee; border-bottom-width:2px;}
 /* 每日英语栏目-左侧布局部分-下-展示 */
 .c-m-l-b-b-title4{padding:10px; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
@@ -129,12 +129,12 @@
 
 
 /** 课外读物栏目-左侧布局部分 **/
-.c-m-left5{border:none;}
+.c-m-left5{width:706px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc}
 .c-m-l-box{padding:20px;}
 .c-m-l-b-title{padding:7px 20px; border:1px solid #d7d7d7; border-top-width:2px; font:bold 12px "SimSun"; background-color:#f8f8f8; color:#999;}
 /* 课外读物栏目-左侧布局部分-上 */
 .c-m-l-b-bookList{overflow:hidden;}
-.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 20px; width:140px; overflow:hidden;}
+.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 20px; width:140px; overflow:hidden; cursor:pointer;}
 .c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
 .c-m-l-b-b-b-link img{margin:1px;}
 .c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}

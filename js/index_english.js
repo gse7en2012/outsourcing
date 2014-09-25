@@ -32,4 +32,13 @@ $(function(){
             $coversation.eq(i).find(".c-m-l-b-b-c-b-cs-m-english").stop().animate({opacity:1});
         });
     });
+
+    // 课外读物、语音、歌曲、游戏栏目的图片hover
+    $(".c-m-l-b-b-bookWrap").each(function(i) {
+        $(this).hover(function() {
+            $(this).find("p").css({"text-decoration":"underline"});
+        }, function() {
+            $(this).find("p").css({"text-decoration":"none"});
+        });
+    });
 });

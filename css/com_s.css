@@ -104,6 +104,7 @@ a:hover{text-decoration: underline;}
 .c-nav{}
 .c-nav a{display:block;height:68px;text-indent:-999em;overflow:hidden;margin-bottom: 3px;}
 .c-nav a:hover,.c-nav .now{background-image:url(../images/nav_s.png);background-repeat:no-repeat;}
+.c-nav .now{cursor:default;}
 .c-nav .c-nav-1{background:url(../images/nav_s.png) 22px 0 no-repeat;}
 .c-nav .c-nav-2{background:url(../images/nav_s.png) 22px -71px no-repeat;}
 .c-nav .c-nav-3{background:url(../images/nav_s.png) 22px -142px no-repeat;}
