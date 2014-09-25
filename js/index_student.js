@@ -26,4 +26,8 @@ $(function(){
 		$(".c-m-subject-others").slideToggle();
 		return false;
 	});
+    /*tips close*/
+    $(".close").click(function() {
+        $(".c-m-s-message").hide();
+    });
 });
