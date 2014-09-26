@@ -53,12 +53,12 @@
 .c-m-item table .col7{width:35px;}
 .c-m-item table .col8{width:40px;}
 .c-m-item th{border-bottom: 1px solid #d8d8d8;height: 40px;}
-.c-m-item td{border-bottom: 1px solid #ebebeb;color: #999;line-height: 25px;
+.c-m-item td{border-bottom: 1px solid #ebebeb;color: #999;line-height: 26px;
     padding: 10px 10px 10px 0; vertical-align:top;}
 
 .c-m-item a{color: #05b1d9;padding: 4px;}
 .c-m-item .td-special-a{padding-left:0;}
-.c-m-item .c-m-i-btn{text-decoration: none;padding: 4px 10px;color: #fff;background: #05b1d9;}
+.c-m-item .c-m-i-btn{float:right;margin-right:2px;text-decoration: none;/*padding: 4px 10px;*/padding:0 10px;height:25px; line-height:25px;color: #fff;background: #05b1d9;}
 .c-m-i-tips{height: 80px;line-height: 80px;text-align: center;}
 
 
@@ -102,6 +102,9 @@
 #next,#next2{background-position: -28px 0}
 .c-upload-btn-area .page-num{width:28px; height:28px; line-height:28px; text-align:center; border:1px solid #ddd; color:#999; background:none; background-color:#f1f1f1;}
 .c-upload-btn-area .page-num:hover{text-decoration:none; background-color:#fff;}
+.c-upload-btns{float:right;}
+.c-upload-btns a{padding:8px 15px; height:30px; background-color:#05b1d9; color:#fff;}
+.c-upload-btns a:hover{text-decoration:none;}
 
 
 /* pop */
