@@ -1,0 +1,235 @@
+/** 改写公共资源的独有样式 **/
+.c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/yyyd_index/yyyd_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
+.c-h-sentence{position:absolute; background:#fbe898; top:40px; right:0;}
+.c-h-sentence-text{float:left; font:12px "SimSum"; color:#666;}
+.c-h-s-t-title{padding:6px 6px 6px 10px; display:inline-block; vertical-align:top;}
+.c-h-s-t-content{padding:4px 10px 4px 0; display:inline-block; vertical-align:top;}
+.c-h-s-t-content p{padding:2px 0;}
+.c-h-sentence-btn{float:left; width:53px; height:48px; background:#ff8c00 url(../images/yyyd_index/icon.png) no-repeat -207px -57px;}
+
+.c-m-nav{top:-64px;}
+.c-m-nav a{float:left; height:34px; line-height:34px; color:#fff; padding:0 15px; margin-right:5px; background:#05b1d9; text-decoration:none;}
+.c-m-nav .cur,.c-m-nav a:hover{background:#f9f9f9; color:#666;}
+
+
+/** 页面主要内容布局部分 **/
+.c-main{*margin-top:30px;}
+.c-m-content{margin-top:30px;}
+
+/** 页面左侧布局 **/
+.c-m-left{float:left; width:710px; border-top:2px solid #05b1d9;}
+
+/** 页面左侧布局-公共样式 **/
+.c-m-l-top{padding:15px 25px; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+.c-m-l-middle{padding:10px 25px;}
+.c-m-l-bottom{padding:10px 25px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+
+
+/** 同步单词栏目-左侧布局部分 **/
+/* 同步单词栏目-左侧布局部分-上 */
+.c-m-l-material{padding:0 25px; font-family:"SimSun"; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
+.c-m-l-material .bt{border-bottom:1px solid #edeeee;}
+.c-m-l-m-box{padding:15px 0 10px 0;}
+.c-m-l-m-b-title{display:inline-block; font:bold 12px "SimSum"; color:#999; vertical-align:top;}
+.c-m-l-m-b-list{display:inline-block; width:620px; margin-left:-10px; margin-top:-5px; margin-top:-6px\9; font-family:simsun;}
+.c-m-l-m-b-list a{display:inline-block; height:25px; line-height:25px; padding:0 10px 0 5px; color:#999; text-decoration:none;}
+.c-m-l-m-b-list .cur, .c-m-l-m-b-list a:hover{color:#05b1d9;}
+/* 同步单词栏目-左侧布局部分-下 */
+.c-m-l-content{padding:25px; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc;}
+.c-m-l-c-title{font:18px "Microsoft Yahei"; color:#666;}
+.c-m-l-c-box{margin-top:20px;}
+.c-m-l-c-b-title{padding:8px 20px; font:bold 12px "SimSun"; background-color:#f8f8f8; color:#999; border:1px solid #e5e5e5; border-top-width:2px;}
+.c-m-l-c-b-Alphabet{margin-top:10px;}
+.c-m-l-c-b-Alphabet a{float:left; width:39px; height:44px; margin:10px 0 0 10px; background:url(../images/yyyd_index/icon.png) no-repeat -260px 0; font:bold 28px/44px "Arial"; color:#ccc; text-align:center; text-decoration:none;}
+.c-m-l-c-b-Alphabet .cur, .c-m-l-c-b-Alphabet a:hover{background-position:-300px 0; color:#fff;}
+.c-m-l-c-b-chapterList{margin-top:10px;}
+.c-m-l-c-b-c-box{float:left; margin:10px 0 0 17px;}
+.c-m-l-c-b-c-box a{position:relative; display:block; width:140px; height:105px; background:url(../images/yyyd_index/icon.png) no-repeat -340px 0; text-decoration:none;}
+.c-m-l-c-b-c-box .cur, .c-m-l-c-b-c-box a:hover{background-position:-490px 0;}
+.c-m-l-c-b-c-b-a-wrap{position:absolute; top:0; right:15px; width:100px;}
+.c-m-l-c-b-c-b-a-wrap p{padding-top:5px; font:bold 12px/15px "Arial"; color:#fff;}
+.c-m-l-c-b-c-b-number{position:relative; width:140px; height:20px; font:12px/20px "SimSun"; text-align:center;}
+
+
+/** 情景对话栏目-左侧布局部分 **/
+/* 情景对话栏目-左侧布局部分-上 */
+.c-m-l-t-box{float:left; width:120px; padding:0 15px 0 30px; border-right:1px solid #edeeee; font-family:"SimSun";}
+.c-m-l-t-box1{padding-left:0;}
+.c-m-l-t-box3{width:300px; border-right:none;}
+.c-m-l-t-b-title{font:bold 14px "SimSun"; color:#666;}
+.c-m-l-t-typeList{margin:8px 0 0 -2px; color:#dfdfdf;}
+.c-m-l-t-typeList a{display:inline-block; *vertical-align:middle; padding:6px 4px; *padding:6px 3px; margin-left:-2px; font:12px "SimSun"; color:#666; text-decoration:none; word-break:break-work;}
+.c-m-l-t-typeList .cur, .c-m-l-t-typeList a:hover{color:#05b1d9;}
+/* 情景对话栏目-左侧布局部分-下 */
+.c-m-l-b-box{padding:10px 0; border-bottom:1px solid #edeeee; font-family:"SimSun"; overflow:hidden;}
+.c-m-l-b-boxNoBorderBottom{border-bottom:none;}
+.c-m-l-b-b-title{margin:10px 0; *margin-top:20px; font:bold 16px "SimSun"; color:#333;}
+.c-m-l-b-b-guide{margin-bottom:15px;}
+.c-m-l-b-b-g-pronunciation{float:left; width:53px; height:26px; background:url(../images/yyyd_index/icon.png) no-repeat -260px -79px; text-indent:-9999em;}
+.c-m-l-b-b-g-operation{float:left; margin-left:10px; height:23px; line-height:23px; border:1px solid #cccdcd; border-bottom:2px solid #cccdcd;}
+.c-m-l-b-b-g-operation a{height:23px; padding:0 8px; line-height:23px; color:#05b1d9;}
+.c-m-l-b-b-conversation{overflow:hidden;}
+.c-m-l-b-b-c-box{margin-bottom:10px; overflow:hidden;}
+.c-m-l-b-b-c-b-speaker{float:left; margin:10px 10px 0 0; font:bold 14px "SimSun"; color:#666;}
+.c-m-l-b-b-c-b-content{float:left;}
+.c-m-l-b-b-c-b-c-left{float:left; width:15px; height:56px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -30px 0;}
+.c-m-l-b-b-c-b-c-right{float:left; width:5px; height:56px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -50px 0;}
+.c-m-l-b-b-c-b-c-main{float:left; padding-left:10px; height:56px; background:url(../images/yyyd_index/conversation_bg1.png) repeat-x;}
+.c-m-l-b-b-c-b-c-m-english{float:left; margin-top:4px; height:24px; font:14px/24px "SimSun"; color:#f5931c;}
+.c-m-l-b-b-c-b-c-m-pronunciation{float:left; margin:7px 15px 0 5px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px;}
+.c-m-l-b-b-c-b-c-m-chinese{height:24px; font:12px/20px "SimSun"; color:#666;}
+.c-m-l-b-b-c-b-cs-left{float:left; width:15px; height:58px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat 0 0;}
+.c-m-l-b-b-c-b-cs-right{float:left; width:5px; height:58px; background:url(../images/yyyd_index/conversation_bg1_bg_lr.png) no-repeat -20px 0;}
+.c-m-l-b-b-c-b-cs-main{float:left; padding-left:10px; height:58px; background:url(../images/yyyd_index/conversation_bg2.png) repeat-x;}
+.c-m-l-b-b-c-b-cs-m-english{float:left; margin-top:4px; height:24px; font:14px/24px "SimSun"; color:#df4928;}
+
+
+/** 每日英语栏目-左侧布局部分 **/
+/* 每日英语栏目-左侧布局部分-上 */
+.c-m-left4{border:none;}
+.c-m-l-top4{background-color:inherit; border:none; box-shadow:none;}
+/* 每日英语栏目-左侧布局部分-上-选择日期 */
+.c-m-l-t-dateWrap{position:relative; height:31px; line-height:31px; vertical-align:top; color:#82d8ec;}
+.c-m-l-t-dateWrap a{display:inline-block; vertical-align:top; *display:inline; *zoom:1; color:#82d8ec;}
+.c-m-l-t-d-date{display:inline-block; vertical-align:top; *margin-top:-5px; *display:inline; *zoom:1; padding-right:10px; font:bold 30px/31px "Microsoft Yahei"; *line-height:40px; color:#666;}
+.c-m-l-t-d-prev{margin:0 5px; width:31px; height:31px; background:url(../images/yyyd_index/icon.png) no-repeat 0 -110px; text-indent:-9999em;}
+.c-m-l-t-d-next{margin-right:5px; width:31px; height:31px; background:url(../images/yyyd_index/icon.png) no-repeat -35px -110px; text-indent:-9999em;}
+.c-m-l-t-d-prev:hover{background-position:-70px -110px;}
+.c-m-l-t-d-next:hover{background-position:-105px -110px;}
+.c-m-l-t-d-today, .c-m-l-t-d-choose{padding:0 10px;}
+.c-m-l-t-d-separator{display:inline-block; vertical-align:top;}
+/* 每日英语栏目-左侧布局部分-上-展示 */
+.c-m-l-t-studyList{margin-top:15px;}
+.c-m-l-t-s-box{float:left; padding:15px; margin:0 10px 10px 0; width:285px; height:135px; background-color:#fff; border:1px solid #edeeee; border-bottom-width:2px;}
+.c-m-l-t-s-b-title{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
+.c-m-l-t-s-box .c-m-r-p3-t-sentence4{width:265px;}
+/* 每日英语栏目-左侧布局部分-下 */
+.c-m-l-bottom4{background-color:inherit; border:none; box-shadow:none;}
+.c-m-l-b-box4{padding:20px 25px; width:593px; background-color:#fff; border:1px solid #edeeee; border-bottom-width:2px;}
+/* 每日英语栏目-左侧布局部分-下-展示 */
+.c-m-l-b-b-title4{padding:10px; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
+.c-m-l-b-b-title4 span{font:12px/20px "SimSun"; color:#05b1d9;}
+.c-m-l-b4-bread{float:right;}
+.c-m-l-b4-bread .c-m-l-b4-b-title{color:#999;}
+/* 日历样式 */
+.g-calendar{display:none;top:40px;left:240px;width:340px;height:275px;border:1px solid #d7d7d7; *zoom:1;position:absolute;float: left;background: #f8f8f8}
+.g-calendar-hd{text-align:center;height:28px;line-height:28px;border-bottom:1px solid #d7d7d7;letter-spacing:2px;background: #f8f8f8;}
+.g-calendar-tit{overflow:hidden;*zoom:1;}
+.g-calendar-bd span,.g-calendar-tit span{float:left;display:inline;width:35px;height:31px;line-height:35px;text-align:center;margin: 2px 6px;}
+.g-calendar-prev,.g-calendar-next{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;position:absolute}
+.g-calendar-prev{background-position: 0 0;left: -1px;top: -1px;}
+.g-calendar-next{background-position:-39px 0;right:-1px;top: -1px;}
+.g-calendar-bd span{position:relative;zoom:1;color: #4fc7e3;}
+.g-calendar-bd span.g-calendar-grey{color:#d8d8d8;}
+.g-calendar-bd span em{display:block;position:absolute;top:-500px;left:0;width:200px;background:#fff;z-index:99;border:1px solid #000;}
+.g-calendar-bd span em a{display:block;margin:4px 0;color:#000}
+.g-calendar-bd span em a:hover{color:#04729e}
+.g-calendar-bd span:hover,.g-calendar-bd .g-calendar-on{background-color:#00A8EC;color:#fff}
+.g-calendar-bd span:hover em{top:0;left:34px}
+
+
+/** 课外读物栏目-左侧布局部分 **/
+.c-m-left5{width:706px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc}
+.c-m-l-box{padding:20px;}
+.c-m-l-b-title{padding:7px 20px; border:1px solid #d7d7d7; border-top-width:2px; font:bold 12px "SimSun"; background-color:#f8f8f8; color:#999;}
+/* 课外读物栏目-左侧布局部分-上 */
+.c-m-l-b-bookList{overflow:hidden;}
+.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 20px; width:140px; overflow:hidden; cursor:pointer;}
+.c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
+.c-m-l-b-b-b-link img{margin:1px;}
+.c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
+/* 课外读物栏目-左侧布局部分-下 */
+.c-m-l-b-essayList{padding-top:10px;}
+.c-m-l-b-essayList span{float:left; text-decoration:none;}
+.c-m-l-b-e-th{padding:0 20px; height:35px; line-height:35px;}
+.c-m-l-b-e-tr{display:block; padding:0 20px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
+.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:33px; line-height: 33px; border-top:1px solid #ddeaef; border-bottom:1px solid #ddeaef; text-decoration:none;}
+.c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
+.c-m-l-b-e-td1{width:45px;}
+.c-m-l-b-e-td2{width:415px;}
+.c-m-l-b-e-td3{width:55px;}
+.c-m-l-b-e-td4{width:55px;}
+.c-m-l-b-e-td5{width:55px;}
+/* 课外读物栏目-左侧布局部分-分页 */
+.c-m-l-b-paging{padding:20px;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
+
+
+/** 英语词典栏目-左侧布局部分 **/
+.c-m-left9{border:none;}
+.c-m-l-b-top{width:670px; height:20px; background:url(../images/yyyd_index/dictionary_bgTop.png) no-repeat;}
+.c-m-l-b-bottom{width:670px; height:20px; background:url(../images/yyyd_index/dictionary_bgBottom.png) no-repeat;}
+.c-m-l-b-center{width:670px; background:url(../images/yyyd_index/dictionary_bg.png) repeat-y;}
+.c-m-l-b-c-box{padding:20px 0 10px 0; margin:0 auto; width:580px; border-bottom:1px solid #dcdcdc; overflow:hidden;}
+.c-m-l-b-c-b-noBorderBottom{border-bottom:none;}
+.c-m-l-b-c-box h2{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
+/* 英语词典栏目-左侧布局部分-Part1 */
+.c-m-l-b-c-b-search{padding-bottom:10px; overflow:hidden;}
+.c-m-l-b-c-b-search input{float:left; padding-left:10px; width:440px; height:40px; line-height:40px; border:2px solid #b7b7b7;}
+.c-m-l-b-c-b-search a{float:left; margin-left:-2px; width:120px; height:44px; font:bold 18px/44px "Microsoft Yahei"; background-color:#f5931c; color:#fff; text-align:center;}
+.c-m-l-b-c-b-question{padding-bottom:5px;}
+.c-m-l-b-c-b-question-orange{color:#f5931c;}
+/* 英语词典栏目-左侧布局部分-Part2 */
+.c-m-l-b-c-b-box{float:left; position:relative; margin-right:20px; padding:10px 0; width:255px;}
+.c-m-l-b-c-b-box2{width:300px; margin-right:0;}
+.c-m-l-b-c-b-b-s-letter{font:24px "Microsoft Yahei"; color:#05b1d9;}
+.c-m-l-b-c-b-b-s-pronunciation{display:inline-block; vertical-align:top; *display:inline; *zoom:1; margin-top:8px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px; text-indent:-9999em;}
+.c-m-l-b-c-b-b-explanation{display:block; margin-bottom:5px;}
+.c-m-l-b-c-b-b-addNote{display:inline-block; color:#05b1d9;}
+.c-m-l-b-c-b-b-picture{position:absolute; top:20px; right:25px;}
+.c-m-l-b-c-b-b-qaWrap{font-size:14px; margin-bottom:20px;}
+.c-m-l-b-c-b-b-q-question{float:left; margin-right:40px;}
+.c-m-l-b-c-b-b-q-answerWrap{float:left; width:200px;}
+.c-m-l-b-c-b-b-q-answerWrap span{display:inline-block; width:98px; vertical-align:top; *display:inline; *zoom:1;}
+.c-m-l-b-c-b-b-q-answerWrap input{float:left; margin:4px 3px 0 0; *margin:1px 3px 0 0;}
+.c-m-l-b-c-b-b-q-answerWrap label{float:left;}
+.c-m-l-b-c-b-b-status{position:relative; height:32px; line-height:32px; background-color:#a5ce00; color:#fff;}
+.c-m-l-b-c-b-b-s-icon{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:6px 5px 0 30px; width:19px; height:19px; background:url(../images/yyyd_index/icon.png) no-repeat -140px -110px;}
+.c-m-l-b-c-b-b-s-result{display:inline-block; *display:inline; *zoom:1; vertical-align:top; font-weight:bold;}
+.c-m-l-b-c-b-b-s-explanation{position:absolute; right:30px;}
+/* 英语词典栏目-左侧布局部分-Part3 */
+.c-m-l-b-c-b-conversation{margin-bottom:20px; font:14px "SimSun";}
+.c-m-l-b-c-b-c-english{float:left; margin-top:4px; height:24px; color:#f5931c;}
+.c-m-l-b-c-b-c-pronunciation{float:left; margin:3px 0 0 5px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px;}
+.c-m-l-b-c-b-c-chinese{height:24px; font:12px/20px "SimSun";}
+
+
+/** 页面右侧布局-英语园地公共资源部分 **/
+.c-m-right{float:left; padding:20px; width:208px; border:1px solid #dcdcdc;}
+.c-m-right h2{font-size:16px; font-family:"microsoft yahei"; color:#666; margin-bottom:5px; font-weight:bold;}
+.c-m-right h2 em{display:inline-block; width:18px; height:18px; background:url(../images/zwyd_index/icon.png) no-repeat -218px 0; margin-left:4px; position:relative; top:3px;}
+/* 页面右侧布局-英语园地公共资源部分-第一部分 */
+.c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
+.c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
+.c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
+.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}
+/* 页面右侧布局-英语园地公共资源部分-第二部分 */
+.c-m-r-part2{margin-top:10px; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
+.c-m-r-p2-soundmark{margin-bottom:5px; height:26px;}
+.c-m-r-p2-s-letter{padding-right:8px; font:bold 24px/26px "Arial"; color:#05b1d9;}
+.c-m-r-p2-s-symbol{padding-right:10px; font:14px/26px "Arial"; color:#999;}
+.c-m-r-p2-s-pronunciation{display:inline-block; line-height:26px; vertical-align:top; width:69px; height:26px; background:url(../images/yyyd_index/icon.png) no-repeat -260px -50px; text-indent:-9999em;}
+.c-m-r-p2-explanation{margin-bottom:8px; font:12px/16px "SimSun"; color:#999;}
+.c-m-r-p2-detail{margin-bottom:3px;}
+.c-m-r-p2-detail a{padding-right:5px; font:12px/12px "SimSun"; color:#05b1d9;}
+/* 页面右侧布局-英语园地公共资源部分-第三部分 */
+.c-m-r-part3{margin-top:10px; padding-bottom:5px; border-bottom:1px solid #dcdcdc;}
+.c-m-r-p3-listeningList li{height:26px; margin-bottom:8px;}
+.c-m-r-p3-l-pronunciation{display:inline-block; margin:0 5px; line-height:26px; vertical-align:top; width:69px; height:26px; background:url(../images/yyyd_index/icon.png) no-repeat -260px -50px; text-indent:-9999em;}
+.c-m-r-p3-l-answer{display:inline-block; font:12px/26px "SimSun"; color:#05b1d9;}
+/* 页面右侧布局-英语园地公共资源部分-第四部分 */
+.c-m-r-part4{margin-top:10px; border-bottom:none;}
+.c-m-r-p3-translationList li{margin-bottom:10px;}
+.c-m-r-p3-translationList span{display:inline-block; vertical-align:top;}
+.c-m-r-p3-t-sentence{width:190px; line-height:16px;}
+.c-m-r-p4-t-answer{margin-left:13px; height:16px; font:12px/16px "SimSun"; color:#05b1d9;}
+
+
+/* 弹层-每日英语栏目 */
+.overlay{z-index:10;}
+.pop{position:absolute; display:none; width:400px; height:175px; background-color:#fff; border:3px solid #fbe78d; z-index:11;}
+.pop-tips{margin-top:50px;font:14px "SimSun";text-align:center;}
+.pop-buttonWrap{text-align:center; margin-top:25px;}
+.pop-buttonWrap a{display:inline-block; margin:0 5px; width:82px; height:34px; background-color:#05b1d9; font:14px/34px "SimSun"; text-align:center; text-decoration:none; color:#fff;}

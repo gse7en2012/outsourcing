@@ -1,0 +1,75 @@
+
+/*resoucrescs page*/
+.c-m-nav a{float: left;height: 34px;line-height: 34px;color: #fff;padding: 0 15px;margin-right: 5px;background: #05b1d9;text-decoration: none;}
+.c-m-nav .cur,.c-m-nav a:hover{background: #f9f9f9;color: #666;}
+
+.c-m-desc{color: #999;line-height: 42px;text-indent: 15px;background: none;border-bottom: 1px solid #ccc;}
+
+.c-m-sub{color: #999;line-height: 42px;text-indent: 15px;background: none;}
+.c-m-sub a{color: #999;}
+
+.c-m-left{float: left;width: 718px;border: 1px solid #f1f1f1;box-shadow: 1px 1px 1px #dfdfdf;background: #fff;}
+.c-m-l-title{position: relative;color: #333;font-size: 24px;font-family: "microsoft yahei";font-weight: bold;margin:20px 15px;text-indent: 80px;}
+.c-m-l-t-tag{position: absolute;left:0;top:4px;width: 76px;height: 27px;line-height: 27px;background: url(../images/resources_page/spr_resocures_page.png) no-repeat 0 0;color: #fff;text-indent: 24px;font-size: 14px;}
+.c-m-l-t-bot{text-indent: 108px; margin-top: -15px;margin-bottom: 15px;}
+.c-m-l-cont{height: 560px;overflow: auto;margin: 10px 15px;border: 1px solid #ccc;}
+
+.c-m-l-c-bot{margin-top: 15px;}
+.c-m-l-c-b-left{float: left;margin-left: 15px;width:50%;overflow: hidden;}
+.c-m-l-c-b-btn{float: left;width: 170px;height: 45px;background: url(../images/resources_page/spr_resocures_page.png) 0 -28px;color: #fff;font-size: 20px;font-family: "microsoft yahei";text-indent: 45px;line-height: 45px;text-decoration: none;}
+.c-m-l-c-b-btn:hover{cursor: pointer;text-decoration: none;}
+.c-m-l-c-b-left p{color: #b0b0b0;line-height: 22px;margin-left: 10px;float: left;}
+
+.c-m-l-c-b-right{float: left;line-height: 40px;}
+.c-m-l-c-b-right a{float: left;width: 40px;height: 40px;background: url(../images/resources_page/spr_resocures_page.png) no-repeat -5px -93px;cursor: pointer;margin-right: 10px}
+.c-m-l-c-b-right .c-m-l-c-b-up{line-height: 40px;text-indent: 44px;width: 80px;}
+.c-m-l-c-b-right .c-m-l-c-b-a2{background-position: -88px -93px;}
+.c-m-l-c-b-right .c-m-l-c-b-a3{background-position: -141px -93px;}
+.c-m-l-c-b-right .c-m-l-c-b-a4{background-position: -195px -93px;}
+.c-m-l-c-b-right .c-m-l-c-b-a5{background-position: -248px -93px;}
+.c-m-l-c-b-right .c-m-l-c-b-a6{background-position: -301px -93px;}
+
+.c-m-l-c-b-tips{background: #fffae2;height: 34px;line-height: 34px;border: #f5e190 1px solid;line-height: 34px;color: #666;text-indent: 10px;clear: both;margin: 15px;position: relative;top: 12px;}
+.c-m-l-c-b-tips em{font-weight: bold;color: #05b1d9;}
+.c-m-l-c-b-tips .dot{height: 8px;width: 16px;background: url(../images/resources_page/spr_resocures_page.png) no-repeat -54px -152px;position: absolute;top: -8px;left:30px;}
+
+.c-m-l-discuss{clear: both;margin: 15px;margin-top: 30px}
+.c-m-l-discuss h3{font-size: 16px;font-family: "microsoft yahei";font-weight: bold;color: #666;margin-bottom: 10px;}
+.c-m-l-discuss textarea{border: 1px solid #afc8ad;width: 100%;resize: none;height: 70px;box-shadow: inset 0 1px 2px #b0b0b0;}
+.c-m-l-d-btn{float: right;clear: both;width: 90px;height: 36px;color: #fff;font-size: 16px;font-family: "microsoft yahei";text-align: center;line-height: 36px;background: #05b1d9;margin: 10px 0;margin-bottom: 30px;}
+
+.c-m-b-pagerbox{clear: both;position: relative;}
+.c-m-b-pagecount{position: absolute;left: 15px;line-height: 24px;color: #b0b0b0;}
+.c-m-b-pager{text-align: right;margin-bottom: 10px;margin-right: 15px;}
+.c-m-b-pager a{display: inline-block;color: #b0b0b0;background: #f8f8f8;padding: 3px 8px;text-decoration: none;cursor: pointer;}
+.c-m-b-pager a:hover,.c-m-b-pager .cur{background: #05b1d9;color: #fff;}
+
+.c-m-b-replys{margin: 15px;margin-bottom: 25px;}
+.c-m-b-replys li{position: relative;overflow: hidden;color: #666666;line-height: 22px;min-height: 60px;border-bottom: 1px solid #ebebeb;margin-top: 10px;}
+.c-m-b-replys li.last{border-bottom: none;}
+.c-m-b-replys li .name{float: left;width: 56px;color: #05b1d9;}
+.c-m-b-replys li p{margin-left:60px;position: relative;}
+.c-m-b-replys li .time{color: #b0b0b0;}
+.c-m-b-replys li .reply{position: absolute;right: 0;top: 2px;color: #05b1d9;}
+
+.c-m-right{border: 1px solid #d8d8d8;width: 238px;float: left;}
+.c-m-right h4{font-family: "microsoft yahei";font-size: 16px;color: #666666;font-weight: bold;}
+.c-m-r-p1-cont{margin-top: 10px;}
+.c-m-r-part1{margin: 20px 15px;border-bottom: 1px solid #e9e9eb;padding-bottom: 25px;}
+.c-m-r-part1 a{color: #05b1d9}
+.c-m-r-part1 p{color: #999;line-height: 22px;}
+.c-m-r-part1 .name{font-size: 14px;font-weight: bold;}
+.c-m-r-part1 .focus{display: inline-block;background: #fff;border: 1px solid #dfdfdf;width: 42px;height: 18px;line-height: 18px;margin-left: 5px;position: relative;top: -1px;background: url(../images/resources_page/spr_resocures_page.png) no-repeat -4px -144px;text-indent: 14px;}
+.c-m-r-part1 .focus:hover{text-decoration: none;}
+.c-m-r-c-avatar{float: left;width: 64px;height: 64px; display: block;margin-right: 10px;}
+
+.c-m-r-part2{margin: 15px;border-bottom: 1px solid #e9e9eb;padding-bottom: 15px;}
+.c-m-r-part2 ul{margin-top: 10px;}
+.c-m-r-part2 li{line-height: 26px; height: 26px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.c-m-r-part2 li a {color: #05b1d9; padding-left: 10px;}
+
+.c-m-r-part3{margin: 15px;}
+.c-m-r-part3 ul{margin-top: 10px;}
+.c-m-r-part3 li{line-height: 26px; height: 26px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.c-m-r-part3 li a {color: #05b1d9; padding-left:10px;}
+

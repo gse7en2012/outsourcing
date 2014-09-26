@@ -84,7 +84,7 @@
 
 .c-m-banner{float:left;padding-right:39px;height:244px;padding-top:15px;padding-left:20px;}
 .c-m-banner-btns{text-align:right;margin-top:5px;}
-.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:12px;background-color:#dfdfdf;border-radius: 12px;}
+.c-m-banner-btns span{display:inline-block;*display:inline;*zoom:1;width:12px;height:12px;background-color:#fff;border-radius: 12px;}
 .c-m-banner-btns .current{background-color:#fff0b1;width:50px;}
 .c-m-banner-pic img{display:block;width:238px;height:205px;}
 .c-m-banner-pic a{display:none;}
@@ -92,7 +92,7 @@
 
 
 /*override html&css*/
-.c-main-mid{width: 530px;border: 1px solid rgba(206, 225, 229,.4);border-radius: 6px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);float: left;background: #fff;overflow: hidden;padding-bottom: 20px;}
+.c-main-mid{width: 530px;border: 1px solid rgba(206, 225, 229,.4);border-radius: 6px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);float: left;background: #fff;overflow: hidden;padding-bottom: 20px;border-left: 0;border-top-left-radius: 0;}
 
 .c-main-right{width: 272px;float: right;}
 .c-m-r-content{margin-top: 60px;min-height: 400px;background: #fff9e4;border-radius: 5px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);}

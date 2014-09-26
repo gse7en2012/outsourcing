@@ -44,6 +44,8 @@ a:hover{text-decoration: underline;}
 .h-btn .h-b-apps li{*float:left;*clear:both;}
 .h-btn .h-b-apps:hover ul{display:block;}
 .h-btn .h-b-apps ul a,.h-btn .h-b-apps ul a:hover{text-align:center;width:85px;height:122px;text-indent:-999em;overflow:hidden;border:none;}
+.h-btn .dot{display: inline-block;width: 10px;height: 5px;background: url(../images/resources_index/spr_resources.png) -44px -59px no-repeat;position: relative;left: 8px;top: -3px;}
+
 .h-inform{float:right;height:60px;}
 .h-i-phone,.h-i-mail,.h-i-user{position:relative;float:left;width:50px;height:60px;color:#fff;background-image:url(../images/spr.png);background-repeat:no-repeat;text-align:center;}
 .h-i-phone{background-position:14px 0;}
@@ -84,7 +86,7 @@ a:hover{text-decoration: underline;}
 .c-h-s-tag em{display: inline-block;width: 7px;height: 5px;background: url(../images/resources_index/spr_resources.png) 0 -58px no-repeat;margin-left: 8px;}
 .c-h-s-tagbox{display: none;}
 .c-h-s-text{float: left;height: 100%;width: 290px;border: 0;background: #fff;}
-.c-h-s-btn{float: left;background: #f5931c url(../images/resources_index/spr_resources.png) 0 -76px;width: 79px;height: 100%;}
+.c-h-search-btn{float: left;background: #f5931c url(../images/resources_index/spr_resources.png) 0 -76px;width: 79px;height: 100%;}
 .c-h-search-bot{position: absolute;right: 18px;top:100px; }
 .c-h-search-bot li{float: left;margin: 0 10px;color: #6c6c6c}
 .c-h-search-bot a{color: #6c6c6c;}
@@ -132,10 +134,9 @@ a:hover{text-decoration: underline;}
 
 
 /*= footer start*/
-#footer{width:960px;margin:0 auto;}
-#footer_content{margin-left:170px;padding-bottom:20px;overflow:hidden;}
+#footer{width:960px;margin:0 auto;text-align: center;}
+#footer_content{padding-bottom:20px;overflow:hidden;margin: 0}
 #footer_lnk{overflow:hidden;margin-bottom:10px;margin-left:-16px;}
-#footer_lnk li{float:left;*display:inline;border-left:1px solid #fff;padding:0 15px;line-height:14px;}
-#footer_lnk a{color:#999;}
-#footer_copy,#footer_copy a{color:#999;}
+#footer_lnk a{color:#808080;padding: 0 6px}
+#footer_copy,#footer_copy a{color:#b0b0b0;}
 /* end */
