@@ -104,6 +104,7 @@ a:hover{text-decoration: underline;}
 .c-nav{}
 .c-nav a{display:block;height:60px;text-indent:-999em;overflow:hidden;background:url(../images/nav_t.png) 0 0 no-repeat;}
 .c-nav a:hover,.c-nav .now{background-image:url(../images/nav_t.png);background-repeat:no-repeat;}
+.c-nav .now{cursor:default;}
 .c-nav .c-nav-1:hover{background-position:-170px 0;}
 .c-nav .c-nav-2:hover{background-position:-170px -60px;}
 .c-nav .c-nav-3:hover{background-position:-170px -120px;}
