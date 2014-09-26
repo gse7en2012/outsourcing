@@ -213,19 +213,55 @@
             </ol>
         </div>
         <div class="bot-main-right">
-            <h3>排行榜<span>总积分</span><i>上周积分上升排行</i></h3>
-            <ol class="bot-main-list">
-                <li><span class="num h">1</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num h">2</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num h">3</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num">4</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-            </ol>
-            <ol class="bot-main-list">
-                <li><span class="num">5</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num">6</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num">7</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-                <li><span class="num">8</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
-            </ol>
+            <h3>排行榜</h3>
+            <ul class="tab-nav clr">
+                <li class="current">上周积分</li>
+                <li>上升排行</li>
+                <li>总积分</li>
+            </ul>
+            <div class="tab-cont">
+                <ol class="bot-main-list">
+                    <li><span class="num h">1</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num h">2</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num h">3</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">4</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+                <ol class="bot-main-list">
+                    <li><span class="num">5</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">6</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">7</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">8</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+            </div>
+            <div class="tab-cont">
+                <ol class="bot-main-list">
+                    <li><span class="num h">1</span><a class="name" href="#">颜子涵2</a><span class="score">622</span></li>
+                    <li><span class="num h">2</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num h">3</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">4</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+                <ol class="bot-main-list">
+                    <li><span class="num">5</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">6</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">7</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">8</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+            </div>
+            <div class="tab-cont">
+                <ol class="bot-main-list">
+                    <li><span class="num h">1</span><a class="name" href="#">颜子涵3</a><span class="score">622</span></li>
+                    <li><span class="num h">2</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num h">3</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">4</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+                <ol class="bot-main-list">
+                    <li><span class="num">5</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">6</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">7</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                    <li><span class="num">8</span><a class="name" href="#">颜子涵</a><span class="score">622</span></li>
+                </ol>
+            </div>
+
         </div>
     </div>
 </section>
@@ -248,4 +284,7 @@
 </div>
 <!-- end -->
 </body>
+<script>
+    com.tab('.bot-main-right .tab-nav li', '.bot-main-right .tab-cont');
+</script>
 </html>
