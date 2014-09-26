@@ -55,6 +55,7 @@
 .c-m-item th{border-bottom: 1px solid #d8d8d8;height: 40px;}
 .c-m-item td{border-bottom: 1px solid #ebebeb;color: #999;line-height: 26px;padding: 10px 10px 10px 0; vertical-align:top;}
 .c-m-item .lh20 td{line-height: 20px;}
+.c-m-item .c-upload-btn-area td{line-height: 50px;}
 
 .c-m-item a{color: #05b1d9;padding: 4px;}
 .c-m-item .td-special-a{padding-left:0;}
@@ -76,7 +77,7 @@
 .c-upload-table tr:hover{background: #ffffcc}
 .c-upload-btn-area td{border: 0;height: 60px;line-height: 60px;}
 .c-config-info{color: #999;font-size: 12px;float:left}
-.page-btn{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;float:left;margin: 15px 5px 15px 0;}
+.page-btn{display: block;width: 40px;height: 30px;background: url(../images/page.jpg) no-repeat;float:left;margin: 9px 1px;}
 .c-upload-btn-area .page-btn{padding:0;}
 .page-prev{background-position: 0 0;margin-left: 10px}
 .page-next{background-position:-39px 0 }
