@@ -5,7 +5,7 @@
 .c-nav a{position: relative;}
 .c-nav-8 em{position: absolute;width: 25px;height: 25px;line-height: 24px;font-size:14px;color: #fff;text-align: center;background: url(../images/spr_t.png) -312px -1px no-repeat;top: 20px;right: 10px;text-indent: 0;}
 /* =index */
-.c-main{position:relative;padding:198px 0 0;margin-top: 30px;}
+.c-main{position:relative;padding:198px 0 0;}
 .c-m-subject{position:absolute;top:30px;left:0;z-index:5;padding:0 30px;*padding-bottom:32px;background-color:#FFF;border-bottom:1px solid #dfdfdf;}
 .c-m-subject-on{height:auto;}
 .c-m-subject-d{float:left;*display:inline;width:210px;margin-bottom:20px;border-right:1px solid #dfdfdf;}
@@ -13,7 +13,7 @@
 .c-m-s-title{width:85px;height:30px;background:url(../images/spr_t.png) no-repeat;text-indent:12px;line-height:30px;color:#fff;}
 
 .content{position: relative;}
-.c-m-s-message{position: absolute;top:178px;height: 30px;background: #fffae2;border: 1px solid #f5e190;width: 790px;left: 168px;line-height: 30px;color: #666;font-size: 12px;}
+.c-m-s-message{position: absolute;top:178px;height: 30px;background: #fffae2;border: 1px solid #f5e190;width: 790px;left: 168px;line-height: 30px;color: #666;font-size: 12px;z-index: 10;}
 .c-m-s-message .icon{float: left;width: 16px;height: 16px;background: url(../images/spr_t.png) -203px 0 no-repeat;margin-top: 6px;
     margin-left: 12px;margin-right: 8px;}
 .c-m-s-message .close{position: absolute;width: 16px;height: 16px;background: url(../images/spr_t.png) -224px 0 no-repeat;right: 14px;top: 7px;text-indent: -9999em;}
