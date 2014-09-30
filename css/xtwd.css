@@ -65,8 +65,8 @@
 /*.bot-main-right h3 i{display: block;width: 122px;height: 28px;line-height: 28px;background: #fff;border: 1px solid #dfdfdf;font-size: 12px;font-style: normal;color: #666;text-align: center;float:right;margin-top: -6px;margin-right: 20px;}*/
 /*.bot-main-right h3 span{color: #999;float:right;font-size:12px;}*/
 .bot-main-right .tab-nav{position: absolute;top: -8px;right: 12px}
-.bot-main-right .tab-nav li{color: #999;font-size:12px;float:left;height: 28px;line-height: 28px;padding:0 6px;cursor:default;}
-.bot-main-right .tab-nav li.current{background: #fff;border: 1px solid #dfdfdf;color: #666;text-align: center;}
+.bot-main-right .tab-nav li{color: #999;font-size:12px;float:left;height: 28px;line-height: 28px;padding:0 6px;cursor:default;border:1px solid #edeeee;}
+.bot-main-right .tab-nav li.current{background: #fff;border: 1px solid #dfdfdf;color: #666;text-align: center;line-height: 26px;}
 .bot-main-right .tab-cont{display: none}
 .bot-main-right .current{display: block;}
 .bot-main-right ol li{width: 130px;}
