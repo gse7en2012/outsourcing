@@ -1,5 +1,5 @@
 /* =index */
-.c-main{position:relative;padding:198px 0 0;}
+/*.c-main{position:relative;padding:198px 0 0;}*/
 
 .c-m-subjects{margin: 30px;}
 .c-m-subjects ul{margin:0 10px;}
@@ -15,7 +15,7 @@
 .c-m-s-tab a{color: #999;padding: 0 10px;line-height: 30px;}
 
 .content{position: relative;}
-.c-m-s-message{position: absolute;top:178px;height: 34px;background: #fffae2;border: 1px solid #f5e190;width: 810px;left: 148px;line-height: 34px;color: #666;font-size: 12px;}
+.c-m-s-message{position: absolute;top:178px;height: 34px;background: #fffae2;border: 1px solid #f5e190;width: 788px;right:0;line-height: 34px;color: #666;font-size: 12px;}
 .c-m-s-message .icon{float: left;width: 16px;height: 16px;background: url(../images/spr_t.png) -203px 0 no-repeat;margin-top: 8px;
     margin-left: 12px;margin-right:12px;}
 .c-m-s-message .close{position: absolute;width: 16px;height: 16px;background: url(../images/spr_t.png) -224px 0 no-repeat;right: 10px;top: 10px;text-indent: -9999em;}

@@ -1,0 +1,11 @@
+/* 我的同学 */
+.c-parents-cont{margin-right: -200px}
+.c-parents-info{width: 216px;height: 115px;padding: 10px 8px;border: 1px solid #fff;float:left;margin:0 10px 10px 0}
+.c-parents-info:hover{background: #ffffcc;border-color:#ffcc00}
+.c-parents-photo{display: block;float:left;}
+.c-parents-photo img{display:block; margin-bottom:10px; width:58px; height:58px; border:3px solid #dfdfdf; border-radius:50%;}
+.c-parents-intro{float:left;margin:2px 0 0 20px}
+.c-parents-title{color: #05b1d9;font-size: 14px;clear: right;font-weight: bold}
+.c-parents-location{color: #727272;font-size: 14px;line-height: 20px;}
+.c-parents-btn{display: block;width: 64px;height: 24px;line-height: 24px;color: #fff;background: #05b1d9;text-align: center;cursor: pointer }
+.c-parents-infoList span{font-weight:bold; color:#727272;}
