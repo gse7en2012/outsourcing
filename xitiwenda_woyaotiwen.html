@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <link rel="stylesheet" href="css/com_resources.css"/>
+    <link rel="stylesheet" href="css/xtwd_wytw.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+    <div class="inner">
+        <h1 class="h-logo"><a href="#"><img src="images/logo.png" alt="同步课堂"/></a></h1>
+        <nav class="h-btn">
+            <a href="">我的首页</a>
+            <a href="">空间</a>
+            <a href="">问答</a>
+            <a href="">广播</a>
+            <a href="">投票</a>
+            <a href="">收藏</a>
+            <a class="h-btn-now">应用<em class="dot"></em></a>
+        </nav>
+        <div class="h-inform">
+            <div class="h-i-phone">
+				<span>
+					<em>点击或扫描下载</em>
+					<a href=""><img src="images/android.png" alt=""/>安卓版</a>
+					<a href=""><img src="images/iphone.png" alt=""/>苹果版</a>
+				</span>
+            </div>
+            <div class="h-i-mail">10</div>
+            <div class="h-i-user">
+				<span>
+					<a class="quick" href="">桌面快捷键</a>
+					<a class="logout" href="">退出</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="header-nav">
+    <div class="header-nav-inner">
+        <div class="h-n-i-cont">
+            <a href="#">同步资源</a>
+            <a href="#">同步习题</a>
+            <a href="#">英语园地</a>
+            <a href="#">作文园地 </a>
+            <a href="#">学习园地</a>
+            <a href="#">广播广场 </a>
+            <a href="#">公共空间</a>
+            <a href="#">投票</a>
+            <a href="#">词典 </a>
+        </div>
+    </div>
+</nav>
+<!-- end -->
+<!-- content start -->
+<div class="wrap">
+    <div class="inner content clr">
+        <!-- content start -->
+        <header class="c-header">
+            <div class="c-h-left">
+                <h1>同步资源</h1>
+            </div>
+
+            <div class="c-h-search">
+                <span class="c-h-s-tag">资源<em></em></span>
+                <ul class="c-h-s-tagbox">
+                    <li>资源</li>
+                    <li>习题</li>
+                </ul>
+                <input class="c-h-s-text">
+                <a href="javascript:;" class="c-h-search-btn"></a>
+            </div>
+            <ul class="c-h-search-bot">
+                <li><a href="#">高级搜索&nbsp;&nbsp;&nbsp;&nbsp;| </a></li>
+                <li><a href="#">快乐学习</a></li>
+                <li><a href="#">家有儿女</a></li>
+                <li><a href="#">教师园地</a></li>
+                <li><a href="#">汉语字典</a></li>
+                <li><a href="#">英语词典</a></li>
+            </ul>
+
+
+        </header>
+        <!-- end -->
+        <!-- content start -->
+        <!-- end -->
+        <!-- content start -->
+        <article class="c-main clr">
+            <!-- 主要内容 -->
+
+            <div class="c-main-wytw">
+                <form action="post">
+                    <table class="c-m-w-table">
+                        <tr>
+                            <th>分类：</th>
+                            <td>
+                               <label class="label-flt"><input type="radio" name="type" checked>同步习题</label>
+                                <label class="label-flt"><input type="radio" name="type">综合试题</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><span class="c-m-w-t-required">**</span> 名称：</th>
+                            <td>
+                                <input class="text">
+
+                                <div class="c-m-w-t-tips">
+                                    <span class="c-m-w-t-t-arrow"></span>
+                                    建议名称应包括：出处、名称、题号，例：广州市 2009年中考模拟数学 1试 20题
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>年级：</th>
+                            <td>
+                                <select>
+                                    <option>一年级</option>
+                                    <option>二年级</option>
+                                    <option>三年级</option>
+                                    <option>四年级</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>学科：</th>
+                            <td>
+                                <select>
+                                    <option>语文</option>
+                                    <option>数学</option>
+                                    <option>英语</option>
+                                    <option>物理</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><span class="c-m-w-t-required">**</span>教材章节：</th>
+                            <td>
+                                <label><input type="radio" checked>人教版语文一年级上册 → 课文（一） → 4 哪座房子最漂亮</label>
+                                <a href="#" class="choose-btn">选择分类</a>
+
+                                <div class="c-m-w-t-tips">
+                                    <span class="c-m-w-t-t-arrow"></span>
+                                    当选择“分类”中的“同步习题”类别时必须选择此项。<br>
+                                    请您选择正确的分类，以使您的问题尽快得到解答。
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><span class="c-m-w-t-required">**</span>问题内容：</th>
+                            <td>
+                                <div class="c-m-w-t-editor"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>悬赏分：</th>
+                            <td>
+                                <select>
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                </select>
+                                你目前的积分：<span class="point">71</span>
+
+                                <div class="c-m-w-t-tips">
+                                    <span class="c-m-w-t-t-arrow"></span>
+                                    悬赏分越高，您的问题会越受关注，从而得到更佳答案。
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>匿名设定：</th>
+                            <td>
+                                <label><input type="checkbox" checked>您可以对问题设定匿名，但您需要付出积分10分。 </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input type="submit" class="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </article>
+        <!-- end -->
+
+        <!-- tips start -->
+        <div class="aside">
+            <a class="contract" href=""></a>
+            <a class="help" href=""><span>帮助中心</span></a>
+        </div>
+        <!-- end -->
+    </div>
+
+</div>
+<!-- end -->
+<!-- footer start -->
+<div id="footer">
+    <div id="footer_content">
+        <div id="footer_lnk">
+            <a href="http://www.ldcchina.com/about.html" target="_blank">关于我们</a> |
+            <!-- <a href='http://www.ldcchina.com/products.html' target='_blank'>产品服务</a>  -->
+            <a href="http://www.ldcchina.com/employ.html" target="_blank">招贤纳士</a> |
+            <a href="http://www.ldcchina.com/partner.html" target="_blank">合作伙伴</a> |
+            <a href="http://www.ldcchina.com/contact.html" target="_blank">联系我们</a> |
+            <a href="http://www.ldcchina.com/contact.html" target="_blank">帮助中心</a>
+        </div>
+        <div id="footer_copy">Copyright © 2009-2014 HuaTeng Inc. All Rights Reserved ICP:粤B2-20090043 <a
+                href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13056377号</a>　
+        </div>
+    </div>
+</div>
+<!-- end -->
+</body>
+<script>
+    com.tab('.bot-main-right .tab-nav li', '.bot-main-right .tab-cont');
+</script>
+</html>
