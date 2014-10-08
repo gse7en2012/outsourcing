@@ -19,6 +19,7 @@ body{background: #f9f9f9;}
 .c-m-w-table label input{position: relative;margin-right: 3px;top: 3px;border: 0;}
 .c-m-w-table input.text{border: 1px solid #ccc;height: 22px;line-height: 22px;padding: 0 5px;position: relative;top: -3px;}
 .c-m-w-table select{border: 1px solid #ccc;height: 22px;line-height: 22px;color: #999;padding:0 4px;width:90px;font-size: 12px;margin-right: 20px;}
+.c-m-w-table option{height: 22px;line-height: 22px;}
 
 .c-m-w-table .c-m-w-t-tips{background: #fffae2;float: left;clear: both;border: 1px solid #f5e190;padding: 8px 15px;line-height: 24px;position: relative;margin-top: 10px;}
 
@@ -27,6 +28,25 @@ body{background: #f9f9f9;}
 .choose-btn{clear: both;display: block;text-decoration: underline;color: #05b1d9;margin-top: 5px;margin-left: 15px;margin-bottom: 5px;padding-top: 5px;}
 .submit{border: none;background: #05b1d9;color: #fff;padding:8px 30px;cursor: pointer;}
 
+
+.pop-bg{width: 100%;height: 100%;z-index: 1000;background: #000;opacity: .3;position: fixed;left: 0;top: 0;display: none;}
+.pop-box{width: 676px;border: 4px solid #bdbdbd;padding: 28px;position: fixed;background: #fff;z-index: 1001;min-height: 100px;left: 50%;top:50%;margin-left: -360px;height: 360px;margin-top: -180px;display: none;}
+.pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0;cursor:pointer}
+.pop-cont{margin: 6px;margin-right: 10px;}
+.pop-box h2{background: #f7f7f7;text-indent: 12px;height: 26px;line-height: 26px;color: #808080;font-weight: bold;}
+
+
+.pop-cont-item{float: left;margin-top: 15px;margin-right: 28px}
+.pop-cont-item.last{margin-right:0;}
+.pop-cont-item h3{line-height: 24px;text-indent: 14px;}
+.pop-cont-item ul{border: 1px solid #ccc;height: 224px;overflow-y: auto;margin-top:5px;overflow-x: hidden;}
+.pop-cont-item li{height: 28px;width: 198px;line-height: 28px;text-indent: 10px;cursor: pointer}
+.pop-cont-item li:hover,.pop-cont-item li.selected{background: #d0eff6;}
+
+
+.pop-box .pop-submit-btn{clear:both;display: block;margin: 30px auto 0;background: #05b1d9;font-size: 12px;text-align: center;color: #fff;width:78px;height: 26px;line-height: 26px;text-decoration: none;}
+.pop-box .pop-submit-btn:hover{}
+.pop-box .close-bottom-btn:hover{border-color: #05b1d9;background: #05b1d9;color: #fff;}
 
 
 /*= footer start*/

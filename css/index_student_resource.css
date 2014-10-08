@@ -1,4 +1,5 @@
 /* 学习资源 */
+.c-main-resource{margin-top: -30px;}
 .c-main-resource .c-tab-btn{padding:0; border:none; margin-top:0;}
 .c-main-resource .c-tab-btn li a{color:#999;}
 .c-tab-btn{width:100%;height: 40px;margin-bottom: 20px}
@@ -8,7 +9,7 @@
 .c-upload-table,.c-tab-cont{width: 100%;display: none}
 .current{display: block}
 .c-upload-table td,.c-upload-table th{padding:0 5px;border-bottom: 1px solid #dfdfdf;color:#808080;height: 40px;line-height: 40px;}
-.c-upload-table p{color: #05b1d9;}
+.c-upload-table a{color: #05b1d9;cursor: pointer;}
 .c-upload-table tr:hover{background: #ffffcc}
 .c-upload-table .c-upload-table-firstTR:hover{background:none;}
 .c-upload-btn-area td{border: 0;height: 60px;line-height: 60px;}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/com_resources.css"/>
     <link rel="stylesheet" href="css/xtwd_wytw.css"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="http://cdn.ckeditor.com/4.4.2/standard/ckeditor.js"></script>
     <script type="text/javascript" src="js/com.js"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -102,7 +103,7 @@
                         <tr>
                             <th>分类：</th>
                             <td>
-                               <label class="label-flt"><input type="radio" name="type" checked>同步习题</label>
+                                <label class="label-flt"><input type="radio" name="type" checked>同步习题</label>
                                 <label class="label-flt"><input type="radio" name="type">综合试题</label>
                             </td>
                         </tr>
@@ -155,7 +156,10 @@
                         <tr>
                             <th><span class="c-m-w-t-required">**</span>问题内容：</th>
                             <td>
-                                <div class="c-m-w-t-editor"></div>
+                                <textarea class="ckeditor" id="editor1" name="editor1" style="height: 270px;">
+                                    ckeditor使用了外链的js
+                                </textarea>
+
                             </td>
                         </tr>
                         <tr>
@@ -219,9 +223,76 @@
         </div>
     </div>
 </div>
+<div class="pop-bg"></div>
+<div class="pop-box">
+    <a class="close"></a>
+
+    <div class="pop-cont">
+        <h2>一年级语文</h2>
+
+        <div class="pop-cont-inner clr">
+            <div class="pop-cont-item">
+                <h3>教材</h3>
+                <ul>
+                    <li class="selected">人教版一年级上册</li>
+                    <li>人教版二年级上册</li>
+                    <li>人教版三年级上册</li>
+                    <li>人教版四年级上册</li>
+                    <li>人教版五年级上册</li>
+                    <li>人教版六年级上册</li>
+                    <li>人教版六年级上册</li>
+                    <li>人教版六年级上册</li>
+                    <li>人教版六年级上册</li>
+                    <li>人教版六年级上册</li>
+                    <li>人教版六年级上册</li>
+                </ul>
+            </div>
+            <div class="pop-cont-item">
+                <h3>章</h3>
+                <ul>
+                    <li class="selected">第一章</li>
+                    <li>第二章</li>
+                    <li>第三章</li>
+                    <li>第四章</li>
+                    <li>第五章</li>
+                    <li>第六章</li>
+                </ul>
+            </div>
+            <div class="pop-cont-item last">
+                <h3>节</h3>
+                <ul>
+                    <li class="selected">鲁迅</li>
+                    <li>背影</li>
+                    <li>匆匆那些</li>
+                    <li>睡觉的奥秘</li>
+                    <li>凑字数</li>
+                </ul>
+            </div>
+        </div>
+        <a class="pop-submit-btn" href="javascript:;">提交分类</a>
+    </div>
+</div>
 <!-- end -->
 </body>
 <script>
-    com.tab('.bot-main-right .tab-nav li', '.bot-main-right .tab-cont');
+    $(function () {
+        $('.pop-cont-item li').click(function () {
+            var $parent = $(this).parent();
+            $parent.find('li').removeClass('selected');
+            $(this).addClass('selected');
+        })
+
+        $('.choose-btn').click(function(){
+            $('.pop-bg').show();
+            $('.pop-box').fadeIn('fast')
+        })
+        $('.close,.pop-submit-btn').click(function(){
+            $('.pop-box').fadeOut('fast',function(){
+                $('.pop-bg').hide();
+            });
+
+        })
+
+    })
 </script>
 </html>

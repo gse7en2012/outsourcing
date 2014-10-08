@@ -66,8 +66,8 @@ a:hover{text-decoration: underline;}
 .wrap{min-width:960px;background:#cbeec7 url(../images/bg_s.jpg) center top no-repeat;}
 .content{margin-bottom:90px;}
 .c-header{position:relative;height:222px;color:#fff;}
-.c-nav{float:left;width:148px;margin-right: 0;position: relative;z-index: 11;}
-.c-nav-other{margin-top:30px;}
+.c-nav{float:left;width:170px;margin-right: 0;position: relative;z-index: 11;}
+
 .c-main{overflow:hidden;*zoom:1;background-color:#FFF;}
 .c-h-left{float:left;width:170px;}
 .c-h-right{overflow:hidden;*zoom:1;}
@@ -101,36 +101,36 @@ a:hover{text-decoration: underline;}
 .c-h-sign-edit button{width:70px;padding:0;text-align:center;color:#666;margin-right:10px;background:#f2f2f2;border-radius: 15px;border: 1px solid #eee;}
 .c-h-sign-edit a{color:#05b1d9;}
 
-.c-h-book{position:absolute;right:0;top:222px;bottom:30px;width:273px;height:53px;background:url(../images/spr_s.png) 0 -526px no-repeat;height:53px;text-indent:-999em;overflow:hidden;box-shadow: 0 3px 3px #9cbac1;}
-.c-h-book:hover{}
+.c-h-book{position:absolute;right:-1px;top:222px;bottom:30px;width:274px;height:54px;background:url(../images/upload_btn_s.png) 0 0 no-repeat;text-indent:-999em;overflow:hidden;}
+.c-h-book:hover{background-position: 0 -55px;}
 .c-nav{}
 .c-nav a{display:block;height:68px;text-indent:-999em;overflow:hidden;margin-bottom: 3px;}
 .c-nav a:hover,.c-nav .now{background-image:url(../images/nav_s.png);background-repeat:no-repeat;}
 .c-nav .now{cursor:default;}
-.c-nav .c-nav-1{background:url(../images/nav_s.png) 22px 0 no-repeat;}
-.c-nav .c-nav-2{background:url(../images/nav_s.png) 22px -71px no-repeat;}
-.c-nav .c-nav-3{background:url(../images/nav_s.png) 22px -142px no-repeat;}
-.c-nav .c-nav-4{background:url(../images/nav_s.png) 22px -213px no-repeat;}
-.c-nav .c-nav-5{background:url(../images/nav_s.png) 22px -284px no-repeat;}
-.c-nav .c-nav-6{background:url(../images/nav_s.png) 22px -355px no-repeat;}
-.c-nav .c-nav-7{background:url(../images/nav_s.png) 22px -426px no-repeat;}
-.c-nav .c-nav-8{background:url(../images/nav_s.png) 22px -497px no-repeat;}
-.c-nav .c-nav-1:hover{background-position:-270px 0;}
-.c-nav .c-nav-2:hover{background-position:-270px -71px;}
-.c-nav .c-nav-3:hover{background-position:-270px -142px;}
-.c-nav .c-nav-4:hover{background-position:-270px -213px;}
-.c-nav .c-nav-5:hover{background-position:-270px -284px;}
-.c-nav .c-nav-6:hover{background-position:-270px -355px;}
-.c-nav .c-nav-7:hover{background-position:-270px -426px;}
-.c-nav .c-nav-8:hover{background-position:-270px -497px;}
-.c-nav .c-nav-1.now{background-position:-114px 0;}
-.c-nav .c-nav-2.now{background-position:-114px -71px;}
-.c-nav .c-nav-3.now{background-position:-114px -142px;}
-.c-nav .c-nav-4.now{background-position:-114px -213px;}
-.c-nav .c-nav-5.now{background-position:-114px -284px;}
-.c-nav .c-nav-6.now{background-position:-114px -355px;}
-.c-nav .c-nav-7.now{background-position:-114px -426px;}
-.c-nav .c-nav-8.now{background-position:-114px -497px;}
+.c-nav .c-nav-1{background:url(../images/nav_s.png) 0 0 no-repeat;}
+.c-nav .c-nav-2{background:url(../images/nav_s.png) 0 -71px no-repeat;}
+.c-nav .c-nav-3{background:url(../images/nav_s.png) 0 -142px no-repeat;}
+.c-nav .c-nav-4{background:url(../images/nav_s.png) 0 -213px no-repeat;}
+.c-nav .c-nav-5{background:url(../images/nav_s.png) 0 -284px no-repeat;}
+.c-nav .c-nav-6{background:url(../images/nav_s.png) 0 -355px no-repeat;}
+.c-nav .c-nav-7{background:url(../images/nav_s.png) 0 -426px no-repeat;}
+.c-nav .c-nav-8{background:url(../images/nav_s.png) 0 -497px no-repeat;}
+.c-nav .c-nav-1:hover{background-position:-335px 0;}
+.c-nav .c-nav-2:hover{background-position:-335px -71px;}
+.c-nav .c-nav-3:hover{background-position:-335px -142px;}
+.c-nav .c-nav-4:hover{background-position:-335px -213px;}
+.c-nav .c-nav-5:hover{background-position:-335px -284px;}
+.c-nav .c-nav-6:hover{background-position:-335px -355px;}
+.c-nav .c-nav-7:hover{background-position:-335px -426px;}
+.c-nav .c-nav-8:hover{background-position:-335px -497px;}
+.c-nav .c-nav-1.now{background-position:-160px 0;}
+.c-nav .c-nav-2.now{background-position:-160px -71px;}
+.c-nav .c-nav-3.now{background-position:-160px -142px;}
+.c-nav .c-nav-4.now{background-position:-160px -213px;}
+.c-nav .c-nav-5.now{background-position:-160px -284px;}
+.c-nav .c-nav-6.now{background-position:-160px -355px;}
+.c-nav .c-nav-7.now{background-position:-160px -426px;}
+.c-nav .c-nav-8.now{background-position:-160px -497px;}
 .c-main{float:right;width:730px;padding:30px;min-height:635px;}
 /* end */
 /*= aside start*/

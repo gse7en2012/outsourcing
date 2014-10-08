@@ -1,4 +1,5 @@
 /* 消息中心 */
+.c-main{margin-top: -30px;}
 .c-m-tab{margin-bottom:5px;}
 .c-m-t-btn{float:left;*display:inline;width:144px;height:38px;line-height:38px;text-align:center;background-color:#f8f8f8;border:1px solid #e5e5e5;color:#999;cursor:pointer;}
 .c-m-t-btn.current,.c-m-t-btn:hover{border-top:2px solid #05b1d9;border-bottom:none;background:none;text-decoration:none;}

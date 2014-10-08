@@ -92,7 +92,7 @@
 
 
 /*override html&css*/
-.c-main-mid{width: 530px;border: 1px solid rgba(206, 225, 229,.4);border-radius: 6px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);float: left;background: #fff;overflow: hidden;padding-bottom: 20px;border-left: 0;border-top-left-radius: 0;}
+.c-main-mid{width: 508px;border: 1px solid rgba(206, 225, 229,.4);border-radius: 6px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);float: left;background: #fff;overflow: hidden;padding-bottom: 20px;border-left: 0;border-top-left-radius: 0;}
 
 .c-main-right{width: 272px;float: right;}
 .c-m-r-content{margin-top: 60px;min-height: 400px;background: #fff9e4;border-radius: 5px;box-shadow: 1px 1px 1px rgba(0,0,0,.1), -1px 1px 1px rgba(0,0,0,.1);}

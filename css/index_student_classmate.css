@@ -1,6 +1,8 @@
 /* 我的同学 */
+.c-main{margin-top: -30px;}
+.c-parents-infoList td{height: 22px;line-height: 22px;}
 .c-parents-cont{margin-right: -200px}
-.c-parents-info{width: 216px;height: 115px;padding: 10px 8px;border: 1px solid #fff;float:left;margin:0 10px 10px 0}
+.c-parents-info{width: 216px;height: 130px;padding: 10px 8px;border: 1px solid #fff;float:left;margin:0 10px 20px 0}
 .c-parents-info:hover{background: #ffffcc;border-color:#ffcc00}
 .c-parents-photo{display: block;float:left;}
 .c-parents-photo img{display:block; margin-bottom:10px; width:58px; height:58px; border:3px solid #dfdfdf; border-radius:50%;}
