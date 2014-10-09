@@ -1,0 +1,17 @@
+/* 我的同学 */
+.c-main{margin-top: -30px;}
+
+
+.c-m-avator{float: left;width: 100px;text-align: center;margin-right: 50px;}
+.c-m-avator img{margin: 0 auto;border-radius: 50%;width: 68px;height: 68px;display: block;}
+.c-m-avator p{margin-top: 5px;}
+.c-m-avator b{font-weight: bold;font-size: 16px;font-family: simsum;color: #727272;}
+
+.c-m-list{float: left;width: 580px;}
+.c-m-list table{width: 50%;float: left;}
+.c-m-list th{color: #999;width: 100px;}
+.c-m-list th,.c-m-list td{height: 28px;line-height: 28px;}
+.c-m-list td .progress{width: 160px;height: 24px;background: #eef6f9;margin-top: 2px;line-height: 24px;font-weight: bold;text-indent: 8px;font-family: simsum;color: #727272;}
+
+
+
