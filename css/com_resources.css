@@ -84,9 +84,12 @@ a:hover{text-decoration: underline;}
 .c-h-search{position: absolute;right: 0;height: 44px;width: 446px;top: 40px;}
 .c-h-s-tag{width: 76px;height: 44px;float: left;background: #f6f6f6;color: #6c6c6c;font-size: 12px;text-align: center;line-height: 44px;}
 .c-h-s-tag em{display: inline-block;width: 7px;height: 5px;background: url(../images/resources_index/spr_resources.png) 0 -58px no-repeat;margin-left: 8px;}
-.c-h-s-tagbox{display: none;}
+.c-h-s-tagbox{display: none;position: absolute;background: #f6f6f6;color: #6c6c6c;width: 76px;z-index: 100;}
+.c-h-s-tagbox li{height: 44px;line-height: 44px;text-align: center;cursor: pointer;}
+.c-h-s-tagbox li:hover{background: #ddd;color: #fff;}
 .c-h-s-text{float: left;height: 100%;width: 290px;border: 0;background: #fff;}
 .c-h-search-btn{float: left;background: #f5931c url(../images/resources_index/spr_resources.png) 0 -76px;width: 79px;height: 100%;}
+.c-h-search-btn:hover{background-color: #ffc705;}
 .c-h-search-bot{position: absolute;right: 18px;top:100px; }
 .c-h-search-bot li{float: left;margin: 0 10px;color: #6c6c6c}
 .c-h-search-bot a{color: #6c6c6c;}
