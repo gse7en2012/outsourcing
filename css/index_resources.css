@@ -25,22 +25,45 @@ em.hide{display: none!important;;}
 
 .c-m-thrid-nav{height: 96px;margin: 0 auto;position: relative;left: 36px;}
 .c-m-thrid-nav li{float: left;width: 74px;height: 96px;text-align: center;position: relative;cursor: pointer;}
-.c-m-thrid-nav li:hover{background-color: #05b1d9;}
-.c-m-thrid-nav li:hover a{color: #fff;}
-.c-m-thrid-nav .l1{background: url(../images/resources_index/icon_spr.png) 14px 20px no-repeat;}
-.c-m-thrid-nav .l2{background:  url(../images/resources_index/icon_spr.png) -56px 20px no-repeat;}
-.c-m-thrid-nav .l3{background:  url(../images/resources_index/icon_spr.png) -127px 20px no-repeat;}
-.c-m-thrid-nav .l4{background:  url(../images/resources_index/icon_spr.png) -196px 20px no-repeat;}
-.c-m-thrid-nav .l5{background: url(../images/resources_index/icon_spr.png) -268px 20px no-repeat;}
-.c-m-thrid-nav .l6{background:  url(../images/resources_index/icon_spr.png) -339px 20px no-repeat;}
-.c-m-thrid-nav .l7{background:  url(../images/resources_index/icon_spr.png) -410px 20px no-repeat;}
-.c-m-thrid-nav .l8{background:  url(../images/resources_index/icon_spr.png) -480px 20px no-repeat;}
-.c-m-thrid-nav .l9{background: url(../images/resources_index/icon_spr.png) -552px 20px no-repeat;}
-.c-m-thrid-nav .l10{background:  url(../images/resources_index/icon_spr.png) -622px 20px no-repeat;}
-.c-m-thrid-nav .l11{background:  url(../images/resources_index/icon_spr.png) -692px 20px no-repeat;}
-.c-m-thrid-nav .l12{background:  url(../images/resources_index/icon_spr.png) -762px 20px no-repeat;}
-.c-m-thrid-nav .l13{background:  url(../images/resources_index/icon_spr.png) -832px 20px no-repeat;}
-.c-m-thrid-nav a{position: absolute;bottom: 0;height: auto;}
+.c-m-thrid-nav li:hover{}
+.c-m-thrid-nav li:hover a{color: #05b1d9;}
+.c-m-thrid-nav a{line-height: 146px;}
+.c-m-thrid-nav .lyw{background: url(../images/resources_index/spr_icons.png) 17px 18px no-repeat;}
+.c-m-thrid-nav .lsx{background: url(../images/resources_index/spr_icons.png) -57px 18px no-repeat;}
+.c-m-thrid-nav .lyy{background: url(../images/resources_index/spr_icons.png) -127px 18px no-repeat;}
+.c-m-thrid-nav .lwl{background: url(../images/resources_index/spr_icons.png) -197px 18px no-repeat;}
+.c-m-thrid-nav .lhx{background: url(../images/resources_index/spr_icons.png) -267px 18px no-repeat;}
+.c-m-thrid-nav .lsxpd{background: url(../images/resources_index/spr_icons.png) -338px 18px no-repeat;}
+.c-m-thrid-nav .lls{background: url(../images/resources_index/spr_icons.png) -409px 18px no-repeat;}
+.c-m-thrid-nav .ldl{background: url(../images/resources_index/spr_icons.png) -480px 18px no-repeat;}
+.c-m-thrid-nav .lsw{background: url(../images/resources_index/spr_icons.png) -551px 18px no-repeat;}
+.c-m-thrid-nav .llsysh{background: url(../images/resources_index/spr_icons.png) -625px 18px no-repeat;}
+.c-m-thrid-nav .lyiny{background: url(../images/resources_index/spr_icons.png) -695px 18px no-repeat;}
+.c-m-thrid-nav .lty{background: url(../images/resources_index/spr_icons.png) -765px 18px no-repeat;}
+.c-m-thrid-nav .lms{background: url(../images/resources_index/spr_icons.png) -835px 18px no-repeat;}
+.c-m-thrid-nav .lxxkx{background: url(../images/resources_index/spr_icons.png) -907px 18px no-repeat;}
+.c-m-thrid-nav .lxxjs{background: url(../images/resources_index/spr_icons.png) -978px 18px no-repeat;}
+.c-m-thrid-nav .ldykh{background: url(../images/resources_index/spr_icons.png) -1050px 18px no-repeat;}
+.c-m-thrid-nav .lkx{background: url(../images/resources_index/spr_icons.png) -1120px 18px no-repeat;}
+
+.c-m-thrid-nav .lyw:hover{background: url(../images/resources_index/spr_icons.png) 17px -87px no-repeat;}
+.c-m-thrid-nav .lsx:hover{background: url(../images/resources_index/spr_icons.png) -57px -87px no-repeat;}
+.c-m-thrid-nav .lyy:hover{background: url(../images/resources_index/spr_icons.png) -127px -87px no-repeat;}
+.c-m-thrid-nav .lwl:hover{background: url(../images/resources_index/spr_icons.png) -197px -87px no-repeat;}
+.c-m-thrid-nav .lhx:hover{background: url(../images/resources_index/spr_icons.png) -267px -87px no-repeat;}
+.c-m-thrid-nav .lsxpd:hover{background: url(../images/resources_index/spr_icons.png) -338px -87px no-repeat;}
+.c-m-thrid-nav .lls:hover{background: url(../images/resources_index/spr_icons.png) -409px -87px no-repeat;}
+.c-m-thrid-nav .ldl:hover{background: url(../images/resources_index/spr_icons.png) -480px -87px no-repeat;}
+.c-m-thrid-nav .lsw:hover{background: url(../images/resources_index/spr_icons.png) -551px -87px no-repeat;}
+.c-m-thrid-nav .llsysh:hover{background: url(../images/resources_index/spr_icons.png) -625px -87px no-repeat;}
+.c-m-thrid-nav .lyiny:hover{background: url(../images/resources_index/spr_icons.png) -695px -87px no-repeat;}
+.c-m-thrid-nav .lty:hover{background: url(../images/resources_index/spr_icons.png) -765px -87px no-repeat;}
+.c-m-thrid-nav .lms:hover{background: url(../images/resources_index/spr_icons.png) -835px -87px no-repeat;}
+.c-m-thrid-nav .lxxkx:hover{background: url(../images/resources_index/spr_icons.png) -907px -87px no-repeat;}
+.c-m-thrid-nav .lxxjs:hover{background: url(../images/resources_index/spr_icons.png) -978px -87px no-repeat;}
+.c-m-thrid-nav .ldykh:hover{background: url(../images/resources_index/spr_icons.png) -1050px -87px no-repeat;}
+.c-m-thrid-nav .lkx:hover{background: url(../images/resources_index/spr_icons.png) -1120px -87px no-repeat;}
+
 
 
 .c-m-content{padding-top: 20px;border: 1px solid #d8d8d8;border-top: 0;padding-bottom: 30px;}
@@ -55,7 +78,7 @@ em.hide{display: none!important;;}
 .c-m-c-part3{display:table-cell;padding: 0 34px;margin: 15px 0;height: 100%;position: relative; }
 
 .c-m-bot-box{margin-top: 30px;border: 1px solid #d8d8d8;background: #fff;padding: 20px 34px;}
-.c-m-b-nav{border-bottom: 1px solid #d8d8d8;}
+.c-m-b-nav{border-bottom: 1px solid #d8d8d8;position: relative;}
 .c-m-b-nav a{display: inline-block;line-height: 40px;height:40px;color: #999;padding: 0 10px;text-decoration: none;margin-right: 10px;}
 .c-m-b-nav .cur,.c-m-b-nav a:hover{line-height: 40px;border-bottom: 2px solid #05b1d9;height:38px;position: relative;bottom: -1px;color: #05b1d9;}
 
@@ -78,3 +101,9 @@ em.hide{display: none!important;;}
 .c-m-b-pager{text-align: center;margin-bottom: 10px;}
 .c-m-b-pager a{display: inline-block;color: #b0b0b0;border: 1px solid #d8d8d8;background: #f8f8f8;padding: 3px 8px;text-decoration: none;cursor: pointer;}
 .c-m-b-pager a:hover,.c-m-b-pager .cur{background: #05b1d9;color: #fff;}
+
+
+.c-m-b-nav-th,.c-m-b-nav-list{position: absolute;width: 18px;height: 18px;background: url(../images/spr_t.png) -352px 0;right: 24px;top: 12px;}
+.c-m-b-nav-th.now{background-position: -352px -18px;}
+.c-m-b-nav-list{background-position: -379px -18px;margin-left:26px;right: 0;}
+.c-m-b-nav-list.now{background-position: -379px 0;}
