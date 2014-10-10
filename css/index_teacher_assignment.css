@@ -1,0 +1,17 @@
+.c-main-title-box{position:relative; padding-left:20px; width:710px; height:31px; border-top:2px solid #ff3c38; background-color:#ff6a66; font:bold 12px/31px "SimSun"; color:#fff;}
+.c-main-title-box-back{position:absolute; bottom:0; right:0; width:50px; height:33px; background:url(../images/backward.png) no-repeat; text-indent:-9999em;}
+
+.c-main-title-box2{position:relative; padding-left:20px; margin-top:12px; width:710px; height:36px; line-height:36px; border-bottom:2px solid #ebebeb; color:#999;}
+.c-main-title-box2 em{color:#666;}
+.c-main-title-box2 span{margin-right:10px;}
+
+.c-main-title-box2-btns{position:absolute; top:0; right:0;}
+.c-main-title-box2-btn{display:inline-block; *display:inline; *zoom:1; vertical-align:top; width:92px; height:29px; background:url(../images/btn_t_s.png) no-repeat;}
+.c-main-title-box2-btn1{background-position:0 0;}
+.c-main-title-box2-btn2{background-position:-100px 0;}
+.c-main-title-box2-btn3{background-position:-200px 0;}
+.c-main-title-box2-btn1:hover{background-position:0 -35px;}
+.c-main-title-box2-btn2:hover{background-position:-100px -35px;}
+.c-main-title-box2-btn3:hover, .cur.c-main-title-box2-btn3{background-position:-200px -35px;}
+.cur.c-main-title-box2-btn1{background-position:0 -70px;}
+.cur.c-main-title-box2-btn2{background-position:-100px -70px;}
