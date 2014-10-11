@@ -1,0 +1,29 @@
+.c-main-title-box{position:relative; padding-left:20px; width:710px; height:31px; border-top:2px solid #ff3c38; background-color:#ff6a66; font:bold 12px/31px "SimSun"; color:#fff;}
+.c-main-title-box-back{position:absolute; bottom:0; right:0; width:50px; height:33px; background:url(../images/backward.png) no-repeat; text-indent:-9999em;}
+
+.c-tab-day-nav-item li{float:left;background: url(../images/li.jpg) no-repeat right 14px;cursor: default}
+.c-tab-day-nav-item li a{display: block;width: 96px;height: 45px;line-height: 40px;text-align: center;font-size: 12px;color: #999;}
+.c-tab-day-nav-item li a:hover,.c-tab-day-nav-item li.current a{text-decoration: none;background: url(../images/dayhov.jpg) no-repeat center 38px}
+.c-teacher-nav-wrap{width:730px;background: #f8f8f8 url(../images/navbgtop.jpg) no-repeat top left;height: 95px;border: 1px solid #d8d8d8;border-top: 0;position: absolute;top: 71px;left: 30px;display: none}
+.c-teacher-nav-wrap i{display: block;width: 41px;height: 41px;background: url(../images/icon.png) no-repeat;background-position-y:0;}
+.c-teacher-nav-wrap li{float: left;margin: 20px 10px 0;text-align: center;}
+.c-teacher-nav-wrap li p{color: #999;margin-top: 6px}
+.c-teacher-nav-wrap li:hover p,.c-teacher-nav-wrap li.current p{color: #359acc}
+.c-teacher-nav-wrap li:hover i,.c-teacher-nav-wrap li.current i{background-position-y:-41px}
+.c-teacher-nav-wrap .c-teacher-nav1{background-position-x:0}
+.c-teacher-nav-wrap .c-teacher-nav2{background-position-x:-41px}
+.c-teacher-nav-wrap .c-teacher-nav3{background-position-x:-81px}
+.c-teacher-nav-wrap .c-teacher-nav4{background-position-x:-122px}
+.c-teacher-nav-wrap .c-teacher-nav5{background-position-x:-163px}
+.c-tab-day-nav-item-wrap{width: 670px;overflow: hidden;float:left;position: relative;*zoom:1;margin-left: 8px;margin-right: 8px;}
+.c-tab-day-nav-bar{height: 40px;width: 100%;margin-bottom: 30px;margin-top: 20px;}
+.c-tab-day-nav-item{border-bottom: 1px solid #e5e5e5;margin-right: -2px;height: 40px;width: 9999px!important;position: relative;}
+.c-tab-nav-btn{display: block;width: 20px;height: 39px;border: 1px solid #e5e5e5;float:left;background: url('../images/daynav.jpg') no-repeat}
+#prev,#prev2{background-position: -4px 0}
+#next,#next2{background-position: -32px 0}
+
+.c-m-table{width: 730px;display: none}
+.c-m-table.current{display: table;}
+.c-m-table td,.c-m-table th{height: 36px;line-height: 28px;border-bottom: 1px solid #dfdfdf;padding: 2px;}
+.c-m-table a{color: #05b1d9;margin-right: 10px;}
+.c-m-table .tb-btn{float: right;background: #05b1d9;margin-right: 0;padding:0 15px;color: #fff;text-decoration: none;height: 22px;line-height: 22px;margin-top: 3px;}
