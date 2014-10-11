@@ -1,3 +1,5 @@
+.c-main{margin-left:168px;}
+.c-main-title{background-color:#fff;}
 .c-main-title-box{position:relative; padding-left:20px; width:710px; height:31px; border-top:2px solid #ff3c38; background-color:#ff6a66; font:bold 12px/31px "SimSun"; color:#fff;}
 .c-main-title-box-back{position:absolute; bottom:0; right:0; width:50px; height:33px; background:url(../images/backward.png) no-repeat; text-indent:-9999em;}
 
@@ -6,7 +8,7 @@
 .c-main-title-box2 span{margin-right:10px;}
 
 .c-main-title-box2-btns{position:absolute; top:0; right:0;}
-.c-main-title-box2-btn{display:inline-block; *display:inline; *zoom:1; vertical-align:top; width:92px; height:29px; background:url(../images/btn_t_s.png) no-repeat;}
+.c-main-title-box2-btn{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin-left:5px; width:92px; height:29px; background:url(../images/btn_t_s.png) no-repeat;}
 .c-main-title-box2-btn1{background-position:0 0;}
 .c-main-title-box2-btn2{background-position:-100px 0;}
 .c-main-title-box2-btn3{background-position:-200px 0;}
@@ -15,3 +17,26 @@
 .c-main-title-box2-btn3:hover, .cur.c-main-title-box2-btn3{background-position:-200px -35px;}
 .cur.c-main-title-box2-btn1{background-position:0 -70px;}
 .cur.c-main-title-box2-btn2{background-position:-100px -70px;}
+
+
+.c-main-con-box{padding:20px 20px 0 20px;}
+
+.c-main-con-box-left{float:left; width:40px;}
+.c-main-con-box-left p{margin-bottom:15px; font:bold 14px "SimSun"; color:#dc1010;}
+.c-main-con-box-left-score, .c-main-con-box-left-answer{opacity:0;}
+
+.c-main-con-box-right{float:left;}
+.c-main-con-box-right-title{margin-bottom:15px; font:bold 14px "SimSun"; color:#666;}
+.c-main-con-box-right-title span{color:#05b1d9;}
+
+.c-main-con-box-right-data{margin-bottom:15px; padding-left:15px;}
+.c-main-con-box-right-choice{padding-left:15px;}
+
+.c-main-con-box-right-data2{padding-left:40px;}
+.c-main-con-box-right-choice2-answer{float:left; margin-right:14px;}
+.c-main-con-box-right-choice2-answerData{float:left;}
+
+
+.fixed.c-nav{position:fixed; margin-top:0; top:0;}
+.fixed.c-main-title{position:fixed; top:0;}
+.fixed.c-main-con{margin-top:83px;}
