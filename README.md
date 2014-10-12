@@ -91,6 +91,12 @@
 > @20140904 23:50
 > 增加系统首页，index_resources_mrF.html和index_resources.css
 
+> ----------------第十五 范爷终于来了~---------------------
+
+> @20141012 22:45
+> 增加同步资源的同步辅导和排行版，index_resources_synchronous.html和index_resources_rank.html
+> 增加了两个css（index_resources_synchronous.css index_resources_rank.css）和一个js（index_resources_synchronous.js）
+
 > ----------------佛祖保佑不要再增加需求 ~---------------------
 
 ```html
