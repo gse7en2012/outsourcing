@@ -298,10 +298,10 @@
 <script>
 $(function(){
     $('.c-m-r-part2 .block').toggle(function(){
-        $(this).next().slideUp();
+        $(this).next().stop().slideUp();
         $(this).find('em').removeClass('c-m-r-p-icon-minus').addClass('c-m-r-p-icon-plus');
     },function(){
-        $(this).next().slideDown();
+        $(this).next().stop().slideDown();
         $(this).find('em').removeClass('c-m-r-p-icon-plus').addClass('c-m-r-p-icon-minus')
     })
 })
