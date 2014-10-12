@@ -68,10 +68,6 @@
             <div class="c-h-left">
                 <h1>作文园地</h1>
             </div>
-
-
-
-
         </header>
         <!-- end -->
         <!-- content start -->
@@ -236,7 +232,7 @@
                     </div>
                 </div>
                 <div class="c-m-right">
-
+                    <a class="c-m-r-r-btn" href="#"></a>
                     <div class="c-m-r-part1">
                         <h2>语言工具</h2>
                         <p class="c-m-r-p1-abox clr">
@@ -246,7 +242,7 @@
                         <p class="c-m-r-p1-alist"><a href="#">剑桥词典</a>|<a href="#">朗文词典</a>|<a href="#">卫视词典</a> </p>
                     </div>
                     <div class="c-m-r-part2">
-                        <h2>最新小学作文<em></em></h2>
+                        <h2 class="block">最新小学作文<em class="c-m-r-p-icon-minus"></em></h2>
                         <ul>
                             <li><a href="#">字数很长</a> </li>
                             <li><a href="#">字数很长</a> </li>
@@ -256,7 +252,7 @@
                         </ul>
                     </div>
                     <div class="c-m-r-part2 part2">
-                        <h2>最新初中作文<em></em></h2>
+                        <h2  class="block">最新初中作文<em class="c-m-r-p-icon-minus"></em></h2>
                         <ul>
                             <li><a href="#">字数很长</a> </li>
                             <li><a href="#">字数很长</a> </li>
@@ -300,7 +296,15 @@
 </div>
 <!-- end -->
 <script>
-
+$(function(){
+    $('.c-m-r-part2 .block').toggle(function(){
+        $(this).next().slideUp();
+        $(this).find('em').removeClass('c-m-r-p-icon-minus').addClass('c-m-r-p-icon-plus');
+    },function(){
+        $(this).next().slideDown();
+        $(this).find('em').removeClass('c-m-r-p-icon-plus').addClass('c-m-r-p-icon-minus')
+    })
+})
 </script>
 </body>
 </html>

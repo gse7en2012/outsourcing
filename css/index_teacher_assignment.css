@@ -30,11 +30,13 @@
 .c-main-con-box-right-title span{color:#05b1d9;}
 
 .c-main-con-box-right-data{margin-bottom:15px; padding-left:15px;}
+.c-main-con-box-right-data p{line-height: 24px;}
 .c-main-con-box-right-choice{padding-left:15px;}
 
 .c-main-con-box-right-data2{padding-left:40px;}
 .c-main-con-box-right-choice2-answer{float:left; margin-right:14px;}
 .c-main-con-box-right-choice2-answerData{float:left;}
+.c-main-con-box-right-choice2-answerData p{line-height: 24px;}
 
 
 .fixed.c-nav{position:fixed; margin-top:0; top:0;}

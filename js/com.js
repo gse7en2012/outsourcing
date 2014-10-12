@@ -228,4 +228,14 @@ var com = {
 }
 $(function () {
     com.init();
+
+    //搜索框选择
+    $('.c-h-s-tag').click(function () {
+        $('.c-h-s-tagbox').show();
+    })
+    $('.c-h-s-tagbox li').click(function () {
+        var text = $(this).text();
+        $('.c-h-s-tag').html(text + '<em></em>');
+        $(this).parent().hide();
+    })
 });
