@@ -75,10 +75,12 @@
 .c-m-right h2{font-size:16px; font-family:"microsoft yahei"; color:#666; margin-bottom:5px; font-weight:bold;}
 .c-m-right h2 em{display:inline-block; width:18px; height:18px; background:url(../images/zwyd_index/icon.png) no-repeat -218px 0; margin-left:4px; position:relative; top:3px;}
 /* 页面右侧布局-英语园地公共资源部分-第一部分 */
-.c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
-.c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
-.c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
-.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}
+.c-m-r-p1-icon{width: 92px;height: 102px;float: left;background: url(../images/zwyd_index/icon.png) no-repeat 0 10px;text-indent: -9999em;margin-right: 18px;margin-bottom: 10px;}
+.c-m-r-p1-icon:hover{background-position: 0 -98px;}
+.c-m-r-p1-icon.icon2{background-position: -110px 10px;margin-right: 0;}
+.c-m-r-p1-icon.icon2:hover{background-position: -110px -98px;}
+.c-m-r-p1-alist{clear: both;color: #05b1d9;padding-bottom: 15px;border-bottom: 1px solid #dcdcdc}
+.c-m-r-p1-alist a{color: #05b1d9;padding:9px;}
 /* 页面右侧布局-英语园地公共资源部分-第二部*/
 .c-m-r-part2{clear:both; overflow:hidden;}
 h2.c-m-r-part2-h2,h2.c-m-r-part3-h2{margin-top:20px; width:208px; height:35px; line-height:35px; background:url(../images/resources_rank/bang_h1.jpg) no-repeat; font-size:12px; font-family:"Simsun"; text-indent:35px;}
