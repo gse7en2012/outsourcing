@@ -28,14 +28,14 @@
 
 /** 同步辅导页-左侧布局部分 **/
 /* 同步辅导页-左侧布局部分-上*/ 
-.c-m-l-title{margin:30px 0 0 20px; padding:0 20px; width:623px; height:30px; line-height:30px; color:#fff; font-weight:bold;}
+.c-m-l-title{margin:30px 30px 30px 20px; padding:0 20px; width:610px; height:30px; line-height:30px; color:#fff; font-weight:bold;}
 #yuwen{background:#ff6a66; border-top:2px solid #ff3c38;}
 #shuxue{background:#8f77d5; border-top:2px solid #6248b5;}
 #yinyue{background:#aac73b; border-top:2px solid #7ea419;}
 .c-m-l-title span{color:#999999;}
 .c-m-l-title a{margin:0 10px; color:#05b1d9;}
-.c-m-l-rank{width:660px; margin:10px 0 0 20px; text-indent:10px; color:#666666; border-bottom:1px solid #d8d8d8; height:30px;}
-.c-m-l-rank div{width:660px; height:29px; border-bottom:1px solid #dfdfdf;}
+.c-m-l-rank{width:650px; margin:10px 30px 0 30px; text-indent:10px; color:#666666; border-bottom:1px solid #d8d8d8; height:30px;}
+.c-m-l-rank div{width:650px; height:29px; border-bottom:1px solid #dfdfdf;}
 
 
 /** 同步辅导页-左侧布局部分 **/
