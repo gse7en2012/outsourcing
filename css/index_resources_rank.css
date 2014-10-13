@@ -64,7 +64,7 @@
 .c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
 
 /* note */
-.c-test-note {padding: 10px 20px; width:615px; background-color: #fffae2; border: 1px solid #f5e190; color: #999; line-height: 22px; clear: both;}
+.c-test-note {padding: 10px 20px; background-color: #fffae2; border: 1px solid #f5e190; color: #999; line-height: 22px; clear: both;}
 .c-test-note dd {padding-left: 18px;}
 .c-test-note .num {display: inline-block; width: 18px; margin-left: -18px;}
 .c-test-note .orange{color:#ff9900;font-weight: bold;}
