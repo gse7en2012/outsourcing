@@ -139,17 +139,12 @@
 .c-m-l-b-b-b-link img{margin:1px;}
 .c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
 /* 课外读物栏目-左侧布局部分-下 */
-.c-m-l-b-essayList{padding-top:10px;}
-.c-m-l-b-essayList span{float:left; text-decoration:none;}
-.c-m-l-b-e-th{padding:0 20px; height:35px; line-height:35px;}
-.c-m-l-b-e-tr{display:block; padding:0 20px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
-.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:33px; line-height: 33px; border-top:1px solid #ddeaef; border-bottom:1px solid #ddeaef; text-decoration:none;}
-.c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
-.c-m-l-b-e-td1{width:45px;}
-.c-m-l-b-e-td2{width:415px;}
-.c-m-l-b-e-td3{width:55px;}
-.c-m-l-b-e-td4{width:55px;}
-.c-m-l-b-e-td5{width:55px;}
+.c-m-l-b-essayList{width:100%; margin-top:10px;}
+.c-m-l-b-essayList th, .c-m-l-b-essayList td{height:35px; line-height:35px; padding:0 20px;}
+.c-m-l-b-essayList a{color:#05b1d9;}
+.c-m-l-b-essayList tr{vertical-align:middle; height:35px; line-height:35px;}
+.c-m-l-b-essayList tr:hover{*height:35px; *line-height:35px; background-color:#ecf5f9; text-decoration:none;}
+.c-m-l-b-essayList .c-m-l-b-essayList-firstTr:hover{background-color:#fff;}
 /* 课外读物栏目-左侧布局部分-分页 */
 .c-m-l-b-paging{padding:20px;}
 .c-m-l-b-p-buttons{float:right;}
