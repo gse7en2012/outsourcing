@@ -34,24 +34,25 @@
 #yinyue{background:#aac73b; border-top:2px solid #7ea419;}
 .c-m-l-title span{color:#999999;}
 .c-m-l-title a{margin:0 10px; color:#05b1d9;}
-.c-m-l-rank{width:660px; margin:10px 0 0 20px; text-indent:10px; color:#666666; border-bottom:1px solid #d8d8d8; height:30px;}
-.c-m-l-rank div{width:660px; height:29px; border-bottom:1px solid #dfdfdf;}
+.c-m-l-rank{width:660px; margin:10px 0 0 20px; text-indent:10px; color:#666666; border-bottom:1px solid #ccc; height:30px;}
+.c-m-l-rank div{width:660px; height:29px; border-bottom:1px solid #999;}
 
 
 /** 同步辅导页-左侧布局部分 **/
 .c-m-left5{width:706px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc}
 .c-m-l-box{padding:10px;}
 /* 同步辅导页-左侧布局部分-下 */
-.c-m-l-b-essayList{width:665px; margin-left:10px;}
-.c-m-l-b-essayList th{margin:0 20px 0 10px; height:35px; line-height:35px; border-bottom:1px solid #dfdfdf;}
-.c-m-l-b-essayList tr{display:block; height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer; border-bottom:1px solid #dfdfdf;}
+.c-m-l-b-essayList{padding-top:0px;}
+.c-m-l-b-essayList span{float:left; text-decoration:none;}
+.c-m-l-b-e-th{margin:0 20px 0 10px; height:35px; line-height:35px; border-bottom:1px solid #ccc;}
+.c-m-l-b-e-tr{display:block; margin:0 20px 0 10px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer; border-bottom:1px solid #ccc;}
 .c-m-l-b-e-tr:hover{background-color:#ffffcd; height:35px; line-height: 35px; border-bottom:1px solid #ccc;  text-decoration:none;}
 .c-m-l-b-e-tr:hover .c-m-l-b-e-td3{text-decoration:underline;}
 .c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
-.c-m-l-b-e-td1{width:50px; text-indent:10px;}
+.c-m-l-b-e-td1{width:45px; text-indent:10px;}
 .c-m-l-b-e-td2{width:50px;}
-.c-m-l-b-e-td3{width:90px;}
-.c-m-l-b-e-td4{width:260px;}
+.c-m-l-b-e-td3{width:80px;}
+.c-m-l-b-e-td4{width:250px;}
 .c-m-l-b-e-td5{width:100px;}
 .c-m-l-b-e-td6{width:100px;}
 .c-m-l-b-e-td3-btnStart{margin-top:3px; display:block; width:77px; height:25px; background:url(../images/resources_rank/btn_start.jpg) no-repeat; color:#934e38; text-align:center; line-height:25px;}
@@ -64,7 +65,7 @@
 .c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
 
 /* note */
-.c-test-note {padding: 10px 20px; width:615px; background-color: #fffae2; border: 1px solid #f5e190; color: #999; line-height: 22px; clear: both;}
+.c-test-note {padding: 10px 20px; background-color: #fffae2; border: 1px solid #f5e190; color: #999; line-height: 22px; clear: both;}
 .c-test-note dd {padding-left: 18px;}
 .c-test-note .num {display: inline-block; width: 18px; margin-left: -18px;}
 .c-test-note .orange{color:#ff9900;font-weight: bold;}
