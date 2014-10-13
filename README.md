@@ -97,6 +97,14 @@
 > 增加同步资源的同步辅导和排行版，index_resources_synchronous.html和index_resources_rank.html
 > 增加了两个css（index_resources_synchronous.css index_resources_rank.css）和一个js（index_resources_synchronous.js）
 
+> ----------------第十五 天天来很久了，感觉萌萌哒~---------------------
+
+> @20141013 20:00
+
+> 大神们，请收下我的膝盖~~
+
+> 有错求指出求虐求教导~~
+
 > ----------------佛祖保佑不要再增加需求 ~---------------------
 
 ```html

@@ -39,4 +39,15 @@ $(function(){
         $('.c-m-r-part3-box').slideDown();
         $(".c-m-r-part3-h2").css({"background":"url(images/resources_rank/bang_h1.jpg) no-repeat"});
     })
+	
+	
+	$(".c-m-l-b-title").click(function(){
+		if($(this).next().css("display")!="none"){
+			$(this).next().slideUp();
+			$(".c-m-l-b-title").css({"background":"url(images/resources_rank/icon_h2_turn.jpg) 20px 5px no-repeat","background-color":"#d0f6ff"})
+		}else{
+			$(this).next().slideDown();
+			$(".c-m-l-b-title").css({"background":"url(images/resources_rank/icon_h2.jpg) 20px 5px no-repeat","background-color":"#d0f6ff"})
+		}
+	})
 });

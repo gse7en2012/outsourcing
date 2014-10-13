@@ -28,31 +28,31 @@
 
 /** 同步辅导页-左侧布局部分 **/
 /* 同步辅导页-左侧布局部分-上*/ 
-.c-m-l-title{margin:30px 0 0 20px; color:#333333; font-size:24px; font-family:"Microsoft Yahei"; font-weight:bold;}
-.c-m-l-index{margin:30px 0 0 20px; padding:0 20px; width:623px; height:30px; line-height:30px; color:#05b1d9; background:#fffae2; border:1px solid #f5e190;}
+.c-m-l-title{margin:30px 0 0 30px; color:#333333; font-size:24px; font-family:"Microsoft Yahei"; font-weight:bold;}
+.c-m-l-index{margin:30px 30px 0 30px; padding:0 20px; margin-bottom:30px; height:30px; line-height:30px; color:#05b1d9; background:#fffae2; border:1px solid #f5e190;}
 .c-m-l-index span{color:#999999;}
 .c-m-l-index a{margin:0 10px; color:#05b1d9;}
 
 
 /** 同步辅导页-左侧布局部分 **/
 .c-m-left5{width:706px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc}
-.c-m-l-box{padding:20px;}
+.c-m-l-box{padding:0 30px 30px 30px;}
 .c-m-l-b-title{padding:7px 20px; border-top:2px solid #b4efff; font:bold 12px "SimSun"; background:url(../images/resources_rank/icon_h2.jpg) 20px 5px no-repeat; background-color:#d0f6ff; color:#999; text-indent:25px;}
 /* 同步辅导页-左侧布局部分-上 */
 .c-m-l-b-bookList{overflow:hidden;}
-.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 19px; width:145px; overflow:hidden; cursor:pointer;}
-.c-m-l-b-b-b-link{display:block; width:140px; height:101px; background:url(../images/resources_rank/default_pic1.jpg) no-repeat; overflow:hidden; border:2px solid #fff;}
-.c-m-l-b-b-b-link2{display:block; width:140px; height:101px; background:url(../images/resources_rank/default_pic2.jpg) no-repeat; overflow:hidden; border:2px solid #fff;}
-.c-m-l-b-b-b-link:hover,.c-m-l-b-b-b-link2:hover{border:2px solid #05b1d9;}
+.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 19px; width:140px; overflow:hidden; cursor:pointer;}
+.c-m-l-b-b-b-link{display:block; width:134px; height:94px; background:url(../images/resources_rank/default_pic1.jpg) no-repeat; overflow:hidden; border:2px solid #dfdfdf;}
+.c-m-l-b-b-b-link2{display:block; width:134px; height:94px; background:url(../images/resources_rank/default_pic2.jpg) no-repeat; overflow:hidden; border:2px solid #dfdfdf;}
+.c-m-l-b-b-b-link3{display:block; width:134px; height:94px; background:url(../images/resources_rank/default_pic3.jpg) no-repeat; overflow:hidden; border:2px solid #dfdfdf;}
+.c-m-l-b-b-b-link:hover,.c-m-l-b-b-b-link2:hover,.c-m-l-b-b-b-link3:hover{border:2px solid #05b1d9;}
 .c-m-l-b-b-b-link img{margin:1px;}
 .c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
 .c-m-l-b-b-bookWrap:hover p{text-decoration:underline;}
 /* 同步辅导页-左侧布局部分-下 */
-.c-m-l-b-essayList{padding-top:10px;}
-.c-m-l-b-essayList span{float:left; text-decoration:none;}
+.c-m-l-b-essayList{padding-top:10px; margin:0 25px; width:615px;}
 .c-m-l-b-e-th{margin:0 20px 10px 20px; height:35px; line-height:35px; border-bottom:1px solid #ccc;}
-.c-m-l-b-e-tr{display:block; padding:0 20px;  height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
-.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:33px; line-height: 33px; border-top:1px solid #ddeaef; border-bottom:1px solid #ddeaef; text-decoration:none;}
+.c-m-l-b-e-tr{height:35px; line-height:35px; color:#999; text-decoration:none; cursor:pointer;}
+.c-m-l-b-e-tr:hover{background-color:#ecf5f9; height:35px; line-height: 35px; text-decoration:none;}
 .c-m-l-b-e-tr .c-m-l-b-e-td2{color:#05b1d9;}
 .c-m-l-b-e-td1{width:45px;}
 .c-m-l-b-e-td2{width:300px;}
@@ -75,10 +75,12 @@
 .c-m-right h2{font-size:16px; font-family:"microsoft yahei"; color:#666; margin-bottom:5px; font-weight:bold;}
 .c-m-right h2 em{display:inline-block; width:18px; height:18px; background:url(../images/zwyd_index/icon.png) no-repeat -218px 0; margin-left:4px; position:relative; top:3px;}
 /* 页面右侧布局-英语园地公共资源部分-第一部分 */
-.c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
-.c-m-r-p1-icon.icon2{background-position:-110px 0; margin-right:0;}
-.c-m-r-p1-alist{clear:both; color:#05b1d9; padding-bottom:15px; border-bottom:1px solid #dcdcdc;}
-.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}
+.c-m-r-p1-icon{width: 92px;height: 102px;float: left;background: url(../images/zwyd_index/icon.png) no-repeat 0 10px;text-indent: -9999em;margin-right: 18px;margin-bottom: 10px;}
+.c-m-r-p1-icon:hover{background-position: 0 -98px;}
+.c-m-r-p1-icon.icon2{background-position: -110px 10px;margin-right: 0;}
+.c-m-r-p1-icon.icon2:hover{background-position: -110px -98px;}
+.c-m-r-p1-alist{clear: both;color: #05b1d9;padding-bottom: 15px;border-bottom: 1px solid #dcdcdc}
+.c-m-r-p1-alist a{color: #05b1d9;padding:9px;}
 /* 页面右侧布局-英语园地公共资源部分-第二部*/
 .c-m-r-part2{clear:both; overflow:hidden;}
 h2.c-m-r-part2-h2,h2.c-m-r-part3-h2{margin-top:20px; width:208px; height:35px; line-height:35px; background:url(../images/resources_rank/bang_h1.jpg) no-repeat; font-size:12px; font-family:"Simsun"; text-indent:35px;}
