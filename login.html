@@ -152,8 +152,8 @@ $(function() {
         imageCenterX = (1920 - $(document).width()) / 2;
     $(".header").mousemove(function(e) {
         var moveX = centerX - e.pageX;
-        $(".header-bg1").css({"background-positionX":-imageCenterX-moveX/55});
-        $(".header-bg2").css({"background-positionX":-imageCenterX+moveX/55});
+        $(".header-bg1").css({"background-positionX":-imageCenterX-moveX/35});
+        $(".header-bg2").css({"background-positionX":-imageCenterX-moveX/15});
     });
 });
 // hint样式函数

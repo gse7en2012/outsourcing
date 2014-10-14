@@ -39,7 +39,7 @@ a:hover{text-decoration: underline;}
 .header .inner{position:relative; height:561px;}
 .header-loginWrap{position:absolute;top:146px; left:247px; width:450px;}
 .header-loginWrap-form{margin:0 auto; width:320px;}
-.header-loginWrap-form .focus{background-color:#fffae2; border-color:#f5e190;}
+.header-loginWrap-form .focus{background-color:#fffae2; border-color:#f5e190;outline:none;box-shadow: inset 0 2px 3px #f2edd6;}
 .header-loginWrap-form-input{margin-bottom:20px; width:298px; height:38px; line-height:38px; padding:0 10px; border:1px solid #cfcfcf; font-size:14px;}
 .header-loginWrap-form-button{width:320px; height:60px; border:none; background-color:#f5931c; color:#fff; font:bold 20px "Microsoft Yahei"; cursor:pointer;}
 .header-loginWrap-form-button:hover{background-color:#ffc705;}
