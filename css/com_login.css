@@ -1,0 +1,60 @@
+/* =s Reset (by YUI 3) */
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+header,section,footer,nav{display: block;}
+/* end */
+/*= global start */
+html,body{height:100%;}
+body{font:12px/1.5 arial,simsun;color:#999;word-break:break-all;word-wrap:break-word;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+.clr{*zoom:1;}
+.clr:after,.clr:before{content:"";display:block;height:0;visibility:hidden;clear:both;}
+.inner{width:960px;margin:0 auto;}
+.c-blue{color:#05b1d9;}
+/* end */
+
+
+.wrap{max-width:1920px; min-width:960px;}
+
+.header{position:relative; background:url(../images/login/index_bg.png) no-repeat center top;}
+.header-other{background:url(../images/login/header_bg.png) no-repeat center top;}
+.header .inner{position:relative; height:561px;}
+.header-loginWrap{position:absolute;top:146px; left:247px; width:450px;}
+.header-loginWrap-form{margin:0 auto; width:320px;}
+.header-loginWrap-form-input{margin-bottom:20px; width:298px; height:38px; line-height:38px; padding:0 10px; border:1px solid #cfcfcf; font-size:14px;}
+.header-loginWrap-form-button{width:320px; height:60px; border:none; background-color:#f5931c; color:#fff; font:bold 20px "Microsoft Yahei"; cursor:pointer;}
+.header-loginWrap-form-button:hover{background-color:#ffc705;}
+.header-loginWrap-form-radios{margin:40px 0 20px 0; padding-left:10px; *padding-left:5px;}
+.header-loginWrap-form-radios input{float:left; margin:4px 5px 0 0; *margin:0; cursor:pointer;}
+.header-loginWrap-form-radios label{float:left; font-size:14px; cursor:pointer;}
+.header-loginWrap-form-radios span{float:left; margin-right:80px;}
+.header-loginWrap-form-radios  .header-loginWrap-form-radios-lastSpan{margin-right:0;}
+
+.header-loginWrap-tips{margin-top:15px; text-align:center;}
+.header-loginWrap-tips input, .header-loginWrap-tips span{display:inline-block; vertical-align:top; *display:inline; *zoom:1;}
+.header-loginWrap-tips input{margin-top:3px; margin-top:2px\9; *margin-top:-2px; cursor:pointer;}
+.header-loginWrap-tips em{color:#747474;}
+.header-loginWrap-tips p{margin-top:55px; color:#fff;}
+.header-loginWrap-tips a{color:#80ecff; text-decoration:underline;}
+
+
+
+
+
+
+
+
