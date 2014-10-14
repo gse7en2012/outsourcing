@@ -21,9 +21,11 @@
 .c-m-l-s-tag1{float: left;height: 56px;margin-left:10px;cursor: pointer;}
 .c-m-l-s-tag1 em{display: inline-block;width: 42px;height: 41px;}
 .c-m-l-s-tag1 p{text-align:center;}
-.c-m-l-s-tag1:hover p{color:#f5931c;}
+.c-m-l-s-tag1:hover p{color:#05b1d9;}
 .c-m-l-s-tag1 .c-m-l-s-t1-icon1{background: url(../images/hycd/class.png) 0 0 no-repeat;}
 .c-m-l-s-tag1 .c-m-l-s-t1-icon2{background: url(../images/hycd/class.png) 45px 0;}
+.c-m-l-s-tag1 .c-m-l-s-t1-icon1:hover{background: url(../images/hycd/class_hover.png) 0 -1px no-repeat;}
+.c-m-l-s-tag1 .c-m-l-s-t1-icon2:hover{background: url(../images/hycd/class_hover.png) -53px -1px no-repeat;}
 
 
 /*查词典的搜索box*/
@@ -142,7 +144,7 @@ top: 6px;cursor:pointer;}
 .c-m-l-c-r-content> a{text-align: center;line-height: 32px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden; color:#05b1d9;font-weight:bold;font-size:14px;float:left;width: 135px;height: 32px;background: #ecf5f9;border: 1px solid #ddeaef;margin-left: 10px;margin-top: 10px;margin-bottom:5px;cursor:pointer;}
 
 
-.c-m-l-c-r-content> a:hover{text-decoration: none;background: #FFFAE2;color:#F3931B;}
+.c-m-l-c-r-content> a:hover{text-decoration: none;background: #FFFAE2;color:#F3931B;border-color: #f9e9ad;}
 
 .c-m-l-c-page{text-align: center;margin-top: 20px;margin-bottom: 20px;}
 .c-m-l-c-page> a{display: inline-block;line-height:30px;margin-left: 2px;color: #989898;}
