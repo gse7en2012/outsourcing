@@ -28,13 +28,18 @@ a:hover{text-decoration: underline;}
 /* end */
 
 
+/* 外部布局 */
 .wrap{max-width:1920px; min-width:960px;}
 
+
+/* 顶部登陆框布局 */
 .header{position:relative; background:url(../images/login/index_bg.png) no-repeat center top;}
-.header-other{background:url(../images/login/header_bg.png) no-repeat center top;}
+.header-bg1{background:url(../images/login/header-bg1.png) no-repeat center top;}
+.header-bg2{background:url(../images/login/header-bg2.png) no-repeat center top;}
 .header .inner{position:relative; height:561px;}
 .header-loginWrap{position:absolute;top:146px; left:247px; width:450px;}
 .header-loginWrap-form{margin:0 auto; width:320px;}
+.header-loginWrap-form .focus{background-color:#fffae2; border-color:#f5e190;}
 .header-loginWrap-form-input{margin-bottom:20px; width:298px; height:38px; line-height:38px; padding:0 10px; border:1px solid #cfcfcf; font-size:14px;}
 .header-loginWrap-form-button{width:320px; height:60px; border:none; background-color:#f5931c; color:#fff; font:bold 20px "Microsoft Yahei"; cursor:pointer;}
 .header-loginWrap-form-button:hover{background-color:#ffc705;}
@@ -52,9 +57,36 @@ a:hover{text-decoration: underline;}
 .header-loginWrap-tips a{color:#80ecff; text-decoration:underline;}
 
 
+/* 中间主要内容布局 */
+.center{position:relative;}
+.center-showList{margin:55px 0;}
+.center-showList-box{float:left; width:318px; border-right:1px solid #dedddc; text-align:center;}
+.center-showList-box h1{padding:10px 0 5px 0; font:bold 26px "Microsoft Yahei"; color:#05b1d9;}
+.center-showList-box p{margin:0 auto; width:220px; line-height:22px; text-align:left;}
+.center-showList-firstBox{border-left:1px solid #dedddc;}
+
+.center-main-nav{height:42px; border:1px solid #d8d8d8; box-shadow:0 1px 2px #d8d8d8;}
+.center-main-nav-title{float:left; padding:0 25px; height:42px; line-height:42px;}
+.center-main-nav-navList{float:left;}
+.center-main-nav-navList-item{float:left; padding:0 15px; height:42px; line-height:42px; color:#9a9a9a; cursor:default;}
+.center-main-nav-navList-item:hover, .current.center-main-nav-navList-item{height:40px; line-height:38px; color:#666; background:url(../images/login/link-bg.png) no-repeat center -2px; border-top:2px solid #05b1d9; text-decoration:none;}
+
+.center-main-content{display:none; padding:0 40px 20px 40px; background-color:#f8f8f8; border:1px solid #d8d8d8;}
+.current.center-main-content{display:block;}
+.center-main-content-tips{padding:20px 0;}
+.center-main-content-tips p{padding:6px 0; color:#666;}
+.center-main-content-tips a{color:#05b1d9;}
+.center-main-content h3{padding:8px; color:#666; font-weight:bold;}
+.center-main-content p{line-height:30px; color:#666;}
+.center-main-content p em, .center-main-content p span{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.center-main-content p span{width:710px;}
+.center-main-content .blue{color:#05b1d9;}
+.center-main-content img{padding:15px;}
 
 
-
-
-
-
+/* 底部版权信息布局 */
+.footer{text-align:center;}
+#footer_content{padding:30px 0;overflow:hidden;margin: 0}
+#footer_lnk{overflow:hidden;margin-bottom:10px;margin-left:-16px;}
+#footer_lnk a{color:#808080;padding: 0 6px}
+#footer_copy,#footer_copy a{color:#b0b0b0;}
