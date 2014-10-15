@@ -137,7 +137,12 @@
 <script>
 $(function() {
     // 底部内容tab切换
-    com.tab('.center-main-nav-navList a', '.center-main-content');
+    //com.tab('.center-main-nav-navList a', '.center-main-content');
+    $('.center-main-nav-navList a').click(function(){
+        var index=$(this).index();
+        $('.center-main-nav-navList a').removeClass('current');
+        $('.center-main-content').removeClass('current').eq(index).addClass('current');
+    })
     // 输入框hint样式
     hint("#username", "输入用户名");
     hint("#password", "输入密码");

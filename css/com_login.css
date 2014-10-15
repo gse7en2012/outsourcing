@@ -69,7 +69,7 @@ a:hover{text-decoration: underline;}
 .center-main-nav-title{float:left; padding:0 25px; height:42px; line-height:42px;}
 .center-main-nav-navList{float:left;}
 .center-main-nav-navList-item{float:left; padding:0 15px; height:42px; line-height:42px; color:#9a9a9a; cursor:default;}
-.center-main-nav-navList-item:hover, .current.center-main-nav-navList-item{height:40px; line-height:38px; color:#666; background:url(../images/login/link-bg.png) no-repeat center -2px; border-top:2px solid #05b1d9; text-decoration:none;}
+.center-main-nav-navList-item:hover, .current.center-main-nav-navList-item{height:40px; line-height:38px; color:#666; background:url(../images/login/link-bg.png) no-repeat center -2px; border-top:2px solid #05b1d9; text-decoration:none;cursor:pointer;}
 
 .center-main-content{display:none; padding:0 40px 20px 40px; background-color:#f8f8f8; border:1px solid #d8d8d8;}
 .current.center-main-content{display:block;}
