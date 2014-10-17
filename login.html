@@ -140,7 +140,7 @@ $(function() {
     //com.tab('.center-main-nav-navList a', '.center-main-content');
     $('.center-main-nav-navList a').click(function(){
         var index=$(this).index();
-        $('.center-main-nav-navList a').removeClass('current');
+        $('.center-main-nav-navList a').removeClass('current').eq(index).addClass('current');
         $('.center-main-content').removeClass('current').eq(index).addClass('current');
     })
     // 输入框hint样式
