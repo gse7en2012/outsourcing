@@ -141,7 +141,8 @@ $(function() {
     $('.center-main-nav-navList a').click(function(){
         var index=$(this).index();
         $('.center-main-nav-navList a').removeClass('current').eq(index).addClass('current');
-        $('.center-main-content').removeClass('current').eq(index).addClass('current');
+        $('.center-main-content.current').slideUp().removeClass('current');
+        $('.center-main-content').eq(index).slideDown().addClass('current');
     })
     // 输入框hint样式
     hint("#username", "输入用户名");

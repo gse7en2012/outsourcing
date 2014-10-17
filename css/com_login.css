@@ -61,7 +61,7 @@ a:hover{text-decoration: underline;}
 .center{position:relative;}
 .center-showList{margin:55px 0;}
 .center-showList-box{float:left; width:318px; border-right:1px solid #dedddc; text-align:center;}
-.center-showList-box h1{padding:10px 0 5px 0; font:bold 26px "Microsoft Yahei"; color:#05b1d9;}
+.center-showList-box h1{padding:10px 0 5px 0; font-size:26px;font-weight:bold;font-family:  "Microsoft Yahei"; color:#05b1d9;}
 .center-showList-box p{margin:0 auto; width:220px; line-height:22px; text-align:left;}
 .center-showList-firstBox{border-left:1px solid #dedddc;}
 
