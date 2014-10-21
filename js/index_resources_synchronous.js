@@ -50,4 +50,61 @@ $(function(){
 			$(this).css({"background":"url(images/resources_rank/icon_h2.jpg) 20px 5px no-repeat","background-color":"#d0f6ff"})
 		}
 	})
+
+
+//    $('.c-m-l-nav-link1').click(function() {
+//        com.openD('#pop2');
+//    });
+
+    $('.c-m-l-nav-link1').click(function () {
+        com.openD({
+            id: '#pop2',//弹出的弹层id
+            close: '.close'
+        })
+    })
+
+    $('.send-btn-bot').click(function () {
+        $('.pop-box').hide();
+        com.openD({
+            id: '#pop1',//弹出的弹层id
+            close: '.close'
+        })
+    })
+
+
+    $('#pop1 :radio').click(function () {
+        $('.pop-table .selected').removeClass('selected');
+        $(this).parent().parent().addClass('selected');
+    })
+    selectItemHelper();
+    function selectItemHelper() {
+        var leftBox = $('.select-left'),rightBox = $('.select-right'),leftBtn=$('.s-b-left'),rightBtn=$('.s-b-right');
+        $(document).on('click','.select-left li',function(){
+            $(this).parent().find('li').removeClass('sel');
+            $(this).addClass('sel');
+        })
+
+        $(document).on('click','.select-right li',function(){
+            $(this).parent().find('li').removeClass('sel');
+            $(this).addClass('sel');
+        })
+
+        leftBtn.click(function(){
+            var newDom=$('.select-left').find('.sel').eq(0).html();
+            if(!newDom){
+                return alert('请先选择！')
+            }
+            leftBox.find('.sel').detach();
+            rightBox.prepend(['<li>',newDom,'</li>'].join(''));
+        })
+        rightBtn.click(function(){
+            var newDom=$('.select-right').find('.sel').eq(0).html();
+            if(!newDom){
+                return alert('请先选择！')
+            }
+            rightBox.find('.sel').detach();
+            leftBox.prepend(['<li>',newDom,'</li>'].join(''));
+        })
+    }
+
 });

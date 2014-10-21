@@ -29,7 +29,19 @@
 /** 同步辅导页-左侧布局部分 **/
 /* 同步辅导页-左侧布局部分-上*/ 
 .c-m-l-title{margin:30px 0 0 30px; color:#333333; font-size:24px; font-family:"Microsoft Yahei"; font-weight:bold;}
-.c-m-l-index{margin:30px 30px 0 30px; padding:0 20px; margin-bottom:30px; height:30px; line-height:30px; color:#05b1d9; background:#fffae2; border:1px solid #f5e190;}
+.c-m-l-nav{margin:15px 0 10px 30px; height:38px;}
+.c-m-l-nav-link{margin-right:25px; height:38px; line-height:38px; color:#999; cursor:pointer;}
+.c-m-l-nav-link span{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.c-m-l-nav-link-text{padding-left:5px;}
+.c-m-l-nav-link:hover{color:#05b1d9; text-decoration:none;}
+.c-m-l-nav-link-icon{display:inline-block; *display:inline; *zoom:1; vertical-align:top;  width:38px; height:38px; background:url(../images/resources_page/spr_resources_synchronous.png) no-repeat;}
+.c-m-l-nav-link1 .c-m-l-nav-link-icon{background-position:0 0;}
+.c-m-l-nav-link1:hover .c-m-l-nav-link-icon{background-position:0 -50px;}
+.c-m-l-nav-link2 .c-m-l-nav-link-icon{background-position:-50px 0;}
+.c-m-l-nav-link2:hover .c-m-l-nav-link-icon{background-position:-50px -50px;}
+.c-m-l-nav-link3 .c-m-l-nav-link-icon{background-position:-100px 0;}
+.c-m-l-nav-link3:hover .c-m-l-nav-link-icon{background-position:-100px -50px;}
+.c-m-l-index{margin:20px 30px 0 30px; padding:0 20px; margin-bottom:30px; height:30px; line-height:30px; color:#05b1d9; background:#fffae2; border:1px solid #f5e190;}
 .c-m-l-index span{color:#999999;}
 .c-m-l-index a{margin:0 10px; color:#05b1d9;}
 
@@ -105,6 +117,44 @@ li.c-m-r-part2-team{text-indent:0;}
 
 
 
+
+/* pop */
+.pop-box{width: 668px;border: 4px solid #bdbdbd;padding: 28px;position: absolute;background: #fff;display: none; overflow:hidden;}
+.pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0;cursor:pointer}
+.pop-title{position:absolute; top:0; left:0; padding-left:10px; width:100%; height:27px; line-height:27px; background-color:#f7f7f7; color:#808080;font-weight:bold;}
+
+.pop-box th{color: #808080;height: 30px;line-height: 30px}
+
+.pop-table td,.pop-table th{min-width: 30px;padding:8px; }
+.pop-table .selected{background-color: #ffffcc;border-bottom: 1px solid #ffcc00;border-top: 1px solid #ffcc00;}
+.pop-box .close-bottom-btn{position: static;display: block;margin: 10px auto;background: #f1f1f1;border: 1px solid #ccc;color: #808080;font-size: 16px;font-family: "microsoft yahei";text-align: center;height: 36px;width: 90px;line-height: 36px;text-decoration: none;}
+.pop-box .close-bottom-btn:hover{border-color: #05b1d9;background: #05b1d9;color: #fff;}
+
+
+.pop-table-send th{width: 54px;font-weight: bold;height: 36px;vertical-align: top;line-height: 36px;}
+.pop-table-send td{padding-left: 10px;height: 36px;line-height: 36px;}
+.pop-table-send label{margin-right: 13px;}
+.pop-table-send a{color: #05b1d9;}
+.pop-table-send input{position: relative;margin: 3px;top: 2px;}
+
+.select-desc{margin-bottom: 15px;}
+.select-left,.select-right{float: left;width: 260px;min-height: 116px;border:1px solid #ccc;max-height: 116px;overflow: auto;}
+.select-left li{height: 28px;line-height: 28px;text-indent: 10px;color: #cccccc;cursor: pointer}
+.select-right li{height: 28px;line-height: 28px;text-indent: 10px;color: #808080;cursor: pointer}
+.select-left li:hover,.select-right li:hover,.select-left li.sel,.select-right li.sel{background: #d0eff6;}
+.select-btn{float: left;margin: 28px 18px;}
+.select-btn a{display: block;width: 30px;height: 22px;border: 1px solid #ccc;color: #999;background: #f1f1f1;text-decoration: none;margin-bottom: 8px;text-align: center;line-height: 22px;font-size: 14px;}
+
+.pop-table-send textarea{width: 582px;resize: none;min-height: 50px;line-height: 24px;color: #808080;border: #ccc 1px solid;padding: 5px;}
+
+.pop-table-send .tips{float: left;}
+.pop-table-send .tips-box{float: right;position: relative;width: 420px;background: #fffae2;border: 1px solid #f5e190;color: #bda440;padding: 5px 10px;line-height: 24px;margin-top: 10px}
+.pop-table-send .tips-box em{position: absolute;width: 12px;height: 22px;left: -11px;top: 50%;margin-top: -11px;background: url(../images/left_t.png)}
+.pop-box .float-btn{float: left;margin-right: 10px;}
+.pop-box .send-btn-bot{margin-left: 65px;border-color: #05b1d9;background: #05b1d9;color: #fff;cursor: pointer;}
+
+#pop1{z-index: 1000}
+#pop2{z-index: 999}
 
 
 

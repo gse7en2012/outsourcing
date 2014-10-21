@@ -34,11 +34,21 @@ $(function(){
     });
 
     // 课外读物、语音、歌曲、游戏栏目的图片hover
-    $(".c-m-l-b-b-bookWrap").each(function(i) {
+    $(".c-m-l-b-b-bookWrap").each(function() {
         $(this).hover(function() {
             $(this).find("p").css({"text-decoration":"underline"});
         }, function() {
             $(this).find("p").css({"text-decoration":"none"});
         });
     });
+
+    // 右侧功公共部分标题点击开关
+    $('.c-m-r-part-toggle .block').toggle(function(){
+        $(this).next().stop().slideUp();
+        $(this).find('em').removeClass('c-m-r-p-icon-minus').addClass('c-m-r-p-icon-plus');
+    },function(){
+        $(this).next().stop().slideDown();
+        $(this).find('em').removeClass('c-m-r-p-icon-plus').addClass('c-m-r-p-icon-minus')
+    });
+
 });
