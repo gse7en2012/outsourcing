@@ -138,7 +138,8 @@ li.c-m-r-part2-team{text-indent:0;}
 .pop-table-send input{position: relative;margin: 3px;top: 2px;}
 
 .select-desc{margin-bottom: 15px;}
-.select-left,.select-right{float: left;width: 260px;min-height: 116px;border:1px solid #ccc;max-height: 116px;overflow: auto;}
+.select-left,.select-right{float: left; margin-left:16px; width:253px;min-height: 116px;border:1px solid #ccc;max-height: 116px;overflow: auto;}
+.select-right{margin-left:0;}
 .select-left li{height: 28px;line-height: 28px;text-indent: 10px;color: #cccccc;cursor: pointer}
 .select-right li{height: 28px;line-height: 28px;text-indent: 10px;color: #808080;cursor: pointer}
 .select-left li:hover,.select-right li:hover,.select-left li.sel,.select-right li.sel{background: #d0eff6;}
@@ -148,15 +149,51 @@ li.c-m-r-part2-team{text-indent:0;}
 .pop-table-send textarea{width: 582px;resize: none;min-height: 50px;line-height: 24px;color: #808080;border: #ccc 1px solid;padding: 5px;}
 
 .pop-table-send .tips{float: left;}
-.pop-table-send .tips-box{float: right;position: relative;width: 420px;background: #fffae2;border: 1px solid #f5e190;color: #bda440;padding: 5px 10px;line-height: 24px;margin-top: 10px}
-.pop-table-send .tips-box em{position: absolute;width: 12px;height: 22px;left: -11px;top: 50%;margin-top: -11px;background: url(../images/left_t.png)}
-.pop-box .float-btn{float: left;margin-right: 10px;}
-.pop-box .send-btn-bot{margin-left: 65px;border-color: #05b1d9;background: #05b1d9;color: #fff;cursor: pointer;}
+.pop-table-send .tips-box{position:relative; width:555px; background:#fffae2; border:1px solid #f5e190; color:#999; padding:5px 10px; line-height:24px; margin:10px 0 0 80px;}
+.pop-table-send .tips-box em{position:absolute; width:18px; height:10px; left:21px; top:-10px; background:url(../images/top_t.png)}
+.pop-table-send .tips-title{float:left; font-weight:bold; color:#da0000;}
+.pop-table-send .pop-inform-td{padding-left:0;}
+.pop-table-send .pop-message-td{padding:10px 0 0 0;}
+.pop-message-td div{float:left; margin-right:8px;}
+.pop-message-td p{height:20px; line-height:30px; color:#999; font-weight:bold;}
+.pop-message-td a{color:#05b1d9;}
+.pop-message-td textarea{float:left; width:565px;}
+.pop-btn-wrap{text-align:center; width:220px; margin:0 auto;}
+.pop-box .float-btn{float:left; margin-right: 10px; cursor:pointer;}
+.pop-box .send-btn-bot{border-color:#05b1d9; background:#05b1d9; color:#fff; cursor:pointer;}
+
+/* pop3 */
+#pop3 .pop-cont p{line-height:20px; color:#808080;}
+#pop3 .pop-cont div{position:relative; color:#808080;}
+#pop3 .pop-cont .pop-cont-choice{padding:5px 0;}
+#pop3 .pop-cont .blue{color:#05b1d9;}
+#pop3 .pop-cont input{margin-top:2px; *margin-top:-3px; vertical-align:top; cursor:pointer;}
+#pop3 .pop-cont label{cursor:pointer;}
+#pop3 .pop-cont b{font:20px "Georgia";}
+#pop3 .pop-cont textarea{margin:5px 0; width:500px; height:100px; resize:none; min-height:50px; line-height:24px; color:#808080; border:#ccc 1px solid; padding:5px;}
+#pop3 .pop-cont a{position:absolute; display:block; width:65px; height:25px; line-height:25px; background-color:#f8f8f8; color:#b0b0b0; border:1px solid #d8d8d8; text-align:center;}
+#pop3 .pop-cont a:hover, #pop3 .pop-cont .cur{display:block; width:67px; height:27px; line-height:27px; background-color:#05b1d9; color:#fff; text-decoration:none; border:none;}
+#pop3 .pop-cont .pop-cont-collect{top:0; right:75px;}
+#pop3 .pop-cont .pop-cont-cancel{top:0; right:0;}
+
+/* pop3 */
+#pop4 .pop-cont p{line-height:20px; color:#808080;}
+#pop4 .pop-cont div{position:relative; color:#808080;}
+#pop4 .pop-cont .pop-cont-choice{padding:5px 0;}
+#pop4 .pop-cont .red{color:#da0000;}
+#pop4 .pop-cont b{font:20px "Georgia";}
+#pop4 .pop-cont textarea{margin:5px 0; width:500px; height:100px; resize:none; min-height:50px; line-height:24px; color:#808080; border:#ccc 1px solid; padding:5px;}
+#pop4 .pop-cont .pop-cont-btn{position:absolute; display:block; width:65px; height:25px; line-height:25px; background-color:#f8f8f8; color:#b0b0b0; border:1px solid #d8d8d8; text-align:center;}
+#pop4 .pop-cont .pop-cont-btn:hover, #pop4 .pop-cont .cur{display:block; width:67px; height:27px; line-height:27px; background-color:#05b1d9; color:#fff; text-decoration:none; border:none;}
+#pop4 .pop-cont .pop-cont-collect{top:0; right:75px;}
+#pop4 .pop-cont .pop-cont-cancel{top:0; right:0;}
+#pop4 .pop-cont .pop-cont-expression{position:absolute; top:0; right:150px; display:block; width:45px; height:27px; line-height:27px; color:#f5931c; background:url(../images/resources_page/spr_resources_synchronous.png) no-repeat -150px 5px; text-indent:20px;}
+
 
 #pop1{z-index: 1000}
 #pop2{z-index: 999}
-
-
+#pop3{padding:50px 40px 40px 40px; width:510px; z-index:1000;}
+#pop4{padding:50px 40px 40px 40px; width:510px; z-index:1000;}
 
 
 

@@ -52,16 +52,27 @@ $(function(){
 	})
 
 
-//    $('.c-m-l-nav-link1').click(function() {
-//        com.openD('#pop2');
-//    });
 
     $('.c-m-l-nav-link1').click(function () {
         com.openD({
             id: '#pop2',//弹出的弹层id
             close: '.close'
         })
-    })
+    });
+
+    $('.c-m-l-nav-link2').click(function () {
+        com.openD({
+            id: '#pop3',//弹出的弹层id
+            close: '.close, .cancel'
+        })
+    });
+
+    $('.c-m-l-nav-link3').click(function () {
+        com.openD({
+            id: '#pop4',//弹出的弹层id
+            close: '.close, .cancel'
+        })
+    });
 
     $('.send-btn-bot').click(function () {
         $('.pop-box').hide();
@@ -69,25 +80,25 @@ $(function(){
             id: '#pop1',//弹出的弹层id
             close: '.close'
         })
-    })
+    });
 
 
     $('#pop1 :radio').click(function () {
         $('.pop-table .selected').removeClass('selected');
         $(this).parent().parent().addClass('selected');
-    })
+    });
     selectItemHelper();
     function selectItemHelper() {
         var leftBox = $('.select-left'),rightBox = $('.select-right'),leftBtn=$('.s-b-left'),rightBtn=$('.s-b-right');
         $(document).on('click','.select-left li',function(){
             $(this).parent().find('li').removeClass('sel');
             $(this).addClass('sel');
-        })
+        });
 
         $(document).on('click','.select-right li',function(){
             $(this).parent().find('li').removeClass('sel');
             $(this).addClass('sel');
-        })
+        });
 
         leftBtn.click(function(){
             var newDom=$('.select-left').find('.sel').eq(0).html();
@@ -96,7 +107,7 @@ $(function(){
             }
             leftBox.find('.sel').detach();
             rightBox.prepend(['<li>',newDom,'</li>'].join(''));
-        })
+        });
         rightBtn.click(function(){
             var newDom=$('.select-right').find('.sel').eq(0).html();
             if(!newDom){
@@ -104,7 +115,17 @@ $(function(){
             }
             rightBox.find('.sel').detach();
             leftBox.prepend(['<li>',newDom,'</li>'].join(''));
-        })
+        });
     }
+
+    // 收藏按钮弹层的输入框计数
+    $("#pop3 textarea").keyup(function() {
+        $("#pop3 b").html(50-$(this).val().length);
+    });
+
+    // 广播按钮弹层的输入框计数
+    $("#pop4 textarea").keyup(function() {
+        $("#pop4 b").html(50-($(this).val().length-87));
+    });
 
 });
