@@ -54,6 +54,7 @@ $(function(){
 
 
     $('.c-m-l-nav-link1').click(function () {
+        $('.pop-bg').show();
         com.openD({
             id: '#pop2',//弹出的弹层id
             close: '.close'
@@ -61,6 +62,7 @@ $(function(){
     });
 
     $('.c-m-l-nav-link2').click(function () {
+        $('.pop-bg').show();
         com.openD({
             id: '#pop3',//弹出的弹层id
             close: '.close, .cancel'
@@ -68,6 +70,7 @@ $(function(){
     });
 
     $('.c-m-l-nav-link3').click(function () {
+        $('.pop-bg').show();
         com.openD({
             id: '#pop4',//弹出的弹层id
             close: '.close, .cancel'

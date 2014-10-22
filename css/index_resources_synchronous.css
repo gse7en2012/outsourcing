@@ -190,10 +190,10 @@ li.c-m-r-part2-team{text-indent:0;}
 #pop4 .pop-cont .pop-cont-expression{position:absolute; top:0; right:150px; display:block; width:45px; height:27px; line-height:27px; color:#f5931c; background:url(../images/resources_page/spr_resources_synchronous.png) no-repeat -150px 5px; text-indent:20px;}
 
 
-#pop1{z-index: 1000}
-#pop2{z-index: 999}
-#pop3{padding:50px 40px 40px 40px; width:510px; z-index:1000;}
-#pop4{padding:50px 40px 40px 40px; width:510px; z-index:1000;}
+#pop1{z-index: 1010}
+#pop2{z-index: 1009}
+#pop3{padding:50px 40px 40px 40px; width:510px; z-index:1010;}
+#pop4{padding:50px 40px 40px 40px; width:510px; z-index:1010;}
 
 
 

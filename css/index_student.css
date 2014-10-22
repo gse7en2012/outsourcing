@@ -125,7 +125,7 @@
 .bottom-booker{position: absolute;right: 10px;bottom:-30px;}
 
 
-.c-bottom{margin-left:220px;}
+.c-bottom{margin-left:165px;}
 .c-bottom a{float: left;background: #e5f7e3;font-size: 14px;color: #05b1d9;padding: 6px 10px;margin:20px 5px;border-radius: 5px;}
 
 .c-h-medal{display:none; position: absolute;width: 303px;height: 137px;background: url(../images/medal.png) no-repeat;top: 0;right: 0;}
@@ -140,7 +140,8 @@
 
 
 /* pop */
-.pop-box{width: 668px;border: 4px solid #bdbdbd;padding: 28px;position: absolute;background: #fff;display: none; overflow:hidden;}
+.pop-bg{width: 100%;height: 100%;z-index: 1000;background: #000;opacity: .3;position: fixed;left: 0;top: 0;display: none;filter: Alpha(opacity=30);}
+.pop-box{width: 668px;border: 4px solid #bdbdbd;padding: 28px;z-index: 1010;background: #fff;display: none; overflow:hidden;position: absolute;}
 .pop-box .close{display: block;width: 27px;height: 27px;background: url(../images/close.jpg) no-repeat;position: absolute;top: 0;right: 0;cursor:pointer}
 .pop-title{position:absolute; top:0; left:0; padding-left:10px; width:100%; height:27px; line-height:27px; background-color:#f7f7f7; color:#808080;font-weight:bold;}
 

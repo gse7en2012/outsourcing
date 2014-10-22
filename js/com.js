@@ -213,11 +213,13 @@ var com = {
             sl = $(window).scrollLeft();
         // 弹层弹出
         function posPop(idname){
+            $('.pop-bg').show();
             idname.height()>wh?idname.fadeIn().css({'top':st,'left':(ww-idname.width())/2+sl}):idname.fadeIn().css({'top':(wh-idname.outerHeight())/2+st,'left':(ww-idname.outerWidth())/2+sl});
         }
         // 弹层关闭
         $(settings.close).click(function(){
             $(this).closest('.pop-box').fadeOut();
+            $('.pop-bg').hide();
         });
         posPop(popid);
 
