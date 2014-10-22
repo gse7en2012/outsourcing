@@ -30,4 +30,11 @@ $(function(){
     $(".close").click(function() {
         $(".c-m-s-message").hide();
     });
+    /*tips pop*/
+    $(".aside").click(function() {
+        com.openD({
+            id: '#pop1',//弹出的弹层id
+            close: '.close, .cancel'
+        })
+    });
 });

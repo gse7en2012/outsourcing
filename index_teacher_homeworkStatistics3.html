@@ -461,8 +461,8 @@
 
 <!-- /.弹层 -->
 <div class="pop-box" id="pop1">
+    <div class="pop-title">发送</div>
     <a class="close" id="close1"></a>
-
     <div class="pop-cont">
         <table class="pop-table">
             <tr>
@@ -515,10 +515,9 @@
 </div>
 
 <div class="pop-box" id="pop2">
+    <div class="pop-title">发送</div>
     <a class="close" id="close2"></a>
-
     <div class="pop-cont">
-
         <table class="pop-table-send">
             <tr>
                 <th>资源名称</th>
@@ -553,37 +552,39 @@
                         <li>小学六年级5班</li>
                         <li>小学六年级5班</li>
                     </ul>
-
-
                 </td>
             </tr>
             <tr>
-                <th style="line-height: 22px;">是否同时发送短信通知家长</th>
-                <td>
-                    <p class="tips"><label><input type="radio" name="s" checked>发送</label><label><input type="radio"
-                                                                                                        name="s">不发生</label>
-                    </p>
-
+                <td colspan="2" class="pop-inform-td">
+                    <div class="clr">
+                        <span class="tips-title">是否同时发送短信通知家长：</span>
+                        <p class="tips">
+                            <label><input type="radio" name="s" checked>发送</label>
+                            <label><input type="radio" name="s">不发送</label>
+                        </p>
+                    </div>
                     <div class="tips-box">
                         <em></em>
-                        当日晚上21:00 ～ 次日早上7:00，短信通知功能会被自动关闭, 每天前两次发送资源所带短信会直接发送到家长手机上，其余则需家长在“消息中心”查看
+                        <p>未订购同步课堂的家长不会收到短信</p>
+                        <p>当日晚上21:00 ～ 次日早上7:00，短信通知功能会被自动关闭</p>
+                        <p>每天前两次发送资源所带短信会直接发送到家长手机上，其余则需家长在“消息中心”查看</p>
                     </div>
                 </td>
-
             </tr>
             <tr>
-                <th>短信内容</th>
-                <td><p><a href="#">选择短信模板</a></p>
+                <td colspan="2" class="pop-message-td clr">
+                    <div>
+                        <p>发送内容：</p>
+                        <a href="javascript:;">选择短信模板</a>
+                    </div>
                     <textarea>你好阿阿斯顿发生山东房的说法山东房山东房速度速度速度飞</textarea>
                 </td>
             </tr>
         </table>
-        <a class=" close-bottom-btn float-btn send-btn-bot">
-            发送
-        </a>
-        <a class="close close-bottom-btn float-btn">
-            取消
-        </a>
+        <div class="pop-btn-wrap">
+            <a class="close-bottom-btn float-btn send-btn-bot">发送</a>
+            <a class="close close-bottom-btn float-btn">取消</a>
+        </div>
     </div>
 </div>
 <!-- 弹层./-->
