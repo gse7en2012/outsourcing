@@ -197,15 +197,76 @@
 .c-m-l-b-c-b-c-chinese{height:24px; font:12px/20px "SimSun";}
 
 
+/** 英语词典栏目_搜索页-左侧布局部分 **/
+.c-m-l-b-c-box2{margin:0 auto; padding:15px 0; width:580px; border-bottom:none; overflow:hidden; z-index:9;}
+/* 英语词典栏目_搜索页-左侧布局部分-Part1 */
+.c-m-l-b-c-b2-search{padding-bottom:30px;}
+.c-m-l-b-c-b2-l-orange{font:30px "Arial"; color:#f5931c;}
+.c-m-l-b-c-b2-l-sound{display:inline-block; vertical-align:top; *display:inline; *zoom:1; margin:8px 15px 0 10px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px; text-indent:-9999em;}
+.c-m-l-b-c-b2-l-soundmark{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:8px 10px 0 0;}
+.c-m-l-b-c-b2-l-addToNote{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin-top:8px; color:#05b1d9;}
+/* 英语词典栏目_搜索页-左侧布局部分-Part2 */
+.c-m-l-b-c-b2-title{height:31px; border-top:2px solid #b4efff; font:bold 12px/31px "SimSun"; background:#d0f6ff url(../images/yyyd_index/icon_h2.jpg) 20px 7px no-repeat; color:#999; text-indent:45px; cursor:pointer;}
+.c-m-l-b-c-b2-title.hide{background:#d0f6ff url(../images/yyyd_index/icon_h2_turn.jpg) 20px 7px no-repeat;}
+.c-m-l-b-c-b2-content{padding:0 20px; overflow:hidden;}
+.c-m-l-b-c-b2-c-intro{height:37px; line-height:37px; border-bottom:1px solid #dcdcdc;}
+.c-m-l-b-c-b2-c-intro em{color:#05b1d9;}
+.c-m-l-b-c-b2-c-intro span{margin-right:50px;}
+.c-m-l-b-c-b2-c-intro .last{margin-right:0;}
+.c-m-l-b-c-b2-c-info{padding:15px 0 0 0;}
+.c-m-l-b-c-b2-c-info-left, .c-m-l-b-c-b2-c-info-right{float:left;}
+.c-m-l-b-c-b2-c-info-left{padding-left:5px; width:55px; font-family:"Arial"; color:#f5931c;}
+.c-m-l-b-c-b2-c-info-right{width:480px;}
+.c-m-l-b-c-b2-c-info-right li{padding-bottom:6px;}
+.c-m-l-b-c-b2-c-info-right-toggle{}
+.c-m-l-b-c-b2-c-info-right-toggle .orange{color:#f5931c;}
+.c-m-l-b-c-b2-c-info-right-toggle div{display:none; padding:0 0 5px 10px;}
+.c-m-l-b-c-b2-c-info-right-toggle span{position:relative; cursor:pointer;}
+.c-m-l-b-c-b2-c-info-right-toggle em{position:absolute; top:-1px; right:-18px; width:16px; height:16px; background:url(../images/yyyd_index/li_icon.png) no-repeat;}
+.c-m-l-b-c-b2-c-info-right-toggle span.hide em{background-image:url(../images/yyyd_index/li_icon_turn.png);}
+/* 英语词典栏目_搜索页-左侧布局部分-Part3 */
+.c-m-l-b-c-b2-c-instanceList{margin-top:15px;}
+.c-m-l-b-c-b2-c-instanceList li{padding-bottom:15px;}
+.c-m-l-b-c-b2-c-instanceList li.last{padding-bottom:0;}
+.c-m-l-b-c-b2-c-instanceList-left, .c-m-l-b-c-b2-c-instanceList-right{float:left;}
+.c-m-l-b-c-b2-c-instanceList-left{width:18px; line-height:25px;}
+.c-m-l-b-c-b2-c-instanceList-right{width:520px; word-wrap:break-word;}
+.c-m-l-b-c-b2-c-instanceList-right p{line-height:24px; word-wrap:break-word; overflow:hidden;}
+.c-m-l-b-c-b2-c-instanceList-right-english{position:relative; color:#666;}
+.c-m-l-b-c-b2-c-instanceList-right-english a{position:absolute; margin-left:2px; margin-top:1px; *margin-top:-3px; width:20px; height:20px; background:url(../images/yyyd_index/icon.png) no-repeat -315px -85px;}
+/* 英语词典栏目_搜索页-左侧布局部分-Part4 */
+.c-m-l-b-c-b2-c-sourceList{margin-top:15px;}
+.c-m-l-b-c-b2-c-sourceList a{display:block; padding-bottom:5px; color:#05b1d9;}
+.c-m-l-b-c-b2-c-sourceList em{display:inline-block; *display:inline; *zoom:1; vertical-align:top;  margin-left:10px; height:16px; line-height:16px; background:url(../images/yyyd_index/icon.png) no-repeat; text-indent:20px;}
+.c-m-l-b-c-b2-c-sourceList .c-m-l-b-c-b2-c-sourceList-importance{background-position:-610px -110px; color:#f36363;}
+.c-m-l-b-c-b2-c-sourceList .c-m-l-b-c-b2-c-sourceList-understanding{background-position:-610px -130px; color:#9bd038;}
+
+
+/** 英语词典栏目_搜索页-右侧布局部分 **/
+.c-m-r2-part1 h2{position:relative; padding:0 0 10px 5px; border-bottom:1px solid #ddd;}
+.c-m-r2-part1 h2 em{position:absolute; top:3px; margin-left:5px; width:13px; height:16px; background:url(../images/yyyd_index/icon.png) no-repeat -190px -110px;}
+.c-m-r2-content{padding-left:10px;}
+/* 英语词典栏目_搜索页-右侧布局部分-Part1 */
+.c-m-r2-part1-searchList{padding:10px 0 15px 0;}
+.c-m-r2-part1-searchList li{font-size:14px; list-style-type:disc; list-style-position:inside; color:#05b1d9;}
+/* 英语词典栏目_搜索页-右侧布局部分-Part2 */
+.c-m-r2-part2-synonymyList{padding:10px 0 10px 0;}
+.c-m-r2-part2-synonymyList dt{padding-bottom:5px;}
+.c-m-r2-part2-synonymyList dd{padding-left:10px; padding-bottom:5px; color:#05b1d9;}
+/* 英语词典栏目_搜索页-右侧布局部分-Part3 */
+.c-m-r2-part3-appendList{padding:10px 0 10px 0;}
+.c-m-r2-part3-appendList li{padding-bottom:10px;}
+.c-m-r2-part3-appendList span{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.c-m-r2-part3-appendList-english{padding-right:20px; color:#666;}
+
+
 /** 页面右侧布局-英语园地公共资源部分 **/
 .c-m-right{float:left; padding:20px; width:208px; border:1px solid #dcdcdc;}
-.c-m-right h2{font-size:16px; font-family:"microsoft yahei"; color:#666; margin-bottom:5px; font-weight:bold;}
-.c-m-right h2 em{display:inline-block; width:18px; height:18px; background:url(../images/yyyd_index/icon2.png) no-repeat -218px 0; margin-left:4px; position:relative; top:3px;}
-.c-m-right h2.block{font-size: 12px;font-family: "simsum";color: #666;margin-bottom: 5px;border: 1px solid #e5e5e5;background: #fff;font-weight: bold;border-bottom: 3px solid #ddd;padding:0 5px;height: 30px;line-height: 30px;cursor: default;}
-.c-m-right h2.block em{float: left;width: 17px;height: 17px;background: url(../images/yyyd_index/icon2.png) no-repeat -218px -20px;margin-left: 4px;margin-left: 4px;margin-top: 4px; margin-right: 5px;}
-.c-m-right h2.block em.c-m-r-p-icon-plus{background-position: -218px -37px;}
+.c-m-right h2{font:bold 16px "Microsoft Yahei"; color:#666;}
+.c-m-right h3{position:relative; width:100%; height:31px; font:bold 12px/31px "SimSum"; color:#666; border:1px solid #ddd; border-bottom-width:3px; text-indent:32px; cursor:pointer;}
+.c-m-right h3 em{position:absolute; top:7px; left:11px; width:17px; height:17px; background:url(../images/yyyd_index/icon2.png) no-repeat -218px -20px;}
+.c-m-right h3.hide em{background-position:-218px -37px;}
 /* 页面右侧布局-英语园地公共资源部分-第一部分 */
-/*.c-m-r-p1-icon{width:92px; height:92px; float:left ;background:url(../images/yyyd_index/icon2.png) no-repeat 0 0; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}*/
 .c-m-r-p1-icon{width:92px; height:102px; float:left; background:url(../images/yyyd_index/icon2.png) no-repeat 0 10px; text-indent:-9999em; margin-right:18px; margin-bottom:10px;}
 .c-m-r-p1-icon:hover{background-position:0 -98px;}
 .c-m-r-p1-icon.icon2{background-position:-110px 10px; margin-right:0;}
