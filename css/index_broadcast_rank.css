@@ -1,0 +1,35 @@
+/** 广播广场模块-排行榜 主要内容布局 **/
+.c-m-content{padding:20px; border:1px solid #d8d8d8; border-bottom-width:2px;}
+.c-m-content-box{margin-bottom:10px;}
+.c-m-content-box-title{height:31px; line-height:31px; background:url(../images/broadcast/spr_tb.png) no-repeat 19px 6px; text-indent:45px; font-weight:bold; color:#fff; cursor:pointer;}
+.c-m-content-box-title.hide{background-position:19px -34px;}
+.c-m-content-box-title.purple{background-color:#8e77d2; border-top:2px solid #5f48b6;}
+.c-m-content-box-title.softBlue{background-color:#7ad1fc; border-top:2px solid #4ab5fa;}
+.c-m-content-box-title.blue{background-color:#6ab3c6; border-top:2px solid #3c8ba5;}
+.c-m-content-box-title.green{background-color:#abc83c; border-top:2px solid #81a81a;}
+.c-m-content-box-title.pink{background-color:#fd7b9d; border-top:2px solid #fc4b70;}
+.c-m-content-box-title.orange{background-color:#ffbc59; border-top:2px solid #ff972e;}
+.c-m-content-box-title.softPink{background-color:#efa8ea; border-top:2px solid #efa8ea;}
+.c-m-content-box-title.gray{background-color:#c7c3a6; border-top:2px solid #a6a17b;}
+.c-m-content-box-content.hide{display:none;}
+.c-m-content-box-content-box{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:15px 8px; width:210px;}
+.c-m-content-box-content-box-title{padding-bottom:5px; font-weight:bold; color:#666; text-indent:20px;}
+.c-m-content-box-content-box-title-navWrap{position:relative; height:31px; border:1px solid #e2e2e2; border-bottom-width:3px;}
+.c-m-content-box-content-box-title-navList{position:absolute; left:9px; bottom:-3px; height:29px;}
+.c-m-content-box-content-box-title-navList a{float:left; width:50px; height:26px; line-height:26px; background-color:#fff; color:#666; border-bottom:3px solid #e2e2e2; text-align:center; cursor:default;}
+.c-m-content-box-content-box-title-navList a:hover, .c-m-content-box-content-box-title-navList .current{width:48px; height:28px; line-height:25px; font-weight:bold; background-color:#fff; border:1px solid #e2e2e2; border-bottom:none; text-decoration:none;}
+.c-m-content-box-content-box-title-rankList{display:none; margin:5px 0; color:#808080;}
+.c-m-content-box-content-box-title-rankList.current{display:block;}
+.c-m-content-box-content-box-title-rankList tr{height:30px;}
+.c-m-content-box-content-box-title-rankList th, .c-m-content-box-content-box-title-rankList td{text-align:center;}
+.c-m-content-box-content-box-title-rankList .td1{width:30px;}
+.c-m-content-box-content-box-title-rankList .td2{width:80px;}
+.c-m-content-box-content-box-title-rankList .td3{width:40px;}
+.c-m-content-box-content-box-title-rankList .td4{width:60px;}
+.c-m-content-box-content-box-title-rankList span{display:block; margin:0 auto; width:18px; height:18px; line-height:18px; border:1px solid #dcdcdc; text-align:center;}
+.c-m-content-box-content-box-title-rankList .excellence{width:19px; height:19px; background-color:#abc83c; border:none; color:#fff;}
+.c-m-content-box-content-box-title-rankList .blue{color:#05b1d9;}
+.c-m-content-box-content-box-title-rankList2 .td1{width:30px;}
+.c-m-content-box-content-box-title-rankList2 .td2{width:100px;}
+.c-m-content-box-content-box-title-rankList2 .td4{width:60px;}
+
