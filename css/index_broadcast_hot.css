@@ -1,0 +1,75 @@
+/** 广播广场模块-排行榜 主要内容布局 **/
+.c-m-left{width:709px; background-color:#fff; border:1px solid #d8d8d8;}
+.c-m-right{margin-left:-1px;}
+
+/* 广播广场模块-排行榜 搜索框布局 */
+.c-m-left-searchPeople{margin:-17px 30px 30px 30px;}
+.c-m-left-searchPeople-icon, .c-m-left-searchPeople-searchInput{display:inline-block; *display:inline; *zoom:1; vertical-align:bottom;}
+.c-m-left-searchPeople-icon{margin-right:15px; *margin-right:0; width:143px; height:79px; background:url(../images/broadcast/searchIcon.png) no-repeat;}
+.c-m-left-searchPeople-searchInput{}
+.c-m-left-searchPeople-searchInput input{float:left; padding:0 10px; width:328px; *width:318px; height:40px; line-height:40px; border:2px solid #b7b7b7;}
+.c-m-left-searchPeople-searchInput a{float:left; width:134px; height:44px; font:bold 18px/44px "Microsoft Yahei"; background:#f5931c url(../images/broadcast/searchBtnIcon.png) no-repeat 21px 13px; color:#f9f9f9; text-align:center; text-indent:30px;}
+.c-m-left-searchPeople-searchInput a:hover{background-color:#ffc705; text-decoration:none;}
+
+/* 广播广场模块-排行榜 导航 */
+.c-m-left-navWrap{position:relative; margin:0 30px; height:39px; border-bottom:1px solid #e5e5e5;}
+.c-m-left-navWrap-navList{position:absolute; left:0; bottom:-1px; font-size:0;}
+.c-m-left-navWrap-navList a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin-left:-1px; width:124px; height:38px; line-height:38px; font-size:12px; color:#999; border:1px solid #e5e5e5; text-align:center; cursor:default;}
+.c-m-left-navWrap-navList a:hover, .c-m-left-navWrap-navList .current{height:37px; line-height:37px; line-height:36px\9; border-top:2px solid #05b1d9; border-bottom-color:#fff; text-decoration:none;}
+
+
+/** 广播广场模块-排行榜 tab切换内容大布局 **/
+.c-m-left-content{display:none; margin:0 30px; padding:20px 0;}
+.c-m-left-content.current{display:block;}
+
+
+/** 广播广场模块-排行榜 热门标签布局 **/
+.c-m-left-content-box1{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:10px 0; margin-right:25px; width:310px;}
+.c-m-left-content-box1.mr0{margin-right:0;}
+.c-m-left-content-box1-title{position:relative; width:308px; height:30px; line-height:30px; background:url(../images/broadcast/spr_tb.png) no-repeat 19px -73px; text-indent:45px; font-weight:bold; cursor:pointer; border:1px solid #e5e5e5; border-top-width:2px;}
+.c-m-left-content-box1-title.hide{background-position:19px -113px;}
+.c-m-left-content-box1-title em{position:absolute; right:25px; font-weight:lighter;}
+.c-m-left-content-box1-content{padding-top:10px;}
+.c-m-left-content-box1-content-infoList{margin-bottom:5px; text-align:center;}
+.c-m-left-content-box1-content-infoList tr{height:30px;}
+.c-m-left-content-box1-content-infoList .td1{width:50px;}
+.c-m-left-content-box1-content-infoList .td2{width:100px;}
+.c-m-left-content-box1-content-infoList .td3{width:80px;}
+.c-m-left-content-box1-content-infoList .td4{width:80px;}
+.c-m-left-content-box1-content-more{margin-left:235px; color:#05b1d9;}
+
+
+/** 广播广场模块-排行榜 浏览标签布局 **/
+.c-m-left-content-box2{font-size:0;}
+.c-m-left-content-box2 a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:0 3px 3px 0; *margin:0 2px 2px 0; width:103px; height:33px; line-height:33px; font-size:14px; font-weight:bold; color:#05b1d9; background-color:#ecf5f9; border:1px solid #ddeaef; text-align:center;}
+.c-m-left-content-box2 a:hover{color:#f5931c; background-color:#fffae2; border:1px solid #f8e9ac; text-decoration:none;}
+.c-m-left-content-box2 a em{font-weight:lighter; color:#999;}
+/* 广播广场模块-排行榜 浏览标签布局-分页 */
+.c-m-l-b-paging{padding:15px 2px;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
+
+
+/** 广播广场模块-排行榜 排行榜标签布局 **/
+.c-m-content-box-content-box{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:0  10px 15px 10px; width:260px;}
+.c-m-content-box-content-box-title{padding-bottom:5px; font-weight:bold; color:#666; text-indent:20px;}
+.c-m-content-box-content-box-title-navWrap{position:relative; height:31px; border:1px solid #e2e2e2; border-bottom-width:3px;}
+.c-m-content-box-content-box-title-navList{position:absolute; left:9px; bottom:-3px; height:29px;}
+.c-m-content-box-content-box-title-navList a{float:left; width:50px; height:26px; line-height:26px; background-color:#fff; color:#666; border-bottom:3px solid #e2e2e2; text-align:center; cursor:default;}
+.c-m-content-box-content-box-title-navList a:hover, .c-m-content-box-content-box-title-navList .current{width:48px; height:28px; line-height:25px; font-weight:bold; background-color:#fff; border:1px solid #e2e2e2; border-bottom:none; text-decoration:none;}
+.c-m-content-box-content-box-title-rankList{display:none; margin:5px 0; color:#808080;}
+.c-m-content-box-content-box-title-rankList.current{display:block;}
+.c-m-content-box-content-box-title-rankList tr{height:30px;}
+.c-m-content-box-content-box-title-rankList th, .c-m-content-box-content-box-title-rankList td{text-align:center;}
+.c-m-content-box-content-box-title-rankList .td1{width:30px;}
+.c-m-content-box-content-box-title-rankList .td2{width:80px;}
+.c-m-content-box-content-box-title-rankList .td3{width:40px;}
+.c-m-content-box-content-box-title-rankList .td4{width:60px;}
+.c-m-content-box-content-box-title-rankList span{display:block; margin:0 auto; width:18px; height:18px; line-height:18px; border:1px solid #dcdcdc; text-align:center;}
+.c-m-content-box-content-box-title-rankList .excellence{width:19px; height:19px; background-color:#abc83c; border:none; color:#fff;}
+.c-m-content-box-content-box-title-rankList .blue{color:#05b1d9;}
+.c-m-content-box-content-box-title-rankList2 .td1{width:30px;}
+.c-m-content-box-content-box-title-rankList2 .td2{width:100px;}
+.c-m-content-box-content-box-title-rankList2 .td4{width:60px;}
+

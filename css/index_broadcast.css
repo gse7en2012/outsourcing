@@ -3,7 +3,7 @@
 /* 头部资源布局 */
 .c-h-search{position:absolute; right:0; height:44px; width:450px; top:40px;}
 .c-h-s-text{float:left; padding:0 10px; height:44px; width:350px; border:0; background:#fff;}
-.c-h-search-btn{float:left; background:#f5931c url(../images/broadcast/spr_resources.png) 0 -76px; width:79px; height:100%;}
+.c-h-search-btn{float:left; background:#f5931c url(../images/broadcast/spr_broadcast.png) 0 -76px; width:79px; height:100%;}
 .c-h-search-btn:hover{background-color:#ffc705;}
 /* 导航布局 */
 .c-m-nav{top:-64px;}

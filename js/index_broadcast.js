@@ -8,6 +8,9 @@ $(function() {
         com.tab('.tabClass' + i + ' .c-m-content-box-content-box-title-navList-a', '.tabClass' + i + ' .c-m-content-box-content-box-title-rankList');
     });
 
+    // 广播广场-热门标签tab切换
+    com.tab('.c-m-left-navWrap-navList a', '.c-m-left-content');
+
     // 显示/关闭toggle
     $('.toggle').click(function() {
         if(!$(this).hasClass('hide')) {
