@@ -24,11 +24,12 @@
 
 
 /** 广播广场模块-排行榜 热门标签布局 **/
-.c-m-left-content-box1{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:10px 0; margin-right:25px; width:310px;}
-.c-m-left-content-box1.mr0{margin-right:0;}
+.c-m-left-content-boxWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin-right:25px; width:310px;}
+.c-m-left-content-boxWrap.mr0{margin-right:0;}
+.c-m-left-content-box1{padding:10px 0; width:100%;}
 .c-m-left-content-box1-title{position:relative; width:308px; height:30px; line-height:30px; background:url(../images/broadcast/spr_tb.png) no-repeat 19px -73px; text-indent:45px; font-weight:bold; cursor:pointer; border:1px solid #e5e5e5; border-top-width:2px;}
 .c-m-left-content-box1-title.hide{background-position:19px -113px;}
-.c-m-left-content-box1-title em{position:absolute; right:25px; font-weight:lighter;}
+.c-m-left-content-box1-title em{position:absolute; top:0; right:25px; font-weight:lighter;}
 .c-m-left-content-box1-content{padding-top:10px;}
 .c-m-left-content-box1-content-infoList{margin-bottom:5px; text-align:center;}
 .c-m-left-content-box1-content-infoList tr{height:30px;}
