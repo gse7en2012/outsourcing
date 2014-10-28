@@ -1,0 +1,63 @@
+/** 改写公共资源的独有样式 **/
+.c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/vote/vote_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
+/* 导航布局 */
+.c-m-nav{top:-64px;}
+.c-m-nav a{float:left; height:34px; line-height:34px; color:#fff; padding:0 15px; margin-right:5px; background:#05b1d9; text-decoration:none;}
+.c-m-nav .cur,.c-m-nav a:hover{background:#f9f9f9; color:#666;}
+
+
+/** 页面主要内容布局部分 **/
+.c-main{*margin-top:30px;}
+.c-m-content{margin-top:30px;}
+
+
+/** 页面左侧布局 **/
+.c-m-left{float:left; width:710px; border-top:1px solid #d8d8d8;}
+
+
+/** 页面左侧布局-公共样式 **/
+.c-m-l-top{padding:15px 25px; background-color:#fff; border:1px solid #d8d8d8; border-top:0; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+.c-m-l-middle{padding:10px 25px;}
+.c-m-l-bottom{padding:10px 25px; background-color:#fff; border:1px solid #d8d8d8; box-shadow:0 1px 2px #ccc; overflow:hidden;}
+
+
+/** 页面右侧布局-公共资源部分 **/
+.c-m-right{float:left; padding:20px; width:208px; border:1px solid #dcdcdc;}
+.c-m-right h2{font:bold 16px "Microsoft Yahei"; color:#666;}
+.c-m-right h3{position:relative; width:100%; height:31px; font:bold 12px/31px "SimSum"; color:#666; border:1px solid #ddd; border-bottom-width:3px; text-indent:32px; cursor:pointer;}
+.c-m-right h3 em{position:absolute; top:7px; left:11px; width:17px; height:17px; background:url(../images/vote/icon2.png) no-repeat -218px -20px;}
+.c-m-right h3.hide em{background-position:-218px -37px;}
+/* 页面右侧布局-共资源部分-第一部分 */
+.c-m-r-part1-info{padding-bottom:10px;}
+.c-m-r-part1-info img{float:left; border:3px solid #dfdfdf;}
+.c-m-r-part1-info-name{float:left; padding:3px  0 0 10px; width:130px; color:#05b1d9;}
+.c-m-r-part1-info-name h4{padding-bottom:5px; font:bold 14px "SimSum";}
+.c-m-r-part1-info-name a{color:#05b1d9;}
+.c-m-r-part1-voteStart{display:block; margin:10px 0; width:210px; height:57px; background:url(../images/vote/icon2.png) no-repeat right -98px; text-indent:-9999em; cursor:pointer;}
+.c-m-r-part1-voteStart:hover{background-position:right -156px;}
+/*.c-m-r-p1-alist{clear:both; color:#dcdcdc; padding-bottom:15px;}*/
+/*.c-m-r-p1-alist a{color:#05b1d9; padding:0 8px;}*/
+/* 页面右侧布局-英语园地公共资源部分-第二部分 */
+.c-m-r-part2{padding:10px 0 5px 0;}
+.c-m-r-par2-content{position:relative; padding-bottom:10px;}
+.c-m-r-par2-content-text{padding-top:10px;}
+.c-m-r-par2-content-text-voteNumber, .c-m-r-par2-content-text-voteTitle{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.c-m-r-par2-content-text-voteNumber{padding:0 5px;}
+.c-m-r-par2-content-text-voteTitle{color:#05b1d9;}
+
+
+/*
+.c-m-r-par2-content-rankList{margin:5px 0; color:#808080;}
+.c-m-r-par2-content-rankList tr{height:30px;}
+.c-m-r-par2-content-rankList td{text-align:center;}
+.c-m-r-par2-content-rankList-td1{width:30px;}
+.c-m-r-par2-content-rankList-td2{width:70px; color:#05b1d9;}
+.c-m-r-par2-content-rankList-td3{width:50px;}
+.c-m-r-par2-content-rankList-td4{width:45px;}
+.c-m-r-par2-content-rankList span{display:block; margin:0 auto; width:18px; height:18px; line-height:18px; border:1px solid #dcdcdc; text-align:center;}
+.c-m-r-par2-content-rankList .c-m-r-par2-content-rankList-excellence{width:19px; height:19px; background-color:#abc83c; border:none; color:#fff;}
+.c-m-r-par2-content-more{margin-left:140px; color:#05b1d9;}
+*/
+
+
+

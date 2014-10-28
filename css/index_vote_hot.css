@@ -1,0 +1,48 @@
+/** 页面左侧布局 **/
+.c-m-left{float:left; margin-right:30px; width:680px; border-top:none;}
+
+
+/** 投票模块-热门投票 公用部分 **/
+.c-m-left-nav{border-top:1px solid #d8d8d8;}
+.c-m-left-nav a{display:inline-block; *display:inline; *zoom:1; vertical-align:bottom; padding:0 25px; height:32px; line-height:52px; color:#05b1d9; cursor:default;}
+.c-m-left-nav a:hover, .c-m-left-nav .current{height:30px; line-height:48px; border-top:2px solid #05b1d9; text-decoration:none;}
+.c-m-left-nav span{display:inline-block; *display:inline; *zoom:1; vertical-align:bottom; width:1px; height:12px; background-color:#d8d8d8;}
+/* 投票模块-热门投票 分页部分 */
+.c-m-l-b-paging{padding:0 0 20px 0;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
+
+
+/** 投票模块-热门投票 评论框布局部分 **/
+.c-m-left-main{display:none; padding-top:20px;}
+.c-m-left-main.current{display:block;}
+.c-m-left-main-box{width:100%; margin-bottom:20px; background-color:#fff; border:1px solid #d8d8d8; border-bottom-width:2px;}
+.c-m-left-main-box .blue{color:#05b1d9;}
+.c-m-left-main-box-top{border-bottom:1px solid #d8d8d8; }
+.c-m-left-main-box-top-face{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px; border:1px solid #f0f0f0;}
+.c-m-left-main-box-top-content{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:20px 20px 20px 0; width:552px; font-size:12px;}
+.c-m-left-main-box-top-content h2{color:#05b1d9;}
+.c-m-left-main-box-top-content h2 em{color:#999;}
+.c-m-left-main-box-top-content h1{font-weight:bold; color:#05b1d9;}
+.c-m-left-main-box-top-content h1 em{font-weight:lighter; color:#65b60a;}
+.c-m-left-main-box-top-content-hasVoted{padding:5px 0; background:url(../images/vote/spr_icon.png) no-repeat 0 6px;color:#65b60a; text-indent:23px;}
+.c-m-left-main-box-top-content-choiceList{padding:5px 0;}
+.c-m-left-main-box-top-content-choiceList li{padding:2px 0;}
+.c-m-left-main-box-top-content-choiceList input, .c-m-left-main-box-top-content-choiceList label{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.c-m-left-main-box-top-content-choiceList input{margin-top:3px; *margin-top:-3px; cursor:pointer;}
+.c-m-left-main-box-top-content-choiceList label{*margin-left:-3px;}
+.c-m-left-main-box-top-content-moreChoice{color:#999;}
+
+.c-m-left-main-box-bottom{position:relative; height:45px;}
+.c-m-left-main-box-bottom-info{position:absolute; right:0; color:#999; font-size:0;}
+.c-m-left-main-box-bottom-info .inline-block{display:inline-block; *display:inline; *zoom:1; vertical-align:top; height:45px; line-height:45px; font-size:12px;}
+.c-m-left-main-box-bottom-info-number{padding:0 45px;}
+.c-m-left-main-box-bottom-info-number em{font:28px "Georgia"; color:#f5931c;}
+.c-m-left-main-box-bottom-info-division{}
+.c-m-left-main-box-bottom-info-time{padding:0 45px;}
+.c-m-left-main-box-bottom-info-voteResult{width:170px; color:#999; text-align:center;}
+.c-m-left-main-box-bottom-info-voteResult.hide{display:none;}
+.c-m-left-main-box-bottom-info-voteResult.reset{text-decoration:none; cursor:default;}
+.c-m-left-main-box-bottom-endTips{display:none; position:absolute; left:-6px; bottom:5px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}
+.c-m-left-main-box-bottom-endTips.show{display:block;}
