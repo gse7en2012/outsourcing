@@ -1,14 +1,70 @@
 /** 页面左侧布局 **/
-.c-m-left{float:left; width:710px; min-height:10px; border-top:none; overflow:hidden;}
+.c-m-left{float:left; width:710px; border-top:none;}
 .c-m-right{margin-left:-1px;}
 
 
-.c-m-left-top{width:708px; min-height:100px; border:1px solid #d8d8d8;}
+.c-m-left-top{width:708px; background-color:#fff; border:1px solid #d8d8d8;}
 .c-m-left-top-main{margin:20px 30px;}
+.c-m-left-top-main-top{padding-bottom:20px; border-bottom:1px solid #dcdcdc; overflow:hidden;}
+.c-m-left-top-main-top-left, .c-m-left-top-main-top-right{float:left;}
+.c-m-left-top-main-top-left{margin-right:20px; border:1px solid #f0f0f0;}
+.c-m-left-top-main-top-right{}
+.c-m-left-top-main-top-right-division{padding:0 20px;}
+.c-m-left-top-main-top-right-focus{display:block; margin-top:5px; width:54px; height:19px; line-height:19px; background:url(../images/vote/spr_icon.png) no-repeat 8px -35px; color:#05b1d9; border:1px solid #dfdfdf; text-align:center; text-indent:10px;}
+
+
+.c-m-left-top-main-bottom{padding-bottom:20px;}
+.c-m-left-top-main-bottom-infoTips{position:relative; height:45px;}
+.c-m-left-top-main-bottom-infoTips-show{position:absolute; right:0; height:45px; line-height:45px;}
+.c-m-left-top-main-bottom-infoTips-show em{font:28px "Georgia"; color:#f5931c;}
+.c-m-left-top-main-bottom-infoTips-show-division{padding:0 40px;}
+.c-m-left-top-main-bottom-infoTips-end{position:absolute; top:0; left:-37px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}
+
+.c-m-left-top-main-bottom-voteContent{padding-bottom:45px;}
+.c-m-left-top-main-bottom-voteContent-title{font-size:14px; text-align:center;}
+.c-m-left-top-main-bottom-voteContent-title em{font-weight:bold; color:#05b1d9;}
+.c-m-left-top-main-bottom-voteContent-picture{display:block; margin:15px auto;}
+.c-m-left-top-main-bottom-voteContent-choiceList{padding:10px 0; overflow:hidden;}
+.c-m-left-top-main-bottom-voteContent-choiceList li{position:relative; height:36px; line-height:36px; border:1px solid transparent;}
+.c-m-left-top-main-bottom-voteContent-choiceList li:hover{background-color:#ffc; border:1px solid #f5e190;}
+.c-m-left-top-main-bottom-voteContent-choiceList .title{float:left; width:153px; text-align:right;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress{float:left; position:relative; margin:7px 10px 0 20px; width:275px; height:23px; background-color:#eef6f9;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner{position:relative; width:20px; height:23px;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner.green{background-color:#abc83c;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner.pink{background-color:#fd7b9c;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner.orange{background-color:#ffbc59;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner.purple{background-color:#efa8ea;}
+.c-m-left-top-main-bottom-voteContent-choiceList .progress-inner.blue{background-color:#79d1fb;}
+.c-m-left-top-main-bottom-voteContent-choiceList .number{float:left; width:100px; text-indent:10px;}
+.c-m-left-top-main-bottom-voteContent-choiceList .checkbox{float:left; margin-top:11px; *margin-top:7px; cursor:pointer;}
+.c-m-left-top-main-bottom-voteContent-tips{margin:0 auto; width:184px; height:31px; line-height:31px; background:#fffae2 url(../images/vote/spr_icon.png) no-repeat 28px -63px ; border:1px solid #f5e190; text-indent:51px;}
+.c-m-left-top-main-bottom-voteContent-buttons{margin:0 auto; padding-top:15px; width:150px; overflow:hidden;}
+.c-m-left-top-main-bottom-voteContent-buttons a{float:left; width:75px; height:28px; line-height:28px; font-size:14px; font-weight:bold; background-color:#ffdc3c; color:#934e38; border:1px solid #e5a14a; text-align:center; }
+.c-m-left-top-main-bottom-voteContent-buttons span{float:left; margin-left:20px; height:30px; line-height:30px; overflow:hidden;}
+.c-m-left-top-main-bottom-voteContent-buttons input{float:left; margin:9px 5px 0 0; margin-top:8px\9; *margin-top:4px; cursor:pointer;}
+.c-m-left-top-main-bottom-voteContent-buttons label{float:left; cursor:pointer;}
+
+
+.c-m-left-top-main-bottom-voteBoard{}
+.c-m-left-top-main-bottom-voteBoard-title{position:relative; height:39px; border-bottom:1px solid #e5e5e5;}
+.c-m-left-top-main-bottom-voteBoard-title .labelList{position:absolute; left:0; bottom:-1px; font-size:0;}
+.c-m-left-top-main-bottom-voteBoard-title .labelList-label{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin-left:-1px; width:124px; height:38px; line-height:38px; font-size:12px; color:#999; border:1px solid #e5e5e5; text-align:center; cursor:default;}
+.c-m-left-top-main-bottom-voteBoard-title .labelList-label:hover, .c-m-left-top-main-bottom-voteBoard-title .labelList-label.current{height:37px; line-height:37px; line-height:36px\9; border-top:2px solid #05b1d9; border-bottom-color:#fff; text-decoration:none;}
+.c-m-left-top-main-bottom-voteBoard-title .share{display:block; position:absolute; right:0; height:39px; line-height:39px; color:#05b1d9;}
+.c-m-left-top-main-bottom-voteBoard-content{display:none}
+.c-m-left-top-main-bottom-voteBoard-content.current{display:block;}
+.c-m-left-top-main-bottom-voteBoard-content .voteList{padding:10px 0;}
+.c-m-left-top-main-bottom-voteBoard-content .voteList-content{padding:5px 0;}
+.c-m-left-top-main-bottom-voteBoard-content .buttonList{overflow:hidden;}
+.c-m-left-top-main-bottom-voteBoard-content .buttonList a{float:left; width:61px; height:19px;line-height:19px; background:#f8f8f8 url(../images/vote/spr_icon.png) no-repeat; color:#b0b0b0; border:1px solid #d8d8d8; text-decoration:none;}
+.c-m-left-top-main-bottom-voteBoard-content .buttonList .buttonList-prev{margin-right:11px; background-position:9px -105px; text-indent:18px;}
+.c-m-left-top-main-bottom-voteBoard-content .buttonList .buttonList-next{background-position:51px -135px; text-indent:10px;}
 
 
 
-.c-m-left-bottom{width:710px;}
+
+.c-m-left-bottom{padding:30px; width:650px;}
+.c-m-left-bottom-title{margin-bottom:20px; font-size:14px; font-weight:bold; color:#666;}
 
 
 
@@ -23,56 +79,34 @@
 
 
 
+/* 评论 */
+.c-m-l-discuss{clear: both;}
+.c-m-l-discuss textarea{border: 1px solid #afc8ad;width: 100%;resize: none;height: 70px;box-shadow: inset 0 1px 2px #b0b0b0;}
+.c-m-l-d-btn{float: right;width: 53px;height: 26px;color: #fff;font-size: 12px;font-family: "microsoft yahei";text-align: center;line-height: 26px;background: #05b1d9;margin: 10px 0;margin-bottom: 15px;}
+.c-m-l-d-tips{float:left; }
+.c-m-l-d-tips em{font:20px "Georgia";}
+.c-m-l-d-face{float:right; margin:10px 10px 15px 0; width:45px; height:26px; line-height:26px; color:#f5931c; background:url(../images/vote/spr_icon.png) no-repeat 0 -165px; text-indent:20px;}
 
-
-
-
-
-
-
-
-/** 广播广场模块-大家在说、同城广播、热门转播 公用部分 **/
-/*.c-m-left-nav{border-top:1px solid #d8d8d8;}*/
-/*.c-m-left-nav a{display:inline-block; *display:inline; *zoom:1; vertical-align:bottom; padding:0 25px; height:32px; line-height:52px; color:#05b1d9; cursor:default;}*/
-/*.c-m-left-nav a:hover, .c-m-left-nav .current{height:30px; line-height:48px; border-top:2px solid #05b1d9; text-decoration:none;}*/
-/*.c-m-left-nav span{display:inline-block; *display:inline; *zoom:1; vertical-align:bottom; width:1px; height:12px; background-color:#d8d8d8;}*/
-/* 广播广场模块-大家在说、同城广播、热门转播 分页部分 */
-/*.c-m-l-b-paging{padding:0 0 20px 0;}*/
-/*.c-m-l-b-p-buttons{float:right;}*/
-/*.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}*/
-/*.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}*/
-
-
-/** 广播广场模块-大家在说 评论框布局部分 **/
-/*.c-m-left-main{display:none; padding-top:20px;}*/
-/*.c-m-left-main.current{display:block;}*/
-/*.c-m-left-main-box{width:100%; margin-bottom:20px; background-color:#fff; border:1px solid #d8d8d8; border-bottom-width:2px;}*/
-/*.c-m-left-main-box .blue{color:#05b1d9;}*/
-/*.c-m-left-main-box-top{border-bottom:1px solid #d8d8d8; }*/
-/*.c-m-left-main-box-top-face{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px; border:1px solid #f0f0f0;}*/
-/*.c-m-left-main-box-top-content{display:inline-block; *display:inline; *zoom:1; vertical-align:top; padding:20px 20px 20px 0; width:552px; font-size:12px;}*/
-/*.c-m-left-main-box-top-content h2{color:#05b1d9;}*/
-/*.c-m-left-main-box-top-content h2 em{color:#999;}*/
-/*.c-m-left-main-box-top-content h1{font-weight:bold; color:#05b1d9;}*/
-/*.c-m-left-main-box-top-content h1 em{font-weight:lighter; color:#65b60a;}*/
-/*.c-m-left-main-box-top-content-hasVoted{padding:5px 0; background:url(../images/vote/spr_icon.png) no-repeat 0 6px;color:#65b60a; text-indent:23px;}*/
-/*.c-m-left-main-box-top-content-choiceList{padding:5px 0;}*/
-/*.c-m-left-main-box-top-content-choiceList li{padding:2px 0;}*/
-/*.c-m-left-main-box-top-content-choiceList input, .c-m-left-main-box-top-content-choiceList label{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}*/
-/*.c-m-left-main-box-top-content-choiceList input{margin-top:3px; *margin-top:-3px; cursor:pointer;}*/
-/*.c-m-left-main-box-top-content-choiceList label{*margin-left:-3px;}*/
-/*.c-m-left-main-box-top-content-moreChoice{color:#999;}*/
-
-/*.c-m-left-main-box-bottom{position:relative; height:45px;}*/
-/*.c-m-left-main-box-bottom-info{position:absolute; right:0; color:#999; font-size:0;}*/
-/*.c-m-left-main-box-bottom-info .inline-block{display:inline-block; *display:inline; *zoom:1; vertical-align:top; height:45px; line-height:45px; font-size:12px;}*/
-/*.c-m-left-main-box-bottom-info-number{padding:0 45px;}*/
-/*.c-m-left-main-box-bottom-info-number em{font:28px "Georgia"; color:#f5931c;}*/
-/*.c-m-left-main-box-bottom-info-division{}*/
-/*.c-m-left-main-box-bottom-info-time{padding:0 45px;}*/
-/*.c-m-left-main-box-bottom-info-voteResult{width:170px; color:#999; text-align:center;}*/
-/*.c-m-left-main-box-bottom-info-voteResult.hide{display:none;}*/
-/*.c-m-left-main-box-bottom-info-voteResult.reset{text-decoration:none; cursor:default;}*/
-/*.c-m-left-main-box-bottom-endTips{display:none; position:absolute; left:-6px; bottom:5px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}*/
-/*.c-m-left-main-box-bottom-endTips.show{display:block;}*/
-
+/**/
+.c-m-b-pagerbox{clear: both;position: relative;}
+.c-m-b-pagecount{position: absolute;line-height: 24px;color: #b0b0b0;}
+.c-m-b-pager{text-align: right;margin-bottom: 25px;}
+.c-m-b-pager a{display: inline-block;color: #b0b0b0;background: #f8f8f8;padding: 3px 8px;text-decoration: none;cursor: pointer;}
+.c-m-b-pager a:hover,.c-m-b-pager .cur{background: #05b1d9;color: #fff;}
+/**/
+.c-m-b-replys{position:relative; clear:both; margin-bottom: 20px;}
+.c-m-b-replys li{position: relative;overflow: hidden;color: #666666;line-height: 22px;min-height: 60px;border-bottom: 1px solid #ebebeb;padding-top: 10px;}
+.c-m-b-replys li.first{border-top:1px solid #ebebeb;}
+.c-m-b-replys li .name{float: left;width: 56px;color: #05b1d9;}
+.c-m-b-replys li p{margin-left:60px;position: relative;}
+.c-m-b-replys li .time{color: #b0b0b0;}
+.c-m-b-replys li .buttons{position:absolute; top:10px; right:0;}
+.c-m-b-replys li .buttons a, .c-m-b-replys li .buttons span{float:left;}
+.c-m-b-replys li .buttons a{color:#05b1d9;}
+.c-m-b-replys li .buttons span{padding:0 8px; color:#e8e8e8;}
+/*.c-m-b-replys li .reply{position: absolute;right: 0;top: 2px;color: #05b1d9;}*/
+/* 同步辅导页-左侧布局部分-分页 */
+.c-m-l-b-paging{padding:20px;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}

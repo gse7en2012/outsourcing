@@ -1,20 +1,18 @@
 $(function() {
-    // 广播广场-大家在说、同城广播、热门转播tab切换
+    // 投票-热门投票tab切换
     com.tab('.c-m-left-nav a', '.c-m-left-main');
 
-    // 广播广场-排行榜页面tab切换
-    $('.c-m-content-box-content-box').each(function(i) {
-        $(this).addClass('tabClass'+i);
-        com.tab('.tabClass' + i + ' .c-m-content-box-content-box-title-navList-a', '.tabClass' + i + ' .c-m-content-box-content-box-title-rankList');
-    });
+    // 投票-热门投票内页tab切换
+    com.tab('.labelList a', '.c-m-left-top-main-bottom-voteBoard-content');
 
-    // 广播广场-热门标签tab切换
-    com.tab('.c-m-left-navWrap-navList a', '.c-m-left-content');
-
-
-    //
+    // 投票页面右侧公共部分宽度设置
     $('.c-m-r-par2-content-text').each(function(i) {
         $(this).find(".c-m-r-par2-content-text-voteTitle").css({width:$(this).width()-$(this).find(".c-m-r-par2-content-text-voteNumber").outerWidth(true)-5});
+    });
+
+    // 投票-热门投票内页的评论框计数
+    $(".c-m-l-discuss textarea").keyup(function() {
+        $(".c-m-l-discuss em").html(180-$(this).val().length);
     });
 
     // 显示/关闭toggle
