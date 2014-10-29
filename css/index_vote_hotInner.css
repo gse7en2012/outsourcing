@@ -2,24 +2,24 @@
 .c-m-left{float:left; width:710px; border-top:none;}
 .c-m-right{margin-left:-1px;}
 
-
+/** 页面左侧-顶部 **/
 .c-m-left-top{width:708px; background-color:#fff; border:1px solid #d8d8d8;}
 .c-m-left-top-main{margin:20px 30px;}
+/* 顶部 */
 .c-m-left-top-main-top{padding-bottom:20px; border-bottom:1px solid #dcdcdc; overflow:hidden;}
 .c-m-left-top-main-top-left, .c-m-left-top-main-top-right{float:left;}
 .c-m-left-top-main-top-left{margin-right:20px; border:1px solid #f0f0f0;}
 .c-m-left-top-main-top-right{}
 .c-m-left-top-main-top-right-division{padding:0 20px;}
 .c-m-left-top-main-top-right-focus{display:block; margin-top:5px; width:54px; height:19px; line-height:19px; background:url(../images/vote/spr_icon.png) no-repeat 8px -35px; color:#05b1d9; border:1px solid #dfdfdf; text-align:center; text-indent:10px;}
-
-
+/* 底部-投票时间 */
 .c-m-left-top-main-bottom{padding-bottom:20px;}
 .c-m-left-top-main-bottom-infoTips{position:relative; height:45px;}
 .c-m-left-top-main-bottom-infoTips-show{position:absolute; right:0; height:45px; line-height:45px;}
 .c-m-left-top-main-bottom-infoTips-show em{font:28px "Georgia"; color:#f5931c;}
 .c-m-left-top-main-bottom-infoTips-show-division{padding:0 40px;}
 .c-m-left-top-main-bottom-infoTips-end{position:absolute; top:0; left:-37px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}
-
+/* 底部-投票信息 */
 .c-m-left-top-main-bottom-voteContent{padding-bottom:45px;}
 .c-m-left-top-main-bottom-voteContent-title{font-size:14px; text-align:center;}
 .c-m-left-top-main-bottom-voteContent-title em{font-weight:bold; color:#05b1d9;}
@@ -43,8 +43,7 @@
 .c-m-left-top-main-bottom-voteContent-buttons span{float:left; margin-left:20px; height:30px; line-height:30px; overflow:hidden;}
 .c-m-left-top-main-bottom-voteContent-buttons input{float:left; margin:9px 5px 0 0; margin-top:8px\9; *margin-top:4px; cursor:pointer;}
 .c-m-left-top-main-bottom-voteContent-buttons label{float:left; cursor:pointer;}
-
-
+/* 底部-投票提示 */
 .c-m-left-top-main-bottom-voteBoard{}
 .c-m-left-top-main-bottom-voteBoard-title{position:relative; height:39px; border-bottom:1px solid #e5e5e5;}
 .c-m-left-top-main-bottom-voteBoard-title .labelList{position:absolute; left:0; bottom:-1px; font-size:0;}
@@ -61,23 +60,9 @@
 .c-m-left-top-main-bottom-voteBoard-content .buttonList .buttonList-next{background-position:51px -135px; text-indent:10px;}
 
 
-
-
+/** 页面左侧-底部 **/
 .c-m-left-bottom{padding:30px; width:650px;}
 .c-m-left-bottom-title{margin-bottom:20px; font-size:14px; font-weight:bold; color:#666;}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 评论 */
 .c-m-l-discuss{clear: both;}
@@ -104,8 +89,7 @@
 .c-m-b-replys li .buttons a, .c-m-b-replys li .buttons span{float:left;}
 .c-m-b-replys li .buttons a{color:#05b1d9;}
 .c-m-b-replys li .buttons span{padding:0 8px; color:#e8e8e8;}
-/*.c-m-b-replys li .reply{position: absolute;right: 0;top: 2px;color: #05b1d9;}*/
-/* 同步辅导页-左侧布局部分-分页 */
+/* -分页 */
 .c-m-l-b-paging{padding:20px;}
 .c-m-l-b-p-buttons{float:right;}
 .c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:0 5px; border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
