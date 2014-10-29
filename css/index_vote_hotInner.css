@@ -18,7 +18,8 @@
 .c-m-left-top-main-bottom-infoTips-show{position:absolute; right:0; height:45px; line-height:45px;}
 .c-m-left-top-main-bottom-infoTips-show em{font:28px "Georgia"; color:#f5931c;}
 .c-m-left-top-main-bottom-infoTips-show-division{padding:0 40px;}
-.c-m-left-top-main-bottom-infoTips-end{position:absolute; top:0; left:-37px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}
+.c-m-left-top-main-bottom-infoTips-end{display:none; position:absolute; top:0; left:-37px; width:88px; height:42px; line-height:50px; background:url(../images/vote/end_icon.png) no-repeat; font-weight:bold; color:#fff; text-align:center;}
+.c-m-left-top-main-bottom-infoTips-end.show{display:block;}
 /* 底部-投票信息 */
 .c-m-left-top-main-bottom-voteContent{padding-bottom:45px;}
 .c-m-left-top-main-bottom-voteContent-title{font-size:14px; text-align:center;}
