@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/com_vote.css"/>
+    <link rel="stylesheet" href="css/index_vote.css"/>
+    <link rel="stylesheet" href="css/index_vote_start.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+    <script type="text/javascript" src="js/index_vote.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+    <div class="inner">
+        <h1 class="h-logo"><a href="#"><img src="images/logo.png" alt="作文园地"/></a></h1>
+        <nav class="h-btn">
+            <a href="">我的首页</a>
+            <a href="">空间</a>
+            <a href="">问答</a>
+            <a href="">广播</a>
+            <a href="">投票</a>
+            <a href="">收藏</a>
+            <a class="h-btn-now">应用<em class="dot"></em></a>
+        </nav>
+        <div class="h-inform">
+            <div class="h-i-phone">
+				<span>
+					<em>点击或扫描下载</em>
+					<a href=""><img src="images/android.png" alt=""/>安卓版</a>
+					<a href=""><img src="images/iphone.png" alt=""/>苹果版</a>
+				</span>
+            </div>
+            <div class="h-i-mail">10</div>
+            <div class="h-i-user">
+				<span>
+					<a class="quick" href="">桌面快捷键</a>
+					<a class="logout" href="">退出</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="header-nav">
+    <div class="header-nav-inner">
+        <div class="h-n-i-cont">
+            <a href="#">同步资源</a>
+            <a href="#">同步习题</a>
+            <a href="#">英语园地</a>
+            <a href="#">作文园地 </a>
+            <a href="#">学习园地</a>
+            <a href="#">广播广场 </a>
+            <a href="#">公共空间</a>
+            <a href="#">投票</a>
+            <a href="#">词典 </a>
+        </div>
+    </div>
+</nav>
+<!-- header end -->
+<!-- content start -->
+<div class="wrap">
+    <div class="inner content clr">
+        <!-- content-header start -->
+        <header class="c-header">
+            <div class="c-h-left">
+                <h1>广播广场</h1>
+            </div>
+        </header>
+        <!-- content-header end -->
+        <!-- content-main start -->
+        <article class="c-main">
+            <div class="c-m-nav">
+                <a href="javascript:;" class="cur">热门投票</a>
+                <a href="javascript:;">最新投票</a>
+                <a href="javascript:;">我的投票</a>
+                <a href="javascript:;">我关注的人的投票</a>
+            </div>
+            <div class="c-m-content clr">
+                <div class="c-m-left">
+                    <div class="c-m-left-main">
+                        <p class="clr">
+                            <span class="title"><em>**</em> 投票标题：</span>
+                            <input type="text" class="input-text" placeholder="必填：最多25个汉字" />
+                        </p>
+                        <div class="div-wrap clr">
+                            <a href="javascript:;" class="div-wrap-link div-wrap-linkAdd">添加投票说明</a>
+                            <span class="div-wrap-division">|</span>
+                            <a href="javascript:;" class="div-wrap-link div-wrap-linkInsert">插入图片</a>
+                        </div>
+                        <textarea class="textarea-writeInfo hide"></textarea>
+                        <p class="clr">
+                            <span class="title"><em>**</em> 投票选项：</span>
+                            <span class="titleInfo">可设置20项,每项最多20个汉字</span>
+                        </p>
+                        <div class="div-wrap div-wrap-inputList">
+                            <input type="text" class="input-text input-choice" placeholder="1." />
+                            <input type="text" class="input-text input-choice" placeholder="2." />
+                            <input type="text" class="input-text input-choice" placeholder="3." />
+                            <input type="text" class="input-text input-choice" placeholder="4." />
+                            <input type="text" class="input-text input-choice" placeholder="5." />
+                            <a href="javascript:;" class="div-wrap-linkAddChoice">增加选项</a>
+                        </div>
+                        <p class="typeWrap clr">
+                            <span class="title">单选/多选：</span>
+                            <select class="select-choiceType">
+                                <option>单选</option>
+                                <option>多选</option>
+                            </select>
+                        </p>
+                        <p class="typeWrap clr">
+                            <span class="title">投票结果：</span>
+                            <span class="input-radioWrap clr">
+                                <input type="radio" name="voteResult" id="everyoneSee" class="input-radioWrap-radio" />
+                                <label for="everyoneSee">任何人可见</label>
+                            </span>
+                            <span class="input-radioWrap">
+                                <input type="radio" name="voteResult" id="votedSee" class="input-radioWrap-radio" />
+                                <label for="votedSee">投票后可见</label>
+                            </span>
+                        </p>
+                        <div class="typeWrap clr">
+                            <span class="title">截止日期：</span>
+                            <div class="div-yearWrap clr">
+                                <span id="calendar-time">2014-10-22</span>
+                                <a href="javascript:;" id="chooseDate"></a>
+                            </div>
+                            <select class="select-time" id="hour">
+                            </select>
+                            <span class="span-text">时</span>
+                            <select class="select-time" id="minute">
+                            </select>
+                            <span class="span-text">分</span>
+                            <!-- 日历 Start -->
+                            <div class="g-calendar" id="g-calendar-1">
+                                <span class="g-calendar-prev"></span>
+                                <span class="g-calendar-next"></span>
+                                <div class="g-calendar-hd"></div>
+                                <div class="g-calendar-tit"></div>
+                                <div class="g-calendar-bd"></div>
+                            </div>
+                            <!-- 日历 End -->
+                        </div>
+                        <div class="tipsInfo">保存后可增加，不可删除或修改选项</div>
+                        <a href="javascript:;" class="link-confirm">发起</a>
+                    </div>
+                </div>
+                <div class="c-m-right">
+                    <div class="c-m-r-part1">
+                        <div class="c-m-r-part1-info clr">
+                            <img src="images/broadcast/user.png" />
+                            <div class="c-m-r-part1-info-name">
+                                <h4>李丽</h4>
+                                <a href="javascript:;">我的广播</a>
+                            </div>
+                        </div>
+                        <a href="javascript:;" class="c-m-r-part1-voteStart">发起投票</a>
+                    </div>
+                    <div class="c-m-r-part2 c-m-r-part-toggle">
+                        <h3 class="toggle"><em></em>热点推荐</h3>
+                        <div class="c-m-r-par2-content">
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">一年一度的教师节来罗，你们有跟老师说些什么啊</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-m-r-part2 c-m-r-part-toggle">
+                        <h3 class="toggle"><em></em>最新投票</h3>
+                        <div class="c-m-r-par2-content">
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">一年一度的教师节来罗，你们有跟老师说些什么啊</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                            <p class="c-m-r-par2-content-text">
+                                <span class="c-m-r-par2-content-text-voteNumber">(共224票)</span>
+                                <a href="javasctipt:;" class="c-m-r-par2-content-text-voteTitle">国庆有什么打算？</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- content-main end -->
+
+        <!-- tips start -->
+        <div class="aside">
+            <a class="contract" href=""></a>
+            <a class="help" href=""><span>帮助中心</span></a>
+        </div>
+        <!-- tips end -->
+    </div>
+
+
+    <!-- footer start -->
+    <div id="footer">
+        <div id="footer_content">
+            <div id="footer_lnk">
+                <a href="http://www.ldcchina.com/about.html" target="_blank">关于我们</a> |
+                <!-- <a href='http://www.ldcchina.com/products.html' target='_blank'>产品服务</a>  -->
+                <a href="http://www.ldcchina.com/employ.html" target="_blank">招贤纳士</a> |
+                <a href="http://www.ldcchina.com/partner.html" target="_blank">合作伙伴</a> |
+                <a href="http://www.ldcchina.com/contact.html" target="_blank">联系我们</a> |
+                <a href="http://www.ldcchina.com/contact.html" target="_blank">帮助中心</a>
+            </div>
+            <div id="footer_copy">Copyright © 2009-2014 HuaTeng Inc. All Rights Reserved ICP:粤B2-20090043 <a
+                    href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13056377号</a>　
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+</div>
+<!-- end -->
+<script>
+    var calendar = new LGY_calendar({'wrapId':'g-calendar-1'});
+    var now = new Date();
+    // 初始化日期
+    $('#calendar-time').html(now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日");
+    // 显示/关闭日历
+    $('#chooseDate').click(function() {
+        if($(this).hasClass("on")) {
+            $("#g-calendar-1").hide();
+            $(this).removeClass("on");
+        } else {
+            $("#g-calendar-1").show();
+            $(this).addClass("on");
+        }
+    });
+    // 遍历输出小时-select
+    for(var i = 0; i < 24; i++) {
+        if(i < 10) {
+            $('#hour').append('<option>'+'0'+i+'</option>');
+        } else {
+            $('#hour').append('<option>'+i+'</option>');
+        }
+    }
+    // 遍历输出分钟-select
+    for(var i = 0; i < 60; i++) {
+        if(i < 10) {
+            $('#minute').append('<option>'+'0'+i+'</option>');
+        } else {
+            $('#minute').append('<option>'+i+'</option>');
+        }
+    }
+    // 增加选项按钮点击事件
+    $('.div-wrap-linkAddChoice').click(function() {
+        $(this).prev().after('<input type=\"text\" class=\"input-text input-choice\" placeholder=\"'+(parseInt($(this).prev().attr('placeholder').split('.')[0])+1)+'.\" />');
+    });
+    // 投票说明点击事件
+    $('.div-wrap-linkAdd').click(function() {
+        if($('.textarea-writeInfo').hasClass('hide')) {
+            $('.textarea-writeInfo').stop().slideDown('fast');
+            $('.textarea-writeInfo').removeClass('hide');
+        } else {
+            $('.textarea-writeInfo').stop().slideUp('fast');
+            $('.textarea-writeInfo').addClass('hide');
+        }
+    });
+</script>
+</body>
+</html>
