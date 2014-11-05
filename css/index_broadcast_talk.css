@@ -44,7 +44,7 @@
 /** 广播广场模块-热门转发 评论框布局部分 **/
 .c-m-left-main-box2{margin-bottom:20px; width:100%; background-color:#fff; border:1px solid #d8d8d8; border-bottom-width:2px;}
 .c-m-left-main-box2-forwardingInfo{margin:20px; width:67px; border:1px solid #f5e190; text-align:center;}
-.c-m-left-main-box2-forwardingInfo-number{height:41px; font:28px/41px "Georgia"; background-color:#fffae2; color:#f5931c; border-bottom:1px solid #f5e190;}
+.c-m-left-main-box2-forwardingInfo-number{height:41px; font-size:28px; line-height:41px; font-family:'Georgia'; background-color:#fffae2; color:#f5931c; border-bottom:1px solid #f5e190;}
 .c-m-left-main-box2-forwardingInfo-title{height:25px; line-height:25px; color:#999;}
 .c-m-left-main-box2-forwardingInfo, .c-m-left-main-box2-content{display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
 .c-m-left-main-box2-content{padding:20px 20px 20px 0; width:546px;}

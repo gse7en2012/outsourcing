@@ -35,10 +35,10 @@
 .c-m-left-main-box-top-content-moreChoice{color:#999;}
 
 .c-m-left-main-box-bottom{position:relative; height:45px;}
-.c-m-left-main-box-bottom-info{position:absolute; right:0; color:#999; font-size:0;}
+.c-m-left-main-box-bottom-info{position:absolute; left:61px; color:#999; font-size:0;}
 .c-m-left-main-box-bottom-info .inline-block{display:inline-block; *display:inline; *zoom:1; vertical-align:top; height:45px; line-height:45px; font-size:12px;}
 .c-m-left-main-box-bottom-info-number{padding:0 45px;}
-.c-m-left-main-box-bottom-info-number em{font:28px "Georgia"; color:#f5931c;}
+.c-m-left-main-box-bottom-info-number em{font-size:28px; font-family:"Georgia"; line-height:28px; color:#f5931c;}
 .c-m-left-main-box-bottom-info-division{}
 .c-m-left-main-box-bottom-info-time{padding:0 45px;}
 .c-m-left-main-box-bottom-info-voteResult{width:170px; color:#999; text-align:center;}
