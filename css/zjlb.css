@@ -7,16 +7,54 @@
 
 
 .c-m-content{margin-top: 30px;}
-.c-m-left{float: left;width: 669px;border: 1px solid #d8d8d8;box-shadow: 0 1px 2px #ccc;margin-right: -1px;padding: 20px;background: #fff;}
+.c-m-left{float: left;width: 669px;border: 1px solid #d8d8d8;box-shadow: 0 1px 2px #ccc;margin-right: -1px;padding: 20px;background: #fff;padding-bottom: 100px;}
 .c-m-left .c-m-bread-crumb{padding-bottom: 15px;border-bottom: 1px solid #dfdfdf}
 
+
+
+.c-m-c-art{}
+.c-m-c-art h2{font-size: 24px;font-family: "microsoft yahei";font-weight: bold;margin-top: 10px;margin-bottom:10px;color: #000;overflow: hidden;}
+.c-m-c-art h2 em{float: left;width: 76px;height: 27px;background: url(../images/xxyd/xxyd_tag.png) no-repeat 0 0;color: #fff;font-size: 14px;text-indent:20px;line-height: 27px;font-family: simsun;margin-top: 5px;}
+.c-m-c-art .c-m-c-a-subtitle{margin-left: 76px;}
+.c-m-c-a-banner{height: 30px;background: #f8f8f8;border: 1px solid #e5e5e5;border-bottom:3px solid #e2e2e2;line-height: 30px;color: #666;font-weight: bold;margin: 15px 0;}
+.c-m-c-a-banner span{font-weight: normal;}
+.c-m-c-a-banner em{float: left;width: 17px;height: 17px;background: url(../images/xxyd/spr_tb.png) no-repeat 0 -80px;margin: 6px 12px;}
+.c-m-c-a-banner em.up{background-position:0 -120px; }
+
+.c-m-c-a-switch{overflow: hidden;text-align: right;}
+.c-m-c-a-switch a{display:inline-block;color: #666;margin-right: 15px;text-indent: 22px;}
+.c-m-c-a-switch a:hover,.c-m-c-a-switch a.cur{text-decoration: none;color: #87c5ff}
+.c-m-c-a-switch a.list{background: url(../images/xxyd/spr_switch.png) no-repeat 0 0;}
+.c-m-c-a-switch a.list.cur,.c-m-c-a-switch a.list:hover{background-position: 0 -19px;}
+.c-m-c-a-switch a.picture{background: url(../images/xxyd/spr_switch.png) no-repeat -66px 0;}
+.c-m-c-a-switch a.picture.cur,.c-m-c-a-switch a.picture:hover{background-position: -66px -19px;}
+
+
+.c-m-c-a-b-list,.c-m-a-b-picture{display: none;}
+.c-m-c-a-b-list.current,.c-m-a-b-picture.current{display: block;}
+.c-m-c-a-box table{width: 100%;margin-top: 5px;}
+.c-m-c-a-box td,.c-m-c-a-box th{height: 32px;border-bottom: 1px solid #dfdfdf;padding: 2px 8px;}
+.c-m-c-a-box tr:hover td{background: #ffffcc;}
+
+
+.c-m-l-b-bookList{overflow:hidden;}
+.c-m-l-b-b-bookWrap{display:inline-block; *display:inline; *zoom:1; vertical-align:top; margin:20px 0 0 20px; width:140px; overflow:hidden; cursor:pointer;}
+.c-m-l-b-b-b-link{display:block; width:140px; height:105px; background:url(../images/yyyd_index/book_bg.png) no-repeat; overflow:hidden;}
+.c-m-l-b-b-b-link img{margin:1px;}
+.c-m-l-b-b-bookWrap p{padding-top:8px; font:12px/14px "SimSun"; color:#05b1d9;}
+.c-m-l-b-b-bookWrap:hover p{text-decoration: underline;}
+
+
+.c-m-l-b-paging{padding:20px;}
+.c-m-l-b-p-buttons{float:right;}
+.c-m-l-b-p-buttons a{display:inline-block; *display:inline; *zoom:1; vertical-align:top; line-height:17px; padding:2px 6px;border:1px solid #d8d8d8; background-color:#f8f8f8; color:#b0b0b0; text-decoration:none;}
+.c-m-l-b-p-buttons a:hover{border-color:#05b1d9; background-color:#05b1d9; color:#fff;}
 
 
 .c-m-right{padding: 20px;}
 
 .c-m-right h2{font-size: 16px;font-family: "microsoft yahei";color: #666;margin-bottom: 10px;font-weight: bold;}
 .c-m-right h2 em{display: inline-block;width: 18px;height: 18px;background: url(../images/zwyd_index/icon.png) no-repeat -218px 0;margin-left: 4px;position: relative;top: 3px;}
-
 .c-m-right h2.block{font-size: 12px;font-family: "simsum";color: #666;margin-bottom: 5px;border: 1px solid #e5e5e5;background: #fff;font-weight: bold;border-bottom: 3px solid #ddd;padding:0 5px;height: 30px;line-height: 30px;cursor: default;}
 .c-m-right h2.block em{float: left;width: 17px;height: 17px;background: url(../images/zwyd_index/icon.png) no-repeat -218px -20px;margin-left: 4px;margin-left: 4px;margin-top: 4px; margin-right: 5px;}
 .c-m-right h2.block em.c-m-r-p-icon-plus{background-position: -218px -37px;}
@@ -43,6 +81,8 @@
 .c-m-r-part2-cont p{line-height: 22px;}
 .c-m-r-part2-cont a{font-weight: bold;font-size: 14px;}
 .c-m-r-part2-bot{margin-top: 10px;line-height: 24px;color: #999;}
+
+
 
 .c-m-right{float: left;width:208px;border: 1px solid #dcdcdc;}
 
