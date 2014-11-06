@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <link rel="stylesheet" href="css/com_resources.css"/>
+    <link rel="stylesheet" href="css/zwyd_write.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="http://cdn.ckeditor.com/4.4.2/standard/ckeditor.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+    <div class="inner">
+        <h1 class="h-logo"><a href="#"><img src="images/logo.png" alt="作文园地"/></a></h1>
+        <nav class="h-btn">
+            <a href="">我的首页</a>
+            <a href="">空间</a>
+            <a href="">问答</a>
+            <a href="">广播</a>
+            <a href="">投票</a>
+            <a href="">收藏</a>
+            <a class="h-btn-now">应用<em class="dot"></em></a>
+        </nav>
+        <div class="h-inform">
+            <div class="h-i-phone">
+				<span>
+					<em>点击或扫描下载</em>
+					<a href=""><img src="images/android.png" alt=""/>安卓版</a>
+					<a href=""><img src="images/iphone.png" alt=""/>苹果版</a>
+				</span>
+            </div>
+            <div class="h-i-mail">10</div>
+            <div class="h-i-user">
+				<span>
+					<a class="quick" href="">桌面快捷键</a>
+					<a class="logout" href="">退出</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="header-nav">
+    <div class="header-nav-inner">
+        <div class="h-n-i-cont">
+            <a href="#">同步资源</a>
+            <a href="#">同步习题</a>
+            <a href="#">英语园地</a>
+            <a href="#">作文园地 </a>
+            <a href="#">学习园地</a>
+            <a href="#">广播广场 </a>
+            <a href="#">公共空间</a>
+            <a href="#">投票</a>
+            <a href="#">词典 </a>
+        </div>
+    </div>
+</nav>
+<!-- end -->
+<!-- content start -->
+<div class="wrap">
+    <div class="inner content clr">
+        <!-- content start -->
+        <header class="c-header">
+            <div class="c-h-left">
+                <h1>作文园地</h1>
+            </div>
+        </header>
+        <!-- end -->
+        <!-- content start -->
+        <article class="c-main">
+            <div class="c-m-nav">
+                <a href="#" class="cur">小学作文</a>
+                <a href="#">初中作文</a>
+                <a href="#">同步作文</a>
+                <a href="#">小考作文</a>
+                <a href="#">中考作文</a>
+                <a href="#">写作指导</a>
+                <a href="#">写作素材</a>
+                <a href="#">汉语词典</a>
+            </div>
+            <div class="c-m-content clr">
+                <div class="c-m-left">
+                    <form action="post">
+                        <table class="c-m-w-table">
+                            <tr>
+                                <th><span class="c-m-w-t-required">**</span> 作文标题：</th>
+                                <td>
+                                    <input class="text">
+                                </td>
+                                <!--<td>
+                                    <label class="label-flt"><input type="radio" name="type" checked>同步习题</label>
+                                    <label class="label-flt"><input type="radio" name="type">综合试题</label>
+                                </td>  -->
+                            </tr>
+
+                            <tr>
+                                <th><span class="c-m-w-t-required">**</span>作文内容：</th>
+                                <td>
+                                    <textarea class="ckeditor" id="editor1" name="editor1" style="height: 270px;">
+                                        ckeditor使用了外链的js
+                                    </textarea>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><span class="c-m-w-t-required">**</span> 写作年级：</th>
+                                <td>
+                                    <label class="label-flt"><input type="radio" name="type" checked>一年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">二年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">三年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">四年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">五年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">六年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">七年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">八年级</label>
+                                    <label class="label-flt"><input type="radio" name="type">九年级</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><span class="c-m-w-t-required">**</span> 作文体裁：</th>
+                                <td>
+                                    <label class="label-flt"><input type="radio" name="type" checked>写人作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">童话寓言作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">童话寓言作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">期末作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">想象作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">议论文</label>
+                                    <label class="label-flt"><input type="radio" name="type">诗歌通话</label>
+                                    <label class="label-flt"><input type="radio" name="type">散文集</label>
+                                    <label class="label-flt"><input type="radio" name="type">五个字啊啊</label>
+                                    <label class="label-flt"><input type="radio" name="type">期末作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">想象作文</label>
+                                    <label class="label-flt"><input type="radio" name="type">议论文</label>
+                                    <label class="label-flt"><input type="radio" name="type">诗歌通话</label>
+                                    <label class="label-flt"><input type="radio" name="type">散文集</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input type="submit" class="submit" value="投稿">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </form>
+                </div>
+                <div class="c-m-right">
+                    <div class="c-m-r-part1">
+                        <h2>语言工具</h2>
+
+                        <p class="c-m-r-p1-abox clr">
+                            <a href="#" class="c-m-r-p1-icon icon1">汉语字典</a>
+                            <a href="#" class="c-m-r-p1-icon icon2">英语词典</a>
+                        </p>
+
+                        <p class="c-m-r-p1-alist"><a href="#">剑桥词典</a>|<a href="#">朗文词典</a>|<a href="#">卫视词典</a></p>
+                    </div>
+                    <div class="c-m-r-part2">
+                        <h2 class="block">最新学生作文<em class="c-m-r-p-icon-minus"></em></h2>
+                        <ul>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长字数很长字数很长字数很长字数很长字数很长字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                        </ul>
+                    </div>
+                    <div class="c-m-r-part2">
+                        <h2 class="block">最新小学作文<em class="c-m-r-p-icon-minus"></em></h2>
+                        <ul>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长字数很长字数很长字数很长字数很长字数很长字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                        </ul>
+                    </div>
+                    <div class="c-m-r-part2 part2">
+                        <h2 class="block">最新初中作文<em class="c-m-r-p-icon-minus"></em></h2>
+                        <ul>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                            <li><a href="#">字数很长</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+        <!-- end -->
+
+        <!-- tips start -->
+        <div class="aside">
+            <a class="contract" href=""></a>
+            <a class="help" href=""><span>帮助中心</span></a>
+        </div>
+        <!-- end -->
+    </div>
+
+
+    <!-- footer start -->
+    <div id="footer">
+        <div id="footer_content">
+            <div id="footer_lnk">
+                <a href="http://www.ldcchina.com/about.html" target="_blank">关于我们</a> |
+                <!-- <a href='http://www.ldcchina.com/products.html' target='_blank'>产品服务</a>  -->
+                <a href="http://www.ldcchina.com/employ.html" target="_blank">招贤纳士</a> |
+                <a href="http://www.ldcchina.com/partner.html" target="_blank">合作伙伴</a> |
+                <a href="http://www.ldcchina.com/contact.html" target="_blank">联系我们</a> |
+                <a href="http://www.ldcchina.com/contact.html" target="_blank">帮助中心</a>
+            </div>
+            <div id="footer_copy">Copyright © 2009-2014 HuaTeng Inc. All Rights Reserved ICP:粤B2-20090043 <a
+                    href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13056377号</a>　
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+</div>
+<!-- end -->
+<script>
+    $(function () {
+        $('.c-m-r-part2 .block').toggle(function () {
+            $(this).next().stop().slideUp();
+            $(this).find('em').removeClass('c-m-r-p-icon-minus').addClass('c-m-r-p-icon-plus');
+        }, function () {
+            $(this).next().stop().slideDown();
+            $(this).find('em').removeClass('c-m-r-p-icon-plus').addClass('c-m-r-p-icon-minus')
+        })
+    })
+</script>
+</body>
+</html>

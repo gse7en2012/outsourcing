@@ -1,0 +1,59 @@
+a{color: #05b1d9;}
+.c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/resources_index/zwyd_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
+
+.c-m-nav{top: -64px;}
+.c-m-nav a{float: left;height: 34px;line-height: 34px;color: #fff;padding: 0 15px;margin-right: 5px;background: #05b1d9;text-decoration: none;}
+.c-m-nav .cur,.c-m-nav a:hover{background: #f9f9f9;color: #666;}
+
+
+.c-m-content{margin-top: 30px;}
+.c-m-left{float: left;width: 669px;border: 1px solid #d8d8d8;box-shadow: 0 1px 2px #ccc;margin-right: -1px;padding: 20px;background: #fff;padding-bottom: 100px;}
+
+.c-m-w-table{margin:20px auto;margin-bottom: 40px;}
+.c-m-w-table td,.c-m-w-table th{padding: 10px 0;vertical-align: top;}
+.c-m-w-table th{padding-left: 20px;position: relative;width: 70px;}
+
+.c-m-w-table .c-m-w-t-required{position: absolute;left: 8px;color: #da0000;line-height: 24px;}
+
+.c-m-w-table input,.c-m-w-table select,.c-m-w-table label{float: left;}
+.c-m-w-table label{position: relative;margin: 0 30px 10px 2px;}
+.label-flt{float: left;margin-right: 30px;position: relative;}
+.c-m-w-table label input{position: relative;margin-right: 3px;top: 3px;border: 0;}
+.c-m-w-table input.text{border: 1px solid #ccc;height: 22px;line-height: 22px;padding: 0 5px;position: relative;top: -3px;min-width: 200px;}
+.c-m-w-table select{border: 1px solid #ccc;height: 22px;line-height: 22px;color: #999;padding:0 4px;width:90px;font-size: 12px;margin-right: 20px;}
+.c-m-w-table option{height: 22px;line-height: 22px;}
+
+.c-m-w-table .submit{width: 82px;height: 32px;line-height: 32px;border: 0;text-align: center;background: #05b1d9;color: #fff;cursor: pointer;}
+.c-m-w-table .submit:hover{opacity: .8;}
+
+
+
+
+
+.c-m-right{padding: 20px;}
+
+.c-m-right h2{font-size: 16px;font-family: "microsoft yahei";color: #666;margin-bottom: 10px;font-weight: bold;}
+.c-m-right h2 em{display: inline-block;width: 18px;height: 18px;background: url(../images/zwyd_index/icon.png) no-repeat -218px 0;margin-left: 4px;position: relative;top: 3px;}
+
+.c-m-right h2.block{font-size: 12px;font-family: "simsum";color: #666;margin-bottom: 5px;border: 1px solid #e5e5e5;background: #fff;font-weight: bold;border-bottom: 3px solid #ddd;padding:0 5px;height: 30px;line-height: 30px;cursor: default;}
+.c-m-right h2.block em{float: left;width: 17px;height: 17px;background: url(../images/zwyd_index/icon.png) no-repeat -218px -20px;margin-left: 4px;margin-left: 4px;margin-top: 4px; margin-right: 5px;}
+.c-m-right h2.block em.c-m-r-p-icon-plus{background-position: -218px -37px;}
+
+.c-m-r-r-btn{display: block;width: 210px;height: 58px;background:url(../images/zwyd_index/icon.png) no-repeat -240px -98px;margin-bottom: 10px; }
+.c-m-r-r-btn:hover{background-position: -240px -156px;}
+
+.c-m-r-p1-icon{width: 92px;height: 102px;float: left;background: url(../images/zwyd_index/icon.png) no-repeat 0 10px;text-indent: -9999em;margin-right: 18px;margin-bottom: 10px;}
+.c-m-r-p1-icon:hover{background-position: 0 -98px;}
+.c-m-r-p1-icon.icon2{background-position: -110px 10px;margin-right: 0;}
+.c-m-r-p1-icon.icon2:hover{background-position: -110px -98px;}
+.c-m-r-p1-alist{clear: both;color: #05b1d9;padding-bottom: 15px;border-bottom: 1px solid #dcdcdc}
+.c-m-r-p1-alist a{color: #05b1d9;padding:9px;}
+
+.c-m-r-part2{margin-top: 10px;padding-bottom: 15px;}
+.c-m-r-part2 li{line-height: 20px;color: #05b1d9;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;border-bottom: 1px solid #dfdfdf;height: 30px;line-height: 30px;text-indent: 6px;}
+.c-m-r-part2 a{color:#05b1d9;}
+.c-m-r-part2.part2{border-bottom: none;}
+
+.c-m-right{float: left;width:208px;border: 1px solid #dcdcdc;}
+
+
