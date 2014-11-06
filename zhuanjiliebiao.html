@@ -381,6 +381,17 @@
 <!-- end -->
 <script>
     $(function () {
+        //右侧区域切换
+        $('.c-m-r-part2 .block').toggle(function(){
+            $(this).next().stop().slideUp('fast');
+            $(this).find('em').removeClass('c-m-r-p-icon-minus').addClass('c-m-r-p-icon-plus');
+        },function(){
+            $(this).next().stop().slideDown('fast');
+            $(this).find('em').removeClass('c-m-r-p-icon-plus').addClass('c-m-r-p-icon-minus')
+        })
+
+
+        //内容区域切换
         $('.c-m-c-a-switch a').click(function () {
             var index = $(this).index();
             $('.c-m-c-a-switch a').removeClass('cur').eq(index).addClass('cur');
