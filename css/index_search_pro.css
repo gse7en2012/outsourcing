@@ -20,7 +20,7 @@ a{color: #05b1d9;}
 
 
 
-.c-m-w-table{width: 788px;}
+.c-m-w-table{width: 780px;}
 .c-m-w-table td,.c-m-w-table th{height:38px;vertical-align: top;}
 .c-m-w-table th{position: relative;width: 100px;}
 
@@ -30,7 +30,7 @@ a{color: #05b1d9;}
 .c-m-w-table label{position: relative;margin: 0 17px 8px;}
 .label-flt{float: left;margin-right: 30px;position: relative;}
 .c-m-w-table label input{position: relative;margin-right: 3px;top: 6px;border: 0;}
-.c-m-l-i-r select{border: 1px solid #ccc;height: 24px;line-height: 24px;color: #999;padding:0 4px;width:140px;font-size: 12px;margin-left: 17px;}
+.c-m-l-i-r select{border: 1px solid #ccc;height: 24px;line-height: 24px;color: #999;padding:0 4px;width:140px;font-size: 12px;margin-left: 17px;padding-right: 0;}
 .c-m-l-i-r option{height: 24px;line-height: 24px;}
 .c-m-l-i-r p{height: 24px;line-height: 24px;margin-bottom: 14px;}
 .c-m-l-i-r p select{margin-left: 20px;}
