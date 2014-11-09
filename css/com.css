@@ -27,6 +27,15 @@ a:hover{text-decoration: underline;}
 .c-blue{color:#05b1d9;}
 /* end */
 
+/*<!--新修改后的header-nav样式 start*/
+.header-nav{height: 40px;background: #05b1d9;}
+.header-nav-inner{width: 960px;overflow: hidden;margin: 0 auto;}
+.h-n-i-cont{margin-left: 170px;}
+.header-nav-inner a{float: left;height: 40px;line-height: 40px;color: #fff;font-size: 12px;padding: 0 10px;}
+.h-btn .h-btn-now{width: 80px;text-align: center;background: #05b1d9;color: #fff!important;}
+.h-btn .dot{display: inline-block;width: 10px;height: 5px;background: url(../images/resources_index/spr_resources.png) -44px -59px no-repeat;position: relative;left: 8px;top: -3px;}
+/*--新修改后的header-nav样式 end>*/
+
 /*= header start*/
 .header{position:relative;background-color:#FFF;z-index:2;}
 .header .inner{height:60px;}
