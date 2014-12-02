@@ -12,7 +12,7 @@
 
 
 /* 第一屏 */
-.c-m-c-first{padding:30px 0;}
+.c-m-c-first{padding-bottom:30px;}
 .c-m-c-first-left{float:left; width:500px;}
 .c-m-c-first-right{float:left; margin-left:65px; width:375px;}
 
@@ -29,13 +29,14 @@
 .c-m-c-first-left-nav .a4:hover, .c-m-c-first-left-nav .current.a4{background-position:-300px -70px;}
 .c-m-c-first-left-nav .a5:hover, .c-m-c-first-left-nav .current.a5{background-position:-400px -70px;}
 .c-m-c-first-left-main{display:none; width:496px; border:solid 2px #f3f1f1; border-top:none; overflow:hidden;}
-.current.c-m-c-first-left-main{display:block;}
+.current.c-m-c-first-left-main{display:block; height:325px;}
 .c-m-c-first-left-main-content{float:left; margin-left:20px; width:225px;}
 .c-m-c-first-left-main-content-titleList{padding-top:10px;}
 .c-m-c-first-left-main-content-titleList li{padding:5px;}
 .c-m-c-first-left-main-content-titleList li:hover{background-color:#ffeea1;}
 .c-m-c-first-left-main-content-titleList span{display:inline-block; *display:inline; vertical-align:top; *zoom:1; margin-right:10px; width:18px; height:18px; line-height:18px; text-align:center; color:#fff; background-color:#27b779;}
 .c-m-c-first-left-main-content-titleList a{display:inline-block; *display:inline; vertical-align:top; *zoom:1; height:18px; line-height:18px; color:#666;}
+.c-m-c-first-left-main-content-titleList li:hover a{color:#f3931b;}
 .c-m-c-first-left-main-content-titleList .first{background-color:#e7191b;}
 .c-m-c-first-left-main-content-titleList .second{background-color:#ff7800;}
 .c-m-c-first-left-main-content-titleList .third{background-color:#ffba00;}
@@ -49,7 +50,7 @@
 .c-m-c-first-right-navList .icon{display:inline-block; *display:inline; vertical-align:top; *zoom:1; margin:5px 0 0 30px; width:19px; height:19px; background:url(../images/xxyd/first_right_icon.png) no-repeat 0 0;}
 .c-m-c-first-right-navList .text{display:inline-block; *display:inline; vertical-align:top; *zoom:1; margin-left:25px; color:#666; text-decoration:none;}
 .c-m-c-first-right-navList a.current .icon{background-position:0 -25px;}
-.c-m-c-first-right-navList a.current .text{color:#f3931b;}
+.c-m-c-first-right-navList a.current .text, .c-m-c-first-right-navList a:hover .text{color:#f3931b;}
 
 
 
