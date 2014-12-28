@@ -37,9 +37,15 @@
 .c-m-c-f-l-m-r-ul img{width: 58px;height: 58px;border: 1px solid #dfdfdf;}
 .c-m-c-f-l-m-r-ul p{text-align: center;margin: 0 auto;width: 36px;}
 
-.c-m-c-first-right-title{height: 60px;width: 100%;background: url(../images/public_index/ggkj_spr.png) no-repeat -310px 0;}
-.c-m-c-first-right-main{background-color:#f8f8f8;border: solid 1px #d8d8d8;border-top: 0;height: 400px;overflow: hidden;background: #fff;}
+.c-m-c-first-right-title{height: 60px;width: 100%;background: url(../images/public_index/ggkj_spr.png) no-repeat -310px 0;position: relative;}
+.c-m-c-first-right-title a{position: absolute;width: 34px;height: 34px;right: 10px;top: 2px;}
+.c-m-c-first-right-title .c-m-c-f-prev{top: 14px;right: 60px;}
+.c-m-c-first-right-title .c-m-c-f-next{top: 14px;right: 20px;}
 
+.c-m-c-first-right-main{background-color:#f8f8f8;border: solid 1px #d8d8d8;border-top: 0;height: 400px;overflow: hidden;background: #fff;position: relative;}
+
+.c-m-c-f-r-mover{width: 2000px;position: relative;}
+.c-m-c-f-r-m-ul{float: left;width: 288px;}
 .c-m-c-f-r-m-ul li{border-bottom: 1px solid #dfdfdf;height: 79px;position: relative;overflow: hidden;}
 .c-m-c-f-r-m-ul img{width: 58px;height: 58px;border: 1px solid #dfdfdf;float: left;margin: 10px;}
 .c-m-c-f-r-m-ul p{margin-top: 10px;line-height: 20px;}
@@ -69,7 +75,8 @@
 .c-m-c-s-list-nav a.current,.c-m-c-s-list-nav a:hover{background: #fff;font-weight: bold;}
 .c-m-c-s-l-student .box{height: 320px;background: #fff;overflow: hidden;padding-top: 10px;}
 
-.c-m-c-s-list-cont{width: 242px; margin: 0 auto;  }
+.c-m-c-s-list-cont{width: 242px; margin: 0 auto;display: none;  }
+.c-m-c-s-list-cont.current{display: block;}
 .c-m-c-s-list-cont p{overflow: hidden;height: 24px;line-height: 24px;margin-bottom: 6px;}
 .c-m-c-s-list-cont .index{display: inline-block;border: 1px solid #dcdcdc;background: #f7f7f7;width: 18px;height: 18px;text-align: center;line-height: 18px;margin-right: 54px;}
 .c-m-c-s-list-cont .green{background: #abc83c;border:1px solid #abc83c;color:#fff;}
