@@ -1,5 +1,5 @@
 ﻿a{color: #05b1d9;}
-.wrap{background-color:#fff;}
+.wrap{background-color:#f9f9f9;}
 .c-header h1{position: absolute;width: 196px;height: 46px;background: url(../images/public_index/ggkj_h1.png) no-repeat 0 0;text-indent: -9999em;top: 40px;}
 
 .c-m-nav{height:34px; top:inherit; *top:120px; left:0; bottom:-1px;}
@@ -52,38 +52,68 @@
 
 
 /* 第二屏 */
-.c-m-c-second{height:446px; background:#cdeef5;}
+.c-m-c-second{height:446px; background:#cdeef5;padding-top: 20px;}
 
 .c-m-c-s-list{width: 290px;float: left;margin-right: 30px;}
 .c-m-c-s-list .header{height: 55px;background: url(../images/public_index/ggkj_spr2.png) no-repeat 0 0;text-indent: -9999em;}
 .c-m-c-s-l-parent .header{background-position: 0 -58px;}
 .c-m-c-s-l-student .header{background-position: 0 -118px;}
 
+.c-m-c-s-list ul{height: 320px;background: #fff;padding-top: 10px;}
+.c-m-c-s-list ul li{padding: 4px 20px 4px 45px;margin-top: 1px;}
+.c-m-c-s-list ul li a{display: inline-block;min-width: 80px;}
+.c-m-c-s-list ul i{display: inline-block;width: 16px;height: 16px;background: url(../images/public_index/ggkj_spr.png) no-repeat -76px 0;position: relative;top: 4px;margin-right: 15px;}
+
+.c-m-c-s-list-nav{width: 240px;margin: 5px auto;height: 30px;background: #f8f8f8;border: 1px solid #e5e5e5;border-bottom: 2px solid #e5e5e5;margin-top: 0;}
+.c-m-c-s-list-nav a{float: left;width: 68px;border: 1px solid #e5e5e5;height: 26px;line-height: 26px;text-align: center;color: #666;margin:5px;margin-bottom: 0;position: relative;z-index: 100;text-decoration: none;border-bottom: 0;}
+.c-m-c-s-list-nav a.current,.c-m-c-s-list-nav a:hover{background: #fff;font-weight: bold;}
+.c-m-c-s-l-student .box{height: 320px;background: #fff;overflow: hidden;padding-top: 10px;}
+
+.c-m-c-s-list-cont{width: 242px; margin: 0 auto;  }
+.c-m-c-s-list-cont p{overflow: hidden;height: 24px;line-height: 24px;margin-bottom: 6px;}
+.c-m-c-s-list-cont .index{display: inline-block;border: 1px solid #dcdcdc;background: #f7f7f7;width: 18px;height: 18px;text-align: center;line-height: 18px;margin-right: 54px;}
+.c-m-c-s-list-cont .green{background: #abc83c;border:1px solid #abc83c;color:#fff;}
+.c-m-c-s-list-cont .point{float: right;}
 
 /* 第三屏 */
-.c-m-c-third{padding:50px 0;}
+.c-m-c-third{}
 .c-m-c-third-main{margin-top:30px;}
-.c-m-c-third-main-left{float:left; position:relative; width:183px; height:396px;}
-.c-m-c-third-part1-left{background:url(../images/xxyd/third_title1.png) no-repeat;}
-.c-m-c-third-part2-left{background:url(../images/xxyd/third_title2.png) no-repeat;}
-.c-m-c-third-part3-left{background:url(../images/xxyd/third_title3.png) no-repeat;}
-.c-m-c-third-main-left-navList{position:absolute; top:165px; right:0; width:153px;}
-.c-m-c-third-main-left-navList a{display:block; width:153px; height:35px; line-height:35px; color:#fff; font-size:14px; text-indent:15px; text-decoration:none; border-bottom:solid 3px transparent;}
-.c-m-c-third-main-left-navList a:hover, .c-m-c-third-main-left-navList a.current{color:#666; background-color:#fff;}
-.c-m-c-third-part1-left-navList a:hover, .c-m-c-third-part1-left-navList a.current{border-bottom:solid 3px #ff3800;}
-.c-m-c-third-part2-left-navList a:hover, .c-m-c-third-part2-left-navList a.current{border-bottom:solid 3px #0f86ca;}
-.c-m-c-third-part3-left-navList a:hover, .c-m-c-third-part3-left-navList a.current{border-bottom:solid 3px #2d30c1;}
 
-.c-m-c-third-main-right{float:left; width:760px;}
-.c-m-c-third-main-right-title{height:51px; line-height:51px;}
-.c-m-c-third-main-right-navList{text-align:right;}
-.c-m-c-third-main-right-navList a{padding:0 10px; color:#05b1d9;}
+.c-m-c-third-row{margin-top: 60px;margin-bottom: 50px;}
+.c-m-c-t-left{float: left;width: 610px;height: 335px;background: #ff7800;position: relative;}
+.c-m-c-t-left .header{background: transparent;position: absolute;font-family: "microsoft yahei";font-weight: bold;width: 155px;text-align: center;font-size: 20px;color: #fff;top: 50px;}
+.c-m-c-t-left .icon{position: absolute;width: 92px;height: 92px;background: url(../images/public_index/ggkj_spr.png) no-repeat -112px 0;top: -46px;left: 30px;}
+.c-m-c-t-l-nav{width: 155px;float: left;margin-top: 100px;}
+.c-m-c-t-l-nav .item{height: 35px;line-height: 35px;width: 135px;font-size: 14px;text-indent: 26px;color: #fff;margin-left: 20px;cursor: default;}
+.c-m-c-t-l-nav .current,.c-m-c-t-l-nav .item:hover{background: #fff;color: #666;}
+.c-m-c-t-l-cont{background: #fff;float: left;width: 424px;border: 1px solid #ccc;border-left: 0;height: 303px;padding: 15px;display: none;}
+.c-m-c-t-l-cont.current{display: block;}
+.c-m-c-t-l-cont li{height: 26px;line-height: 26px;margin-bottom: 5px;overflow: hidden;}
 
-.c-m-c-third-main-right-content{height:343px; border:solid 1px #ccc; border-left:none; overflow:hidden;}
-.c-m-c-third-main-right-content-layout{display:none; padding-left:30px;}
-.current.c-m-c-third-main-right-content-layout{display:block;}
-.c-m-c-third-main-right-content-layout a{float:left; margin:20px 20px 0 0; width:125px;}
-.c-m-c-third-main-right-content-layout img{}
-.c-m-c-third-main-right-content-layout span{}
+.c-m-c-t-l-cont .index{display: inline-block;border: 1px solid #dcdcdc;background: #f7f7f7;width: 18px;height: 18px;text-align: center;line-height: 18px;margin-right: 20px;}
+.c-m-c-t-l-cont .title{width: 240px;display: inline-block;}
+.c-m-c-t-l-cont .time{width: 65px;display: inline-block;}
+.c-m-c-t-l-cont .green{background: #abc83c;border:1px solid #abc83c;color:#fff;}
+.c-m-c-t-l-connt .point{float: right;}
 
+.c-m-c-t-right{float: left;margin-left: 30px;width: 289px;}
+.c-m-c-t-right .header{height: 40px;background: url(../images/public_index/ggkj_spr2.png) no-repeat  0 -205px;}
+.c-m-c-t-right .header a{float: right;line-height: 40px;margin-right: 15px;color: #fff;}
+.c-m-c-t-right-ul{background: #fff;border: 1px solid #ddd;border-top: 0;height: 289px;padding-top: 5px;}
+.c-m-c-t-right-ul li{overflow: hidden;}
+.c-m-c-t-right-ul p{float:left;margin-top: 10px;margin-left:10px;line-height: 24px;}
+.c-m-c-t-right-ul .medal{font-weight: bold;}
+.c-m-c-t-right-ul .star{display: inline-block;width: 16px;height: 16px;background: url(../images/public_index/ggkj_spr2.png) no-repeat 0 -314px;position: relative;top: 2px;}
+.c-m-c-t-right-ul img{width: 58px;height: 58px;border: 1px solid #dfdfdf;float: left;margin:5px 10px;}
 
+.c-m-c-t-left-2{background: #6b6fde;}
+.c-m-c-t-left-2 .icon{background-position: -210px 0;}
+
+.c-m-c-t-right2 .box{border: 1px solid #ddd;border-top: 0;}
+.c-m-c-t-right2 .header{background-position: 0 -258px;}
+.c-m-c-t-right2 .banner img{height: 100px;width: 288px;}
+.c-m-c-t-right2 .banner-content{margin: 5px 25px;line-height: 20px;height: 75px;border-bottom: 1px solid #dfdfdf}
+.c-m-c-t-right2 .desc{font-weight: bold;color: #000;margin-bottom: 4px;}
+.c-m-c-t-right2 ul{margin: 17px 25px;}
+.c-m-c-t-right2 ul a{color: #999;}
+.c-m-c-t-right2 ul li{margin-bottom: 10px;}
