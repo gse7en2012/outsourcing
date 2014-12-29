@@ -1,0 +1,658 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <link rel="stylesheet" href="css/com_resources.css"/>
+    <link rel="stylesheet" href="css/myBroadcast.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- header start -->
+<header class="header">
+    <div class="inner">
+        <h1 class="h-logo"><a href="#"><img src="images/logo.png" alt="作文园地"/></a></h1>
+        <nav class="h-btn">
+            <a href="">我的首页</a>
+            <a href="">空间</a>
+            <a href="">问答</a>
+            <a href="">广播</a>
+            <a href="">投票</a>
+            <a href="">收藏</a>
+            <a class="h-btn-now">应用<em class="dot"></em></a>
+        </nav>
+        <div class="h-inform">
+            <div class="h-i-phone">
+				<span>
+					<em>点击或扫描下载</em>
+					<a href=""><img src="images/android.png" alt=""/>安卓版</a>
+					<a href=""><img src="images/iphone.png" alt=""/>苹果版</a>
+				</span>
+            </div>
+            <div class="h-i-mail">10</div>
+            <div class="h-i-user">
+				<span>
+					<a class="quick" href="">桌面快捷键</a>
+					<a class="logout" href="">退出</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="header-nav">
+    <div class="header-nav-inner">
+        <div class="h-n-i-cont">
+            <a href="#">同步资源</a>
+            <a href="#">同步习题</a>
+            <a href="#">英语园地</a>
+            <a href="#">作文园地 </a>
+            <a href="#">学习园地</a>
+            <a href="#">广播广场 </a>
+            <a href="#">公共空间</a>
+            <a href="#">投票</a>
+            <a href="#">词典 </a>
+        </div>
+    </div>
+</nav>
+<!-- end -->
+<!-- content start -->
+<div class="wrap">
+<!--<div class="inner content clr">-->
+<!-- content start -->
+<header class="c-header inner">
+    <div class="c-header-cont">
+        <div class="c-h-left">
+            <div href="javascript:;" class="c-h-pic">
+                <img src="images/test.jpg" alt="" />
+                <span class="c-h-p-bg"></span>
+                <span class="c-h-p-cover"></span>
+                <a class="c-h-p-change">修改头像</a>
+            </div>
+        </div>
+        <div class="c-h-right">
+            <div class="c-h-name">李丽的个人空间</div>
+            <div class="c-h-info clr">
+                <div class="c-h-i-names">东莞市 东莞市实验学校</div>
+                <div class="c-h-i-class">三年级4班</div>
+            </div>
+            <div class="c-h-i-address">
+                <span>http://ketang.ldcstudy.com/space/u/5693834</span>
+                <a href="javascript:;" class="c-i-a-copy">复制</a>
+                <!--<span>|</span>-->
+                <a href="javascript:;" class="c-i-a-collection">收藏地址</a>
+            </div>
+        </div>
+        <div class="c-h-sign clr">
+            <!--<div class="c-h-s-text">文字文字文字文字文字文字</div>-->
+            <div class="c-h-s-text c-h-s-text1 clr">
+                <div class="left"></div>
+                <div class="cont">文字文字文字文字文字文字</div>
+                <div class="right"></div>
+            </div>
+            <div class="c-h-s-btn"></div>
+            <div class="c-h-sign-edit clr">
+                <input type="text" />
+                <button>保存签名</button>
+                <a href="javascript:;">取消编辑</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end -->
+
+    <!-- Header Nav Start -->
+    <div class="c-header-nav">
+        <div class="c-header-nav-list">
+            <a href="javascript:;">我的空间</a>
+            <a href="javascript:;" class="current">我的广播</a>
+            <a href="javascript:;">我的课堂贡献</a>
+            <a href="javascript:;">我的习题贡献</a>
+            <a href="javascript:;">我的动态</a>
+        </div>
+    </div>
+    <!-- Header Nav End -->
+
+    <!-- content start -->
+    <div class="content clr">
+        <div class="cont-left">
+            <div class="cont-left-part1">
+                <div class="cont-left-part1-navList">
+                    <a href="javascript:;">
+                        <span class="number">2713</span>
+                        <span class="title">广播</span>
+                    </a>
+                    <a href="javascript:;" class="middle">
+                        <span class="number">810</span>
+                        <span class="title">粉丝</span>
+                    </a>
+                    <a href="javascript:;">
+                        <span class="number">120</span>
+                        <span class="title">关注</span>
+                    </a>
+                </div>
+            </div>
+            <div class="cont-left-part2">
+                <div class="cont-left-part2-navList">
+                    <a href="javascript:;" class="btn1 current">我的广播</a>
+                    <a href="javascript:;" class="btn2">我发的广播</a>
+                    <a href="javascript:;" class="btn3">提到我的</a>
+                    <a href="javascript:;" class="btn4">我的评论</a>
+                    <a href="javascript:;" class="btn5">我的收藏</a>
+                    <a href="javascript:;" class="btn6">好友</a>
+                </div>
+            </div>
+            <div class="cont-left-part cont-left-part3">
+                <h3>我的标签</h3>
+                <div class="cont-left-part-main cont-left-part3-main">
+                    <div class="cont-left-part3-main-top">
+                        <a href="javascript:;">阅读</a>
+                        <a href="javascript:;">写作</a>
+                        <a href="javascript:;">英语</a>
+                        <a href="javascript:;">体育</a>
+                        <a href="javascript:;">音乐</a>
+                    </div>
+                    <div class="cont-left-part3-main-bottom">
+                        <a href="javascript:;">热门标签</a>
+                        <a href="javascript:;">标签找人</a>
+                        <a href="javascript:;">设置&gt;&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-left-part cont-left-part4">
+                <h3>最近联系过我</h3>
+                <div class="cont-left-part-main cont-left-part4-main">
+                    <p>杨璐(学生) 刚给 李丽 的空间留言。 今天 19:14</p>
+                    <p>杨璐(学生) 刚成为了 李丽 的粉丝。 今天 19:13</p>
+                    <p>蔡俊仰(学生) 刚成为了 李丽 的粉丝。 今天 18:59</p>
+                </div>
+            </div>
+            <div class="cont-left-part cont-left-part5">
+                <h3>热门话题</h3>
+                <div class="cont-left-part-main cont-left-part5-main">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">元旦</a>
+                            <span>(851)</span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">圣诞</a>
+                            <span>(851)</span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">生日愿望</a>
+                            <span>(851)</span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">朱德</a>
+                            <span>(851)</span>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="javascript:;" class="br">本周话题榜</a>&nbsp;&nbsp;
+                        <span>|</span>&nbsp;&nbsp;
+                        <a href="javascript:;">更多热门话题&gt;&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-left-part cont-left-part6">
+                <h3>最近联系过我</h3>
+                <div class="cont-left-part-main cont-left-part6-main">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">大家在说&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:;">同城广播&gt;&gt;</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">热门转发&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:;">热门评论&gt;&gt;</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">热门话题&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:;">经典广播&gt;&gt;</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">热门标签&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:;">排行榜&gt;&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="javascript:;">搜索&gt;&gt;</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="javascript:;">本周话题榜</a>&nbsp;&nbsp;
+                        <span>|</span>&nbsp;&nbsp;
+                        <a href="javascript:;">更多热门话题&gt;&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-right">
+            <div class="cont-right-main">
+                <div class="cont-right-main-part1">
+                    <div class="c-m-l-discuss clr">
+                        <h3></h3>
+                        <span class="c-m-l-d-tips">你可以输入 <em>140</em> 个字</span>
+                        <textarea></textarea>
+                        <a href="javascript:;" class="c-m-l-d-btn">发送</a>
+                        <div class="c-m-l-d-btns">
+                            <div class="c-m-l-d-btnsList">
+                                <a href="javascript:;" class="btn1">表情</a>
+                                <a href="javascript:;" class="btn2">图片</a>
+                                <a href="javascript:;" class="btn3">音乐</a>
+                                <a href="javascript:;" class="btn4">视频</a>
+                                <a href="javascript:;" class="btn5">话题</a>
+                                <a href="javascript:;" class="btn6">投票</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-right-main-part2">
+                    <div class="cont-right-main-part2-title">
+                        <div class="cont-right-main-part2-title-top">
+                            <a href="javascript:;" class="current">我关注的</a>
+                            <a href="javascript:;">本班的</a>
+                            <a href="javascript:;">本年级的</a>
+                            <a href="javascript:;">本校的</a>
+                            <a href="javascript:;">本区的</a>
+                            <a href="javascript:;">关注我</a>
+                        </div>
+                        <div class="cont-right-main-part2-title-bottom">
+                            <div class="cont-right-main-part2-title-bottom-navList">
+                                <a href="javascript:;" class="current">全部</a>
+                                <span>|</span>
+                                <a href="javascript:;">原创</a>
+                                <span>|</span>
+                                <a href="javascript:;">转发</a>
+                                <span>|</span>
+                                <a href="javascript:;">图片</a>
+                                <span>|</span>
+                                <a href="javascript:;">视频</a>
+                                <span>|</span>
+                                <a href="javascript:;">音频</a>
+                                <span>|</span>
+                                <a href="javascript:;">投票</a>
+                                <span>|</span>
+                                <a href="javascript:;">分享</a>
+                            </div>
+                            <div class="cont-right-main-part2-title-bottom-search">
+                                <input type="text" placeholder="搜索广播.找人" />
+                                <a href="javascript:;"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-right-main-part2-commentBoxesList">
+                        <!-- commentBox Start -->
+                        <div class="c-m-left-main-box">
+                            <div class="c-m-left-main-box-top">
+                                <img src="images/broadcast/face_icon.png" class="c-m-left-main-box-top-face" />
+                                <div class="c-m-left-main-box-top-content">
+                                    <h2>余祖祺1</h2>
+                                    <p>歌曲《小雨沙沙》<a href="javascript:;">http://ketang.ldcstudy.com/kt/common/show/926254.shtml</a><span class="blue">（上传者@刘老师）</span></p>
+                                </div>
+                                <div class="c-m-left-main-box-bottom-info">
+                                    <span class="c-m-left-main-box-bottom-info-time">1分钟前</span>
+                                    <span class="c-m-left-main-box-bottom-info-division">|</span>
+                                    <span>来自<em class="blue">同步资源</em></span>
+                                </div>
+                            </div>
+                            <div class="c-m-left-main-box-bottom">
+                                <div class="c-m-left-main-box-bottom-operation">
+                                    <a href="javascript:;">转发(0)</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">收藏</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">评论(0)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- commentBox End -->
+                        <!-- commentBox Start -->
+                        <div class="c-m-left-main-box">
+                            <div class="c-m-left-main-box-top">
+                                <img src="images/broadcast/face_icon.png" class="c-m-left-main-box-top-face" />
+                                <div class="c-m-left-main-box-top-content">
+                                    <h2>余祖祺1</h2>
+                                    <p>歌曲《小雨沙沙》<a href="javascript:;">http://ketang.ldcstudy.com/kt/common/show/926254.shtml</a><span class="blue">（上传者@刘老师）</span></p>
+                                </div>
+                                <div class="c-m-left-main-box-bottom-info">
+                                    <span class="c-m-left-main-box-bottom-info-time">1分钟前</span>
+                                    <span class="c-m-left-main-box-bottom-info-division">|</span>
+                                    <span>来自<em class="blue">同步资源</em></span>
+                                </div>
+                            </div>
+                            <div class="c-m-left-main-box-bottom">
+                                <div class="c-m-left-main-box-bottom-operation">
+                                    <a href="javascript:;">转发(0)</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">收藏</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">评论(0)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- commentBox End -->
+                        <!-- commentBox Start -->
+                        <div class="c-m-left-main-box">
+                            <div class="c-m-left-main-box-top">
+                                <img src="images/broadcast/face_icon.png" class="c-m-left-main-box-top-face" />
+                                <div class="c-m-left-main-box-top-content">
+                                    <h2>余祖祺1</h2>
+                                    <p>歌曲《小雨沙沙》<a href="javascript:;">http://ketang.ldcstudy.com/kt/common/show/926254.shtml</a><span class="blue">（上传者@刘老师）</span></p>
+                                </div>
+                                <div class="c-m-left-main-box-bottom-info">
+                                    <span class="c-m-left-main-box-bottom-info-time">1分钟前</span>
+                                    <span class="c-m-left-main-box-bottom-info-division">|</span>
+                                    <span>来自<em class="blue">同步资源</em></span>
+                                </div>
+                            </div>
+                            <div class="c-m-left-main-box-bottom">
+                                <div class="c-m-left-main-box-bottom-operation">
+                                    <a href="javascript:;">转发(0)</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">收藏</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">评论(0)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- commentBox End -->
+                        <!-- commentBox Start -->
+                        <div class="c-m-left-main-box">
+                            <div class="c-m-left-main-box-top">
+                                <img src="images/broadcast/face_icon.png" class="c-m-left-main-box-top-face" />
+                                <div class="c-m-left-main-box-top-content">
+                                    <h2>余祖祺1</h2>
+                                    <p>歌曲《小雨沙沙》<a href="javascript:;">http://ketang.ldcstudy.com/kt/common/show/926254.shtml</a><span class="blue">（上传者@刘老师）</span></p>
+                                </div>
+                                <div class="c-m-left-main-box-bottom-info">
+                                    <span class="c-m-left-main-box-bottom-info-time">1分钟前</span>
+                                    <span class="c-m-left-main-box-bottom-info-division">|</span>
+                                    <span>来自<em class="blue">同步资源</em></span>
+                                </div>
+                            </div>
+                            <div class="c-m-left-main-box-bottom">
+                                <div class="c-m-left-main-box-bottom-operation">
+                                    <a href="javascript:;">转发(0)</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">收藏</a>
+                                    <span class="c-m-left-main-box-bottom-operation-division">|</span>
+                                    <a href="javascript:;">评论(0)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- commentBox End -->
+                    </div>
+                    <div class="c-m-b-pagerbox">
+                        <p class="c-m-b-pagecount">第1-5条 共5183条</p>
+                        <div class="c-m-b-pager">
+                            <a href="#" >首页</a>
+                            <a href="#" class="cur">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">末页</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-right-main-part3">
+                    <div class="cont-right-pop cont-right-pop1">
+                        <div class="cont-right-pop-arrow"></div>
+                        <div class="cont-right-pop-main">
+                            <img src="images/my_broadcast/icons.jpg" />
+                        </div>
+                    </div>
+                    <div class="cont-right-pop cont-right-pop2">
+                        <div class="cont-right-pop-arrow"></div>
+                        <div class="cont-right-pop-main cont-right-pop2-main">
+                            <div class="part1">
+                                <span>
+                                    <input type="radio" name="picture" id="picture1" />
+                                    <label for="picture1">上传图片</label>
+                                </span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>
+                                    <input type="radio" name="picture" id="picture2" />
+                                    <label for="picture2">使用网络图片</label>
+                                </span>
+                            </div>
+                            <div class="part2 clr">
+                                <span>本地图片：</span>
+                                <input type="text" />
+                                <a href="javascript:;">浏览...</a>
+                            </div>
+                            <p>仅支持JPG、GIF、PNG图片文件，且文件小于1兆</p>
+                            <div class="part3">
+                                <a href="javascript:;">上传</a>
+                                <a href="javascript:;">取消</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-right-pop cont-right-pop3">
+                        <div class="cont-right-pop-arrow"></div>
+                        <div class="cont-right-pop-main cont-right-pop3-main">
+                            <p>输入想要搜索的歌曲名、专辑名、演唱者，支持拼音首字母搜索。</p>
+                            <div>
+                                <input type="text" />
+                                <a href="javascript:;">搜索</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-right-pop cont-right-pop4">
+                        <div class="cont-right-pop-arrow"></div>
+                        <div class="cont-right-pop-main cont-right-pop4-main">
+                            <p>粘贴视频播放页地址（支持同步课堂、优酷、土豆、酷6、56、新浪）</p>
+                            <div>
+                                <input type="text" />
+                                <a href="javascript:;">确定</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-right-pop cont-right-pop6">
+                        <div class="cont-right-pop-arrow"></div>
+                        <div class="cont-right-pop-main cont-right-pop6-main">
+                            <div class="btns">
+                                <a href="javascript:;" class="current">新增投票</a>
+                                <a href="javascript:;">我发起的投票</a>
+                            </div>
+                            <div class="c-m-left-main">
+                                <p class="clr">
+                                    <span class="title"><em>**</em> 投票标题：</span>
+                                    <input type="text" class="input-text" placeholder="必填：最多25个汉字" />
+                                </p>
+                                <div class="div-wrap clr">
+                                    <a href="javascript:;" class="div-wrap-link div-wrap-linkAdd">添加投票说明</a>
+                                    <span class="div-wrap-division">|</span>
+                                    <a href="javascript:;" class="div-wrap-link div-wrap-linkInsert">插入图片</a>
+                                </div>
+                                <textarea class="textarea-writeInfo hide"></textarea>
+                                <p class="clr">
+                                    <span class="title"><em>**</em> 投票选项：</span>
+                                    <span class="titleInfo">可设置20项,每项最多20个汉字</span>
+                                </p>
+                                <div class="div-wrap div-wrap-inputList">
+                                    <input type="text" class="input-text input-choice" placeholder="1." />
+                                    <input type="text" class="input-text input-choice" placeholder="2." />
+                                    <input type="text" class="input-text input-choice" placeholder="3." />
+                                    <input type="text" class="input-text input-choice" placeholder="4." />
+                                    <input type="text" class="input-text input-choice" placeholder="5." />
+                                    <a href="javascript:;" class="div-wrap-linkAddChoice">增加选项</a>
+                                </div>
+                                <p class="typeWrap clr">
+                                    <span class="title">单选/多选：</span>
+                                    <select class="select-choiceType">
+                                        <option>单选</option>
+                                        <option>多选</option>
+                                    </select>
+                                </p>
+                                <p class="typeWrap clr">
+                                    <span class="title">投票结果：</span>
+                            <span class="input-radioWrap clr">
+                                <input type="radio" name="voteResult" id="everyoneSee" class="input-radioWrap-radio" />
+                                <label for="everyoneSee">任何人可见</label>
+                            </span>
+                            <span class="input-radioWrap">
+                                <input type="radio" name="voteResult" id="votedSee" class="input-radioWrap-radio" />
+                                <label for="votedSee">投票后可见</label>
+                            </span>
+                                </p>
+                                <div class="typeWrap clr">
+                                    <span class="title">截止日期：</span>
+                                    <div class="div-yearWrap clr">
+                                        <span id="calendar-time">2014-10-22</span>
+                                        <a href="javascript:;" id="chooseDate"></a>
+                                    </div>
+                                    <select class="select-time" id="hour">
+                                    </select>
+                                    <span class="span-text">时</span>
+                                    <select class="select-time" id="minute">
+                                    </select>
+                                    <span class="span-text">分</span>
+                                    <!-- 日历 Start -->
+                                    <div class="g-calendar" id="g-calendar-1">
+                                        <span class="g-calendar-prev"></span>
+                                        <span class="g-calendar-next"></span>
+                                        <div class="g-calendar-hd"></div>
+                                        <div class="g-calendar-tit"></div>
+                                        <div class="g-calendar-bd"></div>
+                                    </div>
+                                    <!-- 日历 End -->
+                                </div>
+                                <div class="tipsInfo">保存后可增加，不可删除或修改选项</div>
+                                <a href="javascript:;" class="link-confirm">发起</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+<!-- tips start -->
+<div class="aside">
+    <a class="contract" href="javascript:;"></a>
+    <a class="help" href="javascript:;"><span>帮助中心</span></a>
+    <a class="goTop" href="javascript:;"></a>
+</div>
+
+
+<!-- footer start -->
+<div id="footer">
+    <div id="footer_content">
+        <div id="footer_lnk">
+            <a href="http://www.ldcchina.com/about.html" target="_blank">关于我们</a> |
+            <!-- <a href='http://www.ldcchina.com/products.html' target='_blank'>产品服务</a>  -->
+            <a href="http://www.ldcchina.com/employ.html" target="_blank">招贤纳士</a> |
+            <a href="http://www.ldcchina.com/partner.html" target="_blank">合作伙伴</a> |
+            <a href="http://www.ldcchina.com/contact.html" target="_blank">联系我们</a> |
+            <a href="http://www.ldcchina.com/contact.html" target="_blank">帮助中心</a>
+        </div>
+        <div id="footer_copy">Copyright © 2009-2014 HuaTeng Inc. All Rights Reserved ICP:粤B2-20090043 <a
+                href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13056377号</a>　
+        </div>
+    </div>
+</div>
+<!-- end -->
+</div>
+<!-- end -->
+<script>
+    $(function () {
+        // 投票-热门投票内页的评论框计数
+        $(".c-m-l-discuss textarea").keyup(function() {
+            $(".c-m-l-discuss em").html(140-$(this).val().length);
+        });
+
+
+        var calendar = new LGY_calendar({'wrapId':'g-calendar-1'});
+        var now = new Date();
+        // 初始化日期
+        $('#calendar-time').html(now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日");
+        // 显示/关闭日历
+        $('#chooseDate').click(function() {
+            if($(this).hasClass("on")) {
+                $("#g-calendar-1").hide();
+                $(this).removeClass("on");
+            } else {
+                $("#g-calendar-1").show();
+                $(this).addClass("on");
+            }
+        });
+        // 遍历输出小时-select
+        for(var i = 0; i < 24; i++) {
+            if(i < 10) {
+                $('#hour').append('<option>'+'0'+i+'</option>');
+            } else {
+                $('#hour').append('<option>'+i+'</option>');
+            }
+        }
+        // 遍历输出分钟-select
+        for(var i = 0; i < 60; i++) {
+            if(i < 10) {
+                $('#minute').append('<option>'+'0'+i+'</option>');
+            } else {
+                $('#minute').append('<option>'+i+'</option>');
+            }
+        }
+        // 增加选项按钮点击事件
+        $('.div-wrap-linkAddChoice').click(function() {
+            $(this).prev().after('<input type=\"text\" class=\"input-text input-choice\" placeholder=\"'+(parseInt($(this).prev().attr('placeholder').split('.')[0])+1)+'.\" />');
+        });
+        // 投票说明点击事件
+        $('.div-wrap-linkAdd').click(function() {
+            if($('.textarea-writeInfo').hasClass('hide')) {
+                $('.textarea-writeInfo').stop().slideDown('fast');
+                $('.textarea-writeInfo').removeClass('hide');
+            } else {
+                $('.textarea-writeInfo').stop().slideUp('fast');
+                $('.textarea-writeInfo').addClass('hide');
+            }
+        });
+
+        // 回到顶部
+        $('.goTop').click(function() {
+            $('body,html').stop().animate({scrollTop:0}, 'fast');
+        });
+        $(window).scroll(function() {
+            if($(this).scrollTop() > 200) {
+                $('.goTop').stop().show();
+            } else {
+                $('.goTop').stop().hide();
+            }
+        });
+
+        // 事件绑定
+        $('.c-m-l-d-btnsList a').each(function(i) {
+            $(this).click(function() {
+                if(i != 4) {
+                    if(i != 5) {
+                        if(!$(this).hasClass('on')) {
+                            $('.cont-right-pop').stop().fadeOut();
+                            $('.c-m-l-d-btnsList a').removeClass('on');
+                            $('.cont-right-pop').eq(i).stop().fadeIn();
+                            $(this).addClass('on');
+                        } else {
+                            $('.cont-right-pop').eq(i).stop().fadeOut();
+                            $(this).removeClass('on');
+                        }
+                    } else {
+                        if(!$(this).hasClass('on')) {
+                            $('.cont-right-pop').stop().fadeOut();
+                            $('.c-m-l-d-btnsList a').removeClass('on');
+                            $('.cont-right-pop').eq(i-1).stop().fadeIn();
+                            $(this).addClass('on');
+                        } else {
+                            $('.cont-right-pop').eq(i-1).stop().fadeOut();
+                            $(this).removeClass('on');
+                        }
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
