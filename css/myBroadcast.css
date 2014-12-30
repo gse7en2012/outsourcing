@@ -2,6 +2,7 @@
 .c-header{height:250px; margin-top:20px; background:url(../images/my_broadcast/headerBg.jpg) no-repeat; overflow:hidden;}
 .c-header-cont{width:480px; margin:60px auto;}
 .aside .goTop{display:none; position:absolute; width:730px; height:73px; background:url(../images/my_broadcast/goTop.jpg) no-repeat;}
+.c-h-change{position:absolute; top:0; right:0; width:78px; height:26px; line-height:26px; background-color:#05b1d9; color:#fff; text-align:center;}
 
 
 .c-h-left{float:left;width:100px;}
