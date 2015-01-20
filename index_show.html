@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/com.css"/>
     <link rel="stylesheet" href="css/index_show.css"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollify.min.js"></script>
     <script type="text/javascript" src="js/com.js"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -198,6 +200,8 @@
                                     <a href="javascript:;">3</a>
                                     <a href="javascript:;">4</a>
                                 </div>
+                                <a href="javascript:;" class="prev" style="width:0;height:0;"></a>
+                                <a href="javascript:;" class="next" style="width:0;height:0;"></a>
                             </div>
                         </div>
                     </div>
@@ -224,15 +228,71 @@
             </div>
         </div>
     </div>
-
+    <div class="g-sd">
+        <a href="#1" class="current"></a>
+        <a href="#2"></a>
+        <a href="#3"></a>
+        <a href="#4"></a>
+        <a href="#5"></a>
+        <a href="#6"></a>
+    </div>
 
     <script type="text/javascript">
         $(function() {
+            // 底部轮播
             com.scrolltab({
+                prebtn: '.six-cont-unit4 .prev',
+                nextbtn: '.six-cont-unit4 .next',
                 wrap: '.six-cont-unit4',
                 tab: '.six-cont-unit4-buttonsList a',
                 time: 3000,
                 speed: 200
+            });
+
+            // 背景视差滚动
+            var centerX = parseInt($(document).width()/2),
+                imageCenterX = (1920 - $(document).width()) / 2;
+            $(document).mousemove(function(e) {
+                var moveX = centerX - e.pageX;
+                // $(".header-bg1").css({"background-positionX":-imageCenterX-moveX/35});
+                $(".one-bg2").css({"background-positionX":-imageCenterX-moveX/15});
+            });
+
+            // 设置轮播导航位置
+            $('.g-sd').css({
+                top: ($(window).height()-$('.g-sd').height())/2
+            });
+
+            // 滚轮滚动效果
+            $.scrollify({
+                section : ".section",
+                sectionName : "section-name",
+                easing: "easeOutQuint",
+                scrollSpeed: 500,
+                offset : 0,
+                scrollbars: true,
+                before:function() {
+                },
+                after:function() {
+                    var num = parseInt(location.href.substr(parseInt(location.href.indexOf('#'))+1));
+                    $('.g-sd a').removeClass('current');
+                    $('.g-sd a').eq(num-1).addClass('current');
+                    $('.inner-unit-cont h2').removeClass('slideLeftRetourn').removeClass('slideRightRetourn');
+                    if(num === 3) {
+                        $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideRightRetourn');
+                    } else if(num === 4) {
+                        $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideLeftRetourn');
+                    } else if(num === 5) {
+                        $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideRightRetourn');
+                    }
+                    $('.inner-unit-cont-sub p').removeClass('show');
+                    $('.section').eq(num-1).find('.inner-unit-cont-sub').find('p').addClass('show');
+                }
+            });
+
+            $(".g-sd a").click(function(e) {
+                e.preventDefault();
+                $.scrollify(".section", $(this).attr("href"));
             });
         });
     </script>
