@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="section table even">
+        <div class="section table even auto">
             <div class="tableCell two-inner">
                 <div class="inner">
                     <div class="two-cont clr">
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="section table odd">
+        <div class="section table odd auto">
             <div class="tableCell three-inner">
                 <div class="inner">
                     <div class="inner-unit clr">
@@ -118,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="section table even">
+        <div class="section table even auto">
             <div class="tableCell four-inner">
                 <div class="inner">
                     <div class="inner-unit clr">
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="section table odd">
+        <div class="section table odd auto">
             <div class="tableCell five-inner">
                 <div class="inner">
                     <div class="inner-unit clr">
@@ -289,6 +289,12 @@
                     $('.section').eq(num-1).find('.inner-unit-cont-sub').find('p').addClass('show');
                 }
             });
+
+            $('.section.auto').height($(window).height());
+
+            $(window).resize(function(){
+                $('.section.auto').height($(window).height())
+            })
 
             $(".g-sd a").click(function(e) {
                 e.preventDefault();
