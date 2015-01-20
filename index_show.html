@@ -64,8 +64,10 @@
                 <!-- header end -->
                 <div class="one-bg1">
                     <div class="one-bg2">
-                        <div class="inner one-inner">
-                            <div class="one-inner-video"></div>
+                        <div class="one-bg3">
+                            <div class="inner one-inner">
+                                <div class="one-inner-video"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,20 +78,20 @@
                 <div class="inner">
                     <div class="two-cont clr">
                         <div class="two-cont-unit">
-                            <img src="images/show/icon01.jpg" />
-                            <h3>减负增效的好平台</h3>
+                            <img src="images/show/icon01.png" />
+                            <h3>孩子的成绩更有保障</h3>
                             <p>同步资源、同步习题、同步检测紧紧围绕教学进度，提供教学、练习、检测一体化学习服务;</p>
                             <p>任课教师发送辅导短信、资源、习题及检测，提供与课堂教学同步的学习辅导。</p>
                         </div>
                         <div class="two-cont-unit">
-                            <img src="images/show/icon02.jpg" />
-                            <h3>提高成绩的好伙伴</h3>
+                            <img src="images/show/icon02.png" />
+                            <h3>孩子在快乐中成长</h3>
                             <p>课外拓展：丰富多彩的课外资源，开拓视野、激发学习兴趣；</p>
                             <p>快乐学习：提供才艺展示舞台，提升综合素质。</p>
                         </div>
                         <div class="two-cont-unit last">
-                            <img src="images/show/icon03.jpg" />
-                            <h3>精准辅导的好帮手</h3>
+                            <img src="images/show/icon03.png" />
+                            <h3>在互动中共同进步</h3>
                             <p>个人空间：记录成长足迹，提供自我展示的个人空间；</p>
                             <p>交流讨论：广播心情、查看动态、提交留言、发表评论......分享收获与快乐。</p>
                         </div>
@@ -254,8 +256,8 @@
                 imageCenterX = (1920 - $(document).width()) / 2;
             $(document).mousemove(function(e) {
                 var moveX = centerX - e.pageX;
-                // $(".header-bg1").css({"background-positionX":-imageCenterX-moveX/35});
-                $(".one-bg2").css({"background-positionX":-imageCenterX-moveX/15});
+                $(".one-bg1").css({"background-positionX":-imageCenterX-moveX/35});
+                $(".one-bg3").css({"background-positionX":-imageCenterX-moveX/15});
             });
 
             // 设置轮播导航位置
@@ -278,12 +280,17 @@
                     $('.g-sd a').removeClass('current');
                     $('.g-sd a').eq(num-1).addClass('current');
                     $('.inner-unit-cont h2').removeClass('slideLeftRetourn').removeClass('slideRightRetourn');
+                    $('.two-cont-unit').find('img').removeClass('slideTopRetourn1').removeClass('slideTopRetourn2').removeClass('slideTopRetourn3');
                     if(num === 3) {
                         $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideRightRetourn');
                     } else if(num === 4) {
                         $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideLeftRetourn');
                     } else if(num === 5) {
-                        $('.section').eq(num-1).find('.inner-unit-cont').find('h2').addClass('slideRightRetourn');
+                        $('.section').eq(num - 1).find('.inner-unit-cont').find('h2').addClass('slideRightRetourn');
+                    } else if(num === 2) {
+                        $('.section').eq(num-1).find('.two-cont-unit').eq(0).find('img').addClass('slideTopRetourn1');
+                        $('.section').eq(num-1).find('.two-cont-unit').eq(1).find('img').addClass('slideTopRetourn2');
+                        $('.section').eq(num-1).find('.two-cont-unit').eq(2).find('img').addClass('slideTopRetourn3');
                     }
                     $('.inner-unit-cont-sub p').removeClass('show');
                     $('.section').eq(num-1).find('.inner-unit-cont-sub').find('p').addClass('show');
