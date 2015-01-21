@@ -264,7 +264,7 @@
             $('.g-sd').css({
                 top: ($(window).height()-$('.g-sd').height())/2
             });
-
+            $('.section.auto').height($(window).height());
             // 滚轮滚动效果
             $.scrollify({
                 section : ".section",
@@ -297,7 +297,7 @@
                 }
             });
 
-            $('.section.auto').height($(window).height());
+
 
             $(window).resize(function(){
                 $('.section.auto').height($(window).height())
