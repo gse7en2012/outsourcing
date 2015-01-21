@@ -17,8 +17,7 @@ body{font-family:'Microsoft Yahei';}
 
 .two-inner{height:700px;}
 .two-cont{display:table-cell; width:960px; height:700px; vertical-align:middle;}
-.two-cont-unit{float:left; margin-right:110px; width:240px;}
-.two-cont-unit img{opacity:0;}
+.two-cont-unit{float:left; margin-right:110px; width:240px; opacity:0;}
 .two-cont-unit.last{margin-right:0;}
 .two-cont-unit h3{margin-top:15px; font-size:24px; color:#666;}
 .two-cont-unit p{margin-bottom:20px; font-size:14px; color:#9a9a9a;}
